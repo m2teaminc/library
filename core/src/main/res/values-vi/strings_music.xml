@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with STMS Automation System
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_MUSIC_HEADER_MUSIC_M_APPLICATION_NAME -->
+    <!-- IDS_MP_BODY_SOUND_PLAYER -->
+    <string name="sound_player">Phát âm thanh</string>
+    <!-- IDS_MF_HEADER_COUNT -->
+    <string name="count">Đếm</string>
+    <!-- IDS_COM_BODY_OMADRMDETAILS_DATE -->
+    <!-- IDS_COM_POP_INTERVAL -->
+    <string name="interval">Thời lượng</string>
+    <!-- IDS_MB_POP_UNLIMITED -->
+    <string name="unlimited">Không giới hạn</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_RIGHT_STATUS -->
+    <string name="right_status">Trạng thái bản quyền</string>
+    <!-- IDS_CALL_POP_IMPOSSIBLE -->
+    <string name="impossible">Không thể được</string>
+    <!-- IDS_DRM_BODY_RIGHTSTATUS_FORWARDING -->
+    <string name="forwarding">Chuyển tiếp</string>
+    <!-- IDS_KA_HEADER_FROM_M_PERIOD -->
+    <!-- IDS_CLD_OPT_UNTIL_ABB -->
+    <string name="until">Cho đến</string>
+    <!-- IDS_MUSIC_OPT_PLAY_VIA_GROUP_PLAY -->
+    <!-- IDS_CAST_SK4_SHARE_VIA -->
+    <!-- IDS_MUSIC_BUTTON2_SET_AS -->
+    <!-- IDS_ST_MBODY_LISTEN_VIA_BLUETOOTH -->
+    <string name="listen_via_bluetooth">Nghe qua Bluetooth</string>
+    <!-- IDS_DLNA_BODY_ADD_TO_NOW_PLAYING_LIST -->
+    <string name="add_to_nowplaying">Thêm vào danh sách đang phát</string>
+    <!-- IDS_VPL_OPT_LISTEN_VIA_DEVICE -->
+    <string name="listen_via_device">Nghe qua thiết bị</string>
+    <!-- IDS_MUSIC_OPT_SAVE_AS_PLAYLIST -->
+    <string name="save_as_playlist">Lưu làm danh sách phát</string>
+    <!-- IDS_CALL_SK_REMOVE -->
+    <!-- IDS_MUISC_OPT_SEARCH -->
+    <!-- IDS_MUSIC_BUTTON_ADD_TO_PLAYLIST -->
+    <string name="add_to_playlist">Thêm vào d.sách</string>
+    <!-- IDS_MUSIC_OPT_ADD_TO_FAVOURITES -->
+    <string name="add_to_favourites">Thêm vào Yêu thích</string>
+    <!-- IDS_MUSIC_OPT_REMOVE_FROM_FAVOURITES_ABB -->
+    <string name="remove_from_favourites">Xóa khỏi Yêu thích</string>
+    <!-- IDS_KA_BUTTON_EDIT -->
+    <!-- IDS_MUSIC_HEADER_EDIT_TITLE -->
+    <string name="edit_title">Sửa tiêu đề</string>
+    <!-- IDS_ACCS_SK2_DELETE -->
+    <!-- IDS_MUSIC_OPT_CREATE_PLAYLIST -->
+    <string name="create_playlist">Tạo danh sách</string>
+    <!-- IDS_VIDEO_OPT_VIEW_AS_ABB -->
+    <string name="view_as">Xem dưới dạng</string>
+    <string name="list">Danh sách</string>
+    <!-- IDS_BR_OPT_THUMBNAIL -->
+    <string name="thumbnail">Ảnh nhỏ</string>
+    <!-- IDS_MUSIC_BUTTON_SHUFFLE -->
+    <string name="shuffle">Xáo trộn</string>
+    <!-- IDS_VOLTE_BUTTON_END -->
+    <string name="end">Kết thúc</string>
+    <string name="change_order">Thay đổi thứ tự</string>
+    <!-- IDS_VPL_OPT_SEND_TO_ANOTHER_DEVICE -->
+    <string name="share_with_other_devices">Gửi đến thiết bị khác</string>
+    <!-- IDS_COM_OPT_SELECT -->
+    <!-- IDS_MUSIC_OPT_SAMSUNG_MUSIC -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1_2X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1_4X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_VIEW_LYRICS_FOR_TRACKS_STORED_ON_OTHER_DEVICES -->
+    <!-- IDS_MUSIC_OPT_SETTINGS -->
+    <string name="settings">Cài đặt</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_AUTO_OFF -->
+    <string name="music_auto_off">Tự tắt nhạc</string>
+    <!-- IDS_MP_OPT2_PLAY_SPEED -->
+    <string name="play_speed">Tốc độ phát</string>
+    <!-- IDS_CLOCK_OPT1_VOICE_CONTROL -->
+    <string name="voice_control">Điều khiển giọng nói</string>
+    <!-- IDS_MUSIC_BODY_USE_VOICE_COMMANDS_TO_CONTROL_THE_MUSIC_PLAYER -->
+    <!-- IDS_BR_SK_TABS -->
+    <string name="tabs">Tab</string>
+    <!-- IDS_MUSIC_BODY_PLAYLISTS -->
+    <!-- IDS_MUSIC_BODY_TRACKS -->
+    <string name="tracks">Bài hát</string>
+    <!-- IDS_MUSIC_BODY_PLAYLISTS -->
+    <string name="playlists">D.sách phát</string>
+    <!-- IDS_MUSIC_BODY_ALBUMS -->
+    <string name="albums">Album</string>
+    <!-- IDS_MUSIC_TAB4_ARTISTS -->
+    <string name="artists">Nghệ sĩ</string>
+    <!-- IDS_MUSIC_TAB4_GENRES -->
+    <!-- IDS_MUSIC_TAB_COMPOSERS -->
+    <string name="composers">Tác giả</string>
+    <!-- IDS_MUSIC_TAB_YEARS -->
+    <string name="years">Năm</string>
+    <!-- IDS_VIDEO_OPT_FOLDERS_ABB -->
+    <string name="folders">Thư mục</string>
+    <!-- IDS_VR_OPT_RECORDINGS_ABB -->
+    <string name="recordings">Bản ghi</string>
+    <!-- IDS_MUSIC_MBODY_FAVOURITE_TRACKS -->
+    <string name="favourite_tracks">Bài hát yêu thích</string>
+    <!-- IDS_VOICE_BODY_MOST_PLAYED -->
+    <string name="most_played">D.sách nghe nhiều nhất</string>
+    <!-- IDS_VOICE_BODY_RECENTLY_PLAYED -->
+    <string name="recently_played">Những bài vừa nghe</string>
+    <!-- IDS_MUSIC_MBODY_RECENTLY_ADDED -->
+    <string name="recently_added">Thêm gần đây</string>
+    <string name="default_s_playlists">Danh sách phát mặc định</string>
+    <!-- IDS_MUSIC_HEADER_MY_PLAYLISTS_ABB -->
+    <string name="my_playlists">Danh sách phát của bạn</string>
+    <!-- IDS_MUSIC_BUTTON_DOWNLOAD_ALL -->
+    <string name="download_all">Tải về tất cả</string>
+    <plurals name="NNNtracksinsquare">
+        <!--  IDS_MUSIC_SHEADER_1_TRACK_SELECTED  -->
+        <item quantity="one">1 BÀI HÁT ĐÃ ĐƯỢC CHỌN</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_SELECTED_IN_SQUARE  -->
+        <item quantity="other">%d bài hát được chọn trong ô</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_TAP_AND_SWIPE_ACROSS_THE_CELLS_IN_THE_MUSIC_SQUARE_TO_CREATE_A_PLAYLIST_BASED_ON_MOOD -->
+    <!-- IDS_CST_SK2_CHECK_ADAPT_SOUND_AGAIN -->
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="after_15_min">Sau 15 phút</string>
+    <!-- IDS_MP_BODY_ST_AFTER_30_MIN -->
+    <string name="after_30_min">Sau 30 phút</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_ABB -->
+    <string name="after_1_hour">Sau 1 giờ</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_30_MIN_ABB -->
+    <string name="after_1_hour_30_min">Sau 1 giờ 30 phút</string>
+    <!-- IDS_MUSIC_OPT_AFTER_2_HR_ABB -->
+    <string name="after_2_hour">Sau 2 giờ</string>
+    <!-- IDS_MUSIC_BODY_AFTER_1_MIN -->
+    <string name="after_1_min">Sau 1 phút</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_MINS -->
+    <string name="after_n_mins">Sau %d phút</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_ABB -->
+    <!-- IDS_MUSIC_BODY_AFTER_1_HR_1_MIN -->
+    <string name="after_1_hr_1_min">Sau 1 giờ 1 phút</string>
+    <!-- IDS_MUSIC_BODY_AFTER_1_HR_PD_MINS -->
+    <string name="after_1_hr_n_mins">Sau 1 giờ %d phút</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_HRS -->
+    <string name="after_n_hrs">Sau %d giờ</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_HRS_1_MIN -->
+    <string name="after_n_hrs_1_min">Sau %d giờ 1 phút</string>
+    <!-- IDS_MUSIC_OPT_AFTER_P1SD_HRS_P2SD_MINS -->
+    <string name="after_n_hrs_n_mins">Sau %1$d giờ %2$d phút</string>
+    <!-- IDS_MUSIC_BODY_AUTO_M_SOUNDEFFECT -->
+    <string name="auto">Tự động</string>
+    <!-- IDS_MUSIC_BODY_POP -->
+    <string name="pop">Pop</string>
+    <!-- IDS_MUSIC_BODY_ROCK -->
+    <string name="rock">Rock</string>
+    <!-- IDS_MUSIC_BODY_DANCE -->
+    <string name="dance">Dance</string>
+    <!-- IDS_MUSIC_BODY_SOUNDEFFECTS_JAZZ -->
+    <!-- IDS_MP_BODY_SOUNDEFFECT_CLASSIC -->
+    <string name="classic">Classic</string>
+    <!-- IDS_MUSIC_BODY_NORMAL_M_SOUNDEFFECT -->
+    <string name="normal">Bình thường</string>
+    <!-- IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2 -->
+    <string name="vocal">Vocal</string>
+    <!-- IDS_MUSIC_MBODY_BASS_BOOST -->
+    <string name="bass_boost">Tăng âm trầm</string>
+    <!-- IDS_MUSIC_BODY_TREBLE_BOOST -->
+    <!-- IDS_MUSIC_HEADER_TUBE_AMP_M_EQUALISER_ABB -->
+    <!-- IDS_MUSIC_OPT_VIRTUAL_71_CH -->
+    <!-- IDS_MUSIC_BODY_EXTERNALISATION_M_SOUNDEFFECT -->
+    <!-- IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT -->
+    <string name="cafe">Cafe</string>
+    <!-- IDS_MUSIC_BODY_CONCERT_HALL_M_SOUNDEFFECT -->
+    <string name="concert_hall">Phòng hòa nhạc</string>
+    <!-- IDS_MUSIC_BODY_CUSTOM -->
+    <string name="custom">Tùy chọn</string>
+    <!-- IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY -->
+    <!-- IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_BLUETOOTH -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_LINE_OUT -->
+    <!-- IDS_MUSIC_TPOP_SOUND_EFFECTS_ONLY_AVAILABLE_WHILE_HEADPHONES_CONNECTED -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_HDMI -->
+    <!-- IDS_MUSIC_POP_3D_EFFECT_NOT_SUPPORTED_BY_SPEAKER -->
+    <!-- IDS_MEDIABR_TAB_BASIC -->
+    <string name="basic">Cơ bản</string>
+    <!-- IDS_DLNA_HEADER_ADVANCED -->
+    <string name="advanced">Nâng cao</string>
+    <!-- IDS_MUSIC_BUTTON_EFFECT -->
+    <string name="effect">Hiệu ứng</string>
+    <!-- IDS_MUSIC_HEADER_SMALL_ROOM_M_REVERB_ABB -->
+    <string name="small_room">Phòng nhỏ</string>
+    <!-- IDS_MUSIC_HEADER_LARGE_ROOM_M_REVERB_ABB -->
+    <string name="large_room">Phòng lớn</string>
+    <string name="none">Không dùng</string>
+    <!-- IDS_MUSIC_OPT_TREBLE_M_EQUALISER -->
+    <string name="treble">Bổng</string>
+    <!-- IDS_MUSIC_OPT_BASS_M_EQUALISER -->
+    <string name="bass">Trầm</string>
+    <!-- IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2 -->
+    <!-- IDS_MUSIC_BODY_INSTRUMENT -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_TIMBRE_OF_A_TUBE_AMP_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_EFFECT_OF_VIRTUAL_71_CHANNEL_SURROUND_SOUND_ABB -->
+    <!-- IDS_MUSIC_TPOP_AUTO_MODE_DISABLED -->
+    <!-- IDS_MUSIC_SBODY_NO_EFFECTS -->
+    <string name="no_effects">Không có hiệu ứng.</string>
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_SMALL_SPACE_EG_A_STUDIO_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_LARGE_ROOM_EG_A_THEATRE_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_CONCERT_HALL_ABB -->
+    <!-- IDS_MUSIC_TPOP_EQUALISER_SETTINGS_WILL_BE_APPLIED_WHEN_MUSIC_PLAYED -->
+    <!-- IDS_MUSIC_BUTTON_3D_CHN -->
+    <!-- IDS_MUSIC_BODY_BASS_M_EQUALISER -->
+    <!-- IDS_MUSIC_BODY_CLARITY_M_SOUNDEFFECT -->
+    <string name="new_soundalive_clarity">Rõ ràng</string>
+    <!-- IDS_MUSIC_MBODY_SMART_VOLUME -->
+    <string name="smart_volume">Âm lượng thông minh</string>
+    <!-- IDS_MUSIC_HEADER_SMART_VOLUME_IS_ENABLED -->
+    <string name="smart_volume_on">Đã bật âm lượng thông minh</string>
+    <!-- IDS_MUSIC_TPOP_VOLUME_OF_ALL_TRACKS_WILL_BE_ADJUSTED_TO_CURRENT_LEVEL_HPD -->
+    <!-- IDS_MUSIC_TPOP_VOLUME_OF_ALL_TRACKS_WILL_BE_ADJUSTED_TO_CURRENT_LEVEL_HPDP_ABB -->
+    <!-- IDS_MUSIC_BODY_AUTOMATICALLY_ADJUST_EACH_TRACKS_VOLUME_TO_AN_EQUAL_LEVEL -->
+    <!-- IDS_MUSIC_MBODY_K2HD_JPN -->
+    <!-- IDS_MUSIC_HEADER_K2HD_JPN -->
+    <!-- IDS_MUSIC_POP_REOPEN_MUSIC_TO_ENABLE_K2HD_JPN -->
+    <!-- IDS_MUSIC_SBODY_IMPROVE_AUDIO_PLAYBACK_QUALITY_JPN -->
+    <string name="improve_audio_quality">Nâng cao chất lượng phát âm thanh.</string>
+    <!-- IDS_ST_HEADER_SAMSUNG_LINK_M_APPLICATION -->
+    <!-- IDS_MUSIC_HEADER_REGISTER_DEVICE -->
+    <string name="register_device_header">Đăng ký thiết bị</string>
+    <!-- IDS_GALLERY_BODY_REGISTER_YOUR_DEVICE_WITH_SAMSUNG_LINK_REGISTERING_ALLOWS_YOU_TO_VIEW_CONTENT_ON_CONNECTED_DEVICES_DESELECT_TO_DEREGISTER_YOUR_DEVICE -->
+    <string name="nearby_devices">Thiết bị ở gần</string>
+    <!-- IDS_DLNA_BODY_MY_DEVICE -->
+    <string name="my_device">Thiết bị</string>
+    <string name="change_player">Thay đổi bộ phát</string>
+    <!-- IDS_DLNA_POP_FAILED_TO_CONNECT_NETWORK -->
+    <string name="failed_to_connect_network">Không thể kết nối vào mạng.</string>
+    <string name="unable_to_play">Không phát được</string>
+    <!-- IDS_DLNA_POP_PLAYER_IS_NOT_AVAILABLE_CHECK_THE_NETWORK_STATUS_AND_CONNECTED_DEVICE -->
+    <string name="player_is_not_available_msg">Máy xem chưa sẵn sàng. Kiểm tra tình trạng mạng và thiết bị đã kết nối.</string>
+    <!-- IDS_MUSIC_OPT_SEARCH_FOR_NEARBY_DEVICES_ABB -->
+    <!-- IDS_DLNA_POP_NO_DEVICES_FOUND_SCANNING_FOR_NEARBY_DEVICES_WILL_continue_s_IN_BACKGROUND -->
+    <!-- IDS_MUSIC_POP_NEARBY_DEVICES_FOUND -->
+    <string name="nearby_devices_found">Đã tìm thấy thiết bị ở gần.</string>
+    <!-- IDS_MUSIC_POP_NETWORK_ERROR_OCCURRED_TRY_AGAIN -->
+    <string name="err_network_error_occurred_msg">Đã xảy ra lỗi mạng. Thử lại.</string>
+    <string name="file_size">Kích cỡ file</string>
+    <string name="available_devices">Các thiết bị sẵn có</string>
+    <!-- IDS_KA_HEADER_SELECT_DEVICE -->
+    <string name="select_device">Chọn thiết bị</string>
+    <!-- IDS_DLNA_POP_UNABLE_TO_USE_FAST_FORWARD_AND_REWIND_WHEN_NEARBY_DEVICES_ARE_ENABLED -->
+    <!-- IDS_MUSIC_BODY_AFTER_YOU_SHARE_TRACKS_WITH_THE_CONNECTED_DEVICES_THEY_WILL_BE_SHOWN_HERE -->
+    <!-- IDS_DLNA_POP_DISCONNECTED_FROM_PS_CHECK_THE_NETWORK_STATUS_AND_THE_CONNECTED_DEVICE -->
+    <string name="disconnected_devices">Đã ngắt kết nối khỏi %s. Kiểm tra trạng thái mạng và thiết bị đã kết nối.</string>
+    <!-- IDS_SMR_SBODY_VIA_HOME_NETWORK_M_STATUS -->
+    <string name="via_home_network">Qua mạng gia đình</string>
+    <!-- IDS_SMR_SBODY_VIA_SCREEN_MIRRORING_M_STATUS -->
+    <!-- IDS_ST_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WI_FI_IS_OFF_TAP_CHANGE_PLAYER_AGAIN_OR_ENABLE_SCREEN_MIRRORING_MSG -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WLAN_IS_OFF_MSG_CHN -->
+    <!-- IDS_VIDEO_BODY_NO_DEVICES_HAVE_BEEN_FOUND_ENABLE_THE_SHARE_CONTENT_FUNCTION_ON_YOUR_NEARBY_DEVICES_AND_THEN_TAP_THE_REFRESH_ICON_ABOVE -->
+    <!-- IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB -->
+    <string name="unable_to_scan_header">Không thể dò tìm thiết bị</string>
+    <!-- IDS_ST_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WI_FI_IS_OFF_TO_SCAN_FOR_CONNECTED_DEVICES_MSG -->
+    <!-- IDS_HOMESYNC_BODY_SCREEN_MIRRORING_M_FEATURE_NAME -->
+    <!-- IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB -->
+    <!-- IDS_ST_POP_CHANGE_THE_TV_SOURCE_TO_HDMI_TO_DISPLAY_CONTENT_VIA_THE_ALLSHARE_CAST_DONGLE -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_PORTABLE_WLAN_HOTSPOT_IS_ENABLED_CHN -->
+    <!-- IDS_SMR_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WI_FI_DIRECT_IS_ENABLED -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WLAN_DIRECT_IS_ENABLED_CHN -->
+    <!-- IDS_SMR_TPOP_PLAYER_CHANGED_DISCONNECT_CURRENT_CONNECTION -->
+    <!-- IDS_NFC_POP_UNABLE_TO_SCAN_FOR_DEVICES_THAT_ARE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_SIDESYNC_IS_RUNNING -->
+    <!-- IDS_NFC_POP_UNABLE_TO_SCAN_FOR_DEVICES_THAT_ARE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_POWER_SAVING_MODE_IS_ENABLED -->
+    <!-- IDS_SMR_POP_UNABLE_TO_OPEN_THIS_FILE_VIA_SCREEN_MIRRORING -->
+    <!-- IDS_SMR_POP_UNABLE_TO_CHANGE_PLAYER_WHILE_GROUP_PLAY_IS_RUNNING -->
+    <!-- IDS_SMR_BODY_UNABLE_TO_CHANGE_PLAYER_WHILE_ALLTOGETHER_IS_OPEN_ALLTOGETHER_WILL_BE_CLOSED -->
+    <!-- IDS_MUSIC_HEADER_DEVICES -->
+    <string name="devices">Thiết bị</string>
+    <!-- IDS_MUSIC_HEADER_REGISTERED_DEVICES_ABB -->
+    <string name="registered_devices">Thiết bị đã đăng ký</string>
+    <!-- IDS_MUSIC_OPT_SEARCH_FOR_REGISTERED_DEVICES_TTS -->
+    <!-- IDS_MUSIC_SBODY_NOT_CONNECTED -->
+    <string name="not_connected">Không kết nối</string>
+    <!-- IDS_MUSIC_BODY_WI_FI -->
+    <!-- IDS_ST_BODY_WLAN_CHN -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_PLAY_THIS_FILE_WHILE_IT_IS_BEING_PLAYED_ON_ANOTHER_DEVICE -->
+    <!-- IDS_MUSIC_POP_SEARCHING_ING -->
+    <string name="search_device">Đang tìm\u2026</string>
+    <!-- IDS_MUSIC_TAB4_MUSIC_SQUARE -->
+    <!-- IDS_MUSIC_BODY_CHANGE_HORIZONTAL_AXIS -->
+    <string name="change_horizontal_axis">Thay đổi trục ngang</string>
+    <!-- IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE -->
+    <string name="mood_passionate">Đam mê</string>
+    <string name="mood_joyful">Vui vẻ</string>
+    <!-- IDS_MUSIC_BODY_EXCITING_M_ADJECTIVE -->
+    <string name="mood_exciting">Thú vị</string>
+    <!-- IDS_MUSIC_BODY_CALM_M_ADJECTIVE -->
+    <string name="calm">Êm dịu</string>
+    <!-- IDS_MUSIC_BODY_OLD -->
+    <string name="old">Cũ</string>
+    <!-- IDS_MUSIC_BODY_NEW_M_LATEST -->
+    <string name="moods">Tâm trạng</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_SQUARE_ANALYSES_THE_CHARACTERISTICS_OF_MUSIC_FILES_STORED_ON_YOUR_DEVICE_MSG -->
+    <!-- IDS_MUSIC_POP_SELECTED_LIST_EMPTY -->
+    <string name="selected_list_empty">Danh sách đã chọn trống.</string>
+    <!-- IDS_MUSIC_POP_TAP_TO_EXPAND_THE_LIST -->
+    <string name="tap_to_expand_the_list">Chạm để mở rộng danh sách.</string>
+    <!-- IDS_MUSIC_POP_TAP_TO_COLLAPSE_THE_LIST -->
+    <string name="tap_to_collapse_the_list">Chạm để thu gọn danh sách.</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="artist">Nghệ sĩ</string>
+    <!-- IDS_MUSIC_BODY_TITLE -->
+    <string name="title">Tựa đề</string>
+    <!-- IDS_MUSIC_BODY_ALBUM -->
+    <string name="album">Album</string>
+    <!-- IDS_MUSIC_BODY_TRACK_LENGTH -->
+    <string name="track_length">Độ dài bài hát</string>
+    <!-- IDS_MUSIC_BODY_GENRE -->
+    <string name="genre">Thể loại</string>
+    <!-- IDS_MUSIC_BODY_DETAILS_RECORDING_DATE -->
+    <string name="recording_date">Ngày ghi âm</string>
+    <!-- IDS_COM_BODY_CONTENTFILEDETAIL_TRACK_NUMBER -->
+    <string name="track_number">Số của bài hát</string>
+    <!-- IDS_MUSIC_MBODY_FORMAT -->
+    <string name="format">Định dạng</string>
+    <!-- IDS_MUSIC_BODY_BIT_DEPTH -->
+    <string name="bit_depth">Độ sâu bit</string>
+    <!-- IDS_MUSIC_BODY_SAMPLING_RATE -->
+    <string name="sampling_rate">Tần số lấy mẫu</string>
+    <!-- IDS_KA_BODY_SIZE -->
+    <string name="size">Kích thước</string>
+    <!-- IDS_DLNA_BODY_PATH -->
+    <string name="path">Đường dẫn</string>
+    <!-- IDS_COM_BODY_MB -->
+    <!-- IDS_COM_BODY_KB -->
+    <!-- IDS_COM_BODY_B -->
+    <!-- IDS_HELP_BODY_TAGS_ABB -->
+    <string name="tags">Tag</string>
+    <!-- IDS_MUSIC_BODY_PART_OF_THE_CONTENT_PROVIDED_BY_ALL_MEDIA_GUIDE -->
+    <!-- IDS_MUSIC_HEADER_SELECT_ALBUM -->
+    <string name="select_album">Chọn album</string>
+    <!-- IDS_MUSIC_BODY_TRACK_LIST -->
+    <string name="track_list">Danh sách bài hát</string>
+    <!-- IDS_MUSIC_OPT_LYRICS_ABB -->
+    <string name="lyrics">Lời bài hát</string>
+    <!-- IDS_MUSIC_BODY_REVIEW -->
+    <string name="review">Xem trước</string>
+    <!-- IDS_MUSIC_BODY_BIOGRAPHY -->
+    <string name="biography">Tiểu sử</string>
+    <!-- IDS_MUSIC_BODY_DISCOGRAPHY -->
+    <string name="discography">Danh sách đĩa hát</string>
+    <!-- IDS_MUSIC_BODY_CREDITS -->
+    <string name="credits">Tín dụng</string>
+    <!-- IDS_MUSIC_BODY_TRACK -->
+    <string name="track">Bài hát</string>
+    <!-- IDS_EMAIL_BODY_OTHERS -->
+    <string name="others">Khác</string>
+    <!-- IDS_MUSIC_HEADER_DISC_PD -->
+    <string name="disc_n">Đĩa %d</string>
+    <!-- IDS_MUSIC_HEADER_SIMILAR_ALBUMS -->
+    <string name="similar_albums">Album tương tự</string>
+    <!-- IDS_MUSIC_HEADER_SIMILAR_ARTISTS -->
+    <string name="similar_artists">Nghệ sĩ tương tự</string>
+    <!-- IDS_IDLE_HEADER_LOADING_ING_ABB -->
+    <string name="loading">Đang tải\u2026</string>
+    <!-- IDS_GC_BODY_CONNECTING_ING -->
+    <string name="connecting">Đang kết nối\u2026</string>
+    <!-- IDS_ST_POP_FINDING_ING -->
+    <string name="finding">Đang tìm\u2026</string>
+    <!-- IDS_MUSIC_POP_GET_SIGNATURE_FROM_CURRENT_AUDIO_FILE -->
+    <!-- IDS_PB_POP_SAVING_ING -->
+    <string name="saving">Đang lưu…</string>
+    <!-- IDS_BR_POP_DATA_CONNECTION_FAILED -->
+    <string name="err_data_connection_failed">Kết nối dữ liệu không thành công.</string>
+    <string name="unable_to_save_file">Không thể lưu File.</string>
+    <!-- IDS_MUSIC_TPOP_RETRIEVING_ADDITIONAL_TAG_DATA_FOR_CURRENT_TRACK_ING -->
+    <!-- IDS_SIDL_SK3_SET_default_s -->
+    <string name="set_default_s">Đặt mặc định</string>
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPE_ABB -->
+    <string name="encoding_type">Kiểu mã hóa</string>
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPES_ARE_CHARACTER_SETS_THAT_THE_TRACKS_DETAILS_ARE_DISPLAYED_IN_MSG -->
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPES_ARE_CHARACTER_SETS_THAT_THE_TRACKS_DETAILS_ARE_DISPLAYED_IN_SET_THE_ENCODING_TYPE_TO_VIEW_THE_DETAILS_MSG -->
+    <!-- IDS_MUSIC_POP_MUSIC_DATA_HAS_BEEN_SAVED_IN_UNICODE_HUTF_8 -->
+    <string name="edit_meta_saved_unicode">Dữ liệu nhạc đã được lưu dưới dạng unicode (UTF-8).</string>
+    <!-- IDS_ACCS_POP_SAVED -->
+    <string name="saved_dot">Đã lưu.</string>
+    <!-- IDS_COM_POP_WANT_TO_UNLOCK_IT_NOW_Q -->
+    <string name="want_unlock_q">Bạn muốn mở khóa?</string>
+    <!-- IDS_MP_POP_THIS_ITEM_IS_NO_LONGER_AVAILABLE -->
+    <string name="no_longer_available">Mục này không còn hiệu lực.</string>
+    <!-- IDS_JAVA_POP_DRM_DELETE_MSG -->
+    <string name="want_delete_q">Bạn muốn xóa mục này?</string>
+    <!-- IDS_MP_POP_PLAY_NOW_QUESTION -->
+    <string name="play_now_q">Nghe nhạc?</string>
+    <!-- IDS_MUSIC_POP_FAILED_TO_ACQUIRE_LICENCE -->
+    <string name="failed_acquire_license">Không lấy được giấy phép.</string>
+    <!-- IDS_MUSIC_POP_UNABLE_TO_ACCESS_SERVER_WHILE_ROAMING_OR_IN_FLIGHT_MODE_KOR -->
+    <!-- IDS_VPL_POP_SERVER_EXPERIENCING_PROBLEMS_TRY_LATER -->
+    <string name="err_server_problem_msg">Lỗi server. Thử lại sau.</string>
+    <!-- IDS_MUSIC_BODY_ACQUIRING_LICENCE_ING -->
+    <string name="acquiring_license">Đang lấy giấy phép\u2026</string>
+    <!-- IDS_MUSIC_BODY_NO_DATA_CONNECTIVITY -->
+    <string name="no_data_connectivity">Không có kết nối dữ liệu</string>
+    <!-- IDS_VPL_POP_SORRY_LICENCE_EXPIRED -->
+    <string name="error_sorry_license_expired">Rất tiếc, giấy phép đã hết hạn.</string>
+    <plurals name="drm_can_use_n_times">
+        <!--  IDS_COM_POP_RENDER_INFO_CAN_USE_1_TIME  -->
+        <item quantity="one">Bạn có thể dùng %s một lần.</item>
+        <!--  IDS_COM_POP_RENDER_INFO_CAN_USE_N_TIMES  -->
+        <item quantity="other">Bạn có thể dùng %1$s %2$d lần.</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_ON -->
+    <!-- IDS_MUSIC_BODY_MUSIC_PLAYER -->
+    <string name="tts_music_player">Nghe nhạc</string>
+    <!-- IDS_MP_OPT_GOTOMUSIC -->
+    <string name="tts_go_to_music">Đi đến Nhạc</string>
+    <!-- IDS_MUSIC_BODY_REWIND_T_TTS -->
+    <string name="tts_rewind">Tua lại</string>
+    <!-- IDS_MUSIC_BODY_FAST_FORWARD_T_TTS -->
+    <string name="tts_fast_forward">Tua nhanh</string>
+    <!-- IDS_MUSIC_BODY_PREVIOUS_M_SONG -->
+    <string name="tts_previous">Trước</string>
+    <!-- IDS_MUSIC_BODY_NEXT_M_SONG -->
+    <!-- IDS_VOICE_HEADER_PLAY_ABB -->
+    <string name="tts_pause">Tạm dừng</string>
+    <!-- IDS_MUSIC_OPT_VOLUME -->
+    <string name="volume">Âm lượng</string>
+    <!-- IDS_MUSIC_TBOPT_SHUFFLE -->
+    <!-- IDS_MUSIC_BODY_SHUFFLE_ON -->
+    <string name="shuffle_on">Chọn ngẫu nhiên</string>
+    <!-- IDS_MUSIC_BODY_SHUFFLE_OFF -->
+    <string name="shuffle_off">Tắt chọn ngẫu nhiên</string>
+    <!-- IDS_MUSIC_BUTTON_REPEAT -->
+    <string name="tts_repeat">Lặp lại</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_1 -->
+    <string name="tts_repeat_1">Lặp lại 1</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_ALL -->
+    <string name="tts_repeat_all">Lặp lại tất cả</string>
+    <!-- IDS_MUSIC_BODY_REPEAT_OFF -->
+    <string name="tts_repeat_off">Tắt lặp lại</string>
+    <!-- IDS_MUSIC_BODY_VOLUME_UP -->
+    <string name="volume_up">Tăng âm lượng</string>
+    <!-- IDS_MUSIC_BODY_VOLUME_DOWN -->
+    <string name="volume_down">Giảm âm lượng</string>
+    <!-- IDS_VPL_POP_MUTE -->
+    <string name="tts_volume_mute">Tắt âm</string>
+    <!-- IDS_PB_BODY_PLUS -->
+    <string name="plus">Cộng</string>
+    <!-- IDS_PB_BODY_MINUS -->
+    <string name="minus">Trừ</string>
+    <!-- IDS_MUSIC_MBODY_FAVOURITE -->
+    <string name="tts_favourite">Yêu thích</string>
+    <!-- IDS_MUSIC_BODY_NOT_MARKED_AS_A_FAVOURITE -->
+    <string name="tts_favourite_not_marked">Không đánh dấu yêu thích.</string>
+    <!-- IDS_MUSIC_BODY_MARKED_AS_A_FAVOURITE -->
+    <string name="tts_favourite_marked">Đánh dấu yêu thích.</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <!-- IDS_IMGE_BODY_CONTROL_BAR_T_TTS -->
+    <string name="control_bar">Thanh điều khiển</string>
+    <!-- IDS_VPL_BODY_SWIPE_WITH_TWO_FINGERS_TO_CONTROL_T_TTS -->
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <!-- IDS_CAM_BUTTON_LIST -->
+    <!-- IDS_MUSIC_SK3_LIST_VIEW -->
+    <string name="tts_list_view">Xem dạng danh sách</string>
+    <!-- IDS_ST_OPT_HEADER_T_TTS -->
+    <string name="tts_header">Tiêu đề</string>
+    <!-- IDS_PB_OPT_MORE_OPTIONS -->
+    <string name="tts_more_options">Tùy chọn khác</string>
+    <!-- IDS_COM_BODY_SELECTED_T_TTS -->
+    <string name="tts_selected">Đã chọn</string>
+    <!-- IDS_BT_BODY_NOT_SELECTED -->
+    <string name="tts_not_selected">Chưa chọn</string>
+    <!-- IDS_MUSIC_BODY_PS_TAB_T_TTS -->
+    <!-- IDS_MUSIC_BODY_PS_TAB_CURRENTLY_SET_T_TTS -->
+    <!-- IDS_MUSIC_OPT_CELL_TTS -->
+    <string name="cell">Ô</string>
+    <!-- IDS_MUSIC_HEADER_ADD_TO_PLAYLIST -->
+    <!-- IDS_ACCS_BODY_DOUBLE_TAP_TO_EXPAND_THE_LIST_T_TTS -->
+    <string name="tts_double_tap_to_expand_the_list">Chạm hai lần để mở rộng danh sách</string>
+    <!-- IDS_ACCS_BODY_DOUBLE_TAP_TO_COLLAPSE_THE_LIST_T_TTS -->
+    <string name="tts_double_tap_to_collapse_the_list">Chạm hai lần để thu gọn danh sách.</string>
+    <!-- IDS_CLOCK_BODY_PD_HOURS -->
+    <string name="hours_s">%d giờ</string>
+    <!-- IDS_CLOCK_BODY_PD_MINUTES -->
+    <string name="s_minutes">%d phút</string>
+    <!-- IDS_CST_BODY_PD_SECONDS -->
+    <!-- IDS_MUSIC_BODY_TAB_P1SD_OF_P2SD_T_TTS -->
+    <!-- IDS_MF_BODY_MEGABYTES_T_TTS -->
+    <!-- IDS_MF_BODY_KILOBYTES_T_TTS -->
+    <string name="tts_size_kb">Kilobyte</string>
+    <!-- IDS_MF_BODY_BYTES_T_TTS -->
+    <!-- IDS_GALLERY_OPT_PRIVATE_M_CONTENT -->
+    <string name="tts_private">Riêng tư</string>
+    <!-- IDS_MUSIC_OPT_ALBUM_COVER -->
+    <string name="albumcover">Bìa album</string>
+    <!-- IDS_ST_BODY_SEEK_CONTROL -->
+    <string name="seek_control">Điều khiển bằng thanh trượt</string>
+    <!-- IDS_MUSIC_TBOPT_P1SS_OF_P2SS -->
+    <string name="n_of_n">%1$s trên %2$s</string>
+    <!-- IDS_COM_BODY_1_SECOND -->
+    <!-- IDS_VR_BODY_1_MINUTE_TTS -->
+    <!-- IDS_VR_BODY_1_HOUR_TTS -->
+    <!-- IDS_GCTS_OPT_P1SS_BUTTON_TTS -->
+    <string name="button_s">Phím %1$s</string>
+    <!-- IDS_MUSIC_BODY_DOUBLE_TAP_TO_CREATE_PLAYLIST_TTS -->
+    <string name="tts_double_tap_to_create_playlist">Chạm hai lần để tạo danh sách phát.</string>
+    <!-- IDS_MUSIC_SBODY_DISABLED_M_STATUS -->
+    <!-- MIDS_OTS_TBOPT_EDIT_BOX -->
+    <string name="tts_edit_box">Ô chỉnh sửa</string>
+    <!-- WDS_WMGR_TBOPT_EDITING -->
+    <string name="tts_editing">Sửa</string>
+    <!-- IDS_ST_TBOPT_NAVIGATE_UP -->
+    <!-- IDS_GALLERY_OPT_MOVE_TO_PRIVATE -->
+    <string name="move_to_private">Chuyển sang Riêng tư</string>
+    <!-- IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE -->
+    <string name="remove_from_personal_page">Xóa khỏi Riêng tư</string>
+    <!-- IDS_COM_POP_MOVING -->
+    <string name="moving">Đang chuyển\u2026</string>
+    <!-- IDS_MP_POP_PROCESSING_ING -->
+    <string name="processing">Đang xử lý..</string>
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE -->
+    <string name="s_moved_to_private">%d mục đã được chuyển đến Riêng tư.</string>
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_P1SD_ITEMS_REMOVED_FROM_PRIVATE_AND_MOVED_TO_P2SS -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_REMOVED_FROM_PRIVATE_AND_MOVED_TO_PS -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_REMOVED_FROM_PRIVATE -->
+    <string name="s_removed_from_private">Đã xóa %d mục khỏi Riêng tư.</string>
+    <!-- IDS_GALLERY_TPOP_1_ITEM_REMOVED_FROM_PRIVATE -->
+    <!-- IDS_MUSIC_POP_THE_NEXT_TRACK_ON_THE_LIST_WILL_BE_PLAYED_IF_THE_CURRENT_PLAYING_TRACK_IS_MOVED_TO_PRIVATE -->
+    <!-- IDS_MUSIC_POP_THE_NEXT_TRACK_ON_THE_LIST_WILL_BE_PLAYED_IF_THE_CURRENT_PLAYING_TRACK_IS_REMOVED_FROM_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE_OTHER_ITEM_ALREADY_EXISTS_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEM_ALREADY_EXISTS_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE -->
+    <string name="add_n_item_n_item_exist">Đã chuyển %d mục vào Riêng tư. Các mục khác đã tồn tại trong Riêng tư.</string>
+    <!-- IDS_MF_POP_APPLY_TO_ALL_ITEMS -->
+    <string name="apply_to_all_items">Áp dụng cho tất cả các mục</string>
+    <!-- IDS_MUSIC_HEADER_RENAME -->
+    <string name="rename">Đổi tên</string>
+    <!-- IDS_CAM_POP_OVERWRITE -->
+    <string name="overwrite">Ghi đè</string>
+    <!-- IDS_MF_POP_PS_CANNOT_BE_COPIED_THERE_IS_ALREADY_A_FILE_WITH_THIS_NAME_IN_THE_DESTINATION_FOLDER -->
+    <string name="error_already_exist_file_copy">Không thể chép %s. Đã có một file với tên này trong thư mục đích.</string>
+    <!-- IDS_GALLERY_HEADER_FILE_NAME_IN_USE_ABB -->
+    <string name="file_name_in_use">Tên file đang được sử dụng</string>
+    <!-- IDS_GALLERY_BUTTON_REPLACE_ABB -->
+    <string name="replace">Thay thế</string>
+    <!-- IDS_ST_HEADER_SELECT_SIM_CARD -->
+    <string name="select_sim">Chọn thẻ SIM</string>
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HCDMA -->
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HGSM -->
+    <!-- IDS_MUSIC_POP_CHECKING_LICENCE_ING_KOR -->
+    <string name="checking_licence">Đang kiểm tra giấy phép\u2026</string>
+    <!-- IDS_MUSIC_MBODY_RESET_LICENCES_KOR -->
+    <string name="reset_licences">Đặt lại giấy phép</string>
+    <!-- IDS_MUSIC_POP_LICENCES_RESET_KOR -->
+    <string name="licences_reset">Đặt lại giấy phép.</string>
+    <!-- IDS_MUSIC_POP_UNABLE_TO_ACCESS_SERVER_WHILE_ROAMING_OR_IN_FLIGHT_MODE_KOR -->
+    <!-- IDS_MUSIC_OPT_MP3_RINGTONE_KOR_LGT -->
+    <string name="mp3_ringtone">MP3 ringtone</string>
+    <!-- IDS_MUSIC_BODY_DOWNLOAD_MUSIC_FROM_BIGPOND -->
+    <!-- IDS_KNOX_MBODY_KNOX -->
+    <!-- IDS_KNOX_TAB4_PERSONAL_MODE -->
+    <string name="personal_mode">Chế độ Cá nhân</string>
+    <!-- IDS_KNOX_OPT_MOVE_TO_KNOX -->
+    <!-- IDS_KNOX_OPT_MOVE_TO_PERSONAL_MODE -->
+    <string name="move_to_personal_mode">Chuyển đến chế độ Cá nhân</string>
+    <!-- IDS_KNOX_TPOP_1_ITEM_MOVED_TO_KNOX -->
+    <!-- IDS_KNOX_TPOP_PD_ITEMS_MOVED_TO_KNOX -->
+    <!-- IDS_COM_POP_ERROR -->
+    <string name="error">Lỗi.</string>
+    <string name="not_enough_memory_popup">Không đủ bộ nhớ. Xóa một vài file</string>
+    <!-- IDS_IDLE_TPOP_UNABLE_TO_OPEN_APPLICATION_DELETE_SOME_FILES_MSG -->
+    <!-- IDS_IDLE_TPOP_NOT_ENOUGH_SPACE_IN_DEVICE_STORAGE_MSG -->
+    <string name="not_enough_memory_toast">Không đủ dung lượng trong bộ nhớ thiết bị của bạn. Hãy xóa một số file và thử lại.</string>
+    <!-- IDS_DM_BUTTON_GO_TO_STORAGE_ABB -->
+    <string name="go_to_storage">Đến Bộ nhớ</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY -->
+    <string name="err_not_enough_memory">Không đủ bộ nhớ.</string>
+    <!-- IDS_SH_POP_SOME_ITEMS_CANNOT_BE_MOVED -->
+    <string name="error_move_failed">Không thể di chuyển một số khoản mục.</string>
+    <!-- IDS_KNOX_TPOP_FAILED_TO_MOVE -->
+    <string name="error_failed_to_move">Không thể di chuyển.</string>
+    <!-- IDS_KNOX_TPOP_1_ITEM_MOVED_TO_PS -->
+    <!-- IDS_KNOX_TPOP_P1SD_ITEMS_MOVED_TO_P2SS -->
+    <!-- IDS_KNOX_TPOP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_MOVED_AT_ONE_TIME_HPD_HAS_BEEN_EXCEEDED_MSG -->
+    <string name="error_maximum_file_moved">Đã vượt quá số lượng file tối đa có thể chuyển cùng lúc (%d). Hãy bỏ chọn một số file và thử lại.</string>
+    <!-- IDS_MUSIC_BUTTON_FROM_THE_BEGINNING -->
+    <string name="from_beginning">Từ đầu</string>
+    <!-- IDS_MUSIC_BUTTON_AUTO_RECOMMENDATIONS -->
+    <string name="auto_recommendation">Đề xuất tự động</string>
+    <!-- IDS_PB_BODY_AUTO_RECOMMENDATIONS_CAN_EXTRACT_THE_HIGHLIGHTS_FROM_SOUND_FILES -->
+    <!-- IDS_COM_BODY_PROCESSING_ING -->
+    <!-- IDS_MUSIC_POP_AUTO_RECOMMENDATION_DOES_NOT_SUPPORT_THIS_AUDIO_FILE -->
+    <!-- IDS_BT_HEADER_UNKNOWN_ERROR -->
+    <string name="error_unknown">Lỗi không xác định</string>
+    <!-- IDS_MUSIC_BUTTON2_SET_AS -->
+    <string name="option_set_as">Đặt làm</string>
+    <!-- IDS_MUSIC_POP_RINGTONE_ADDED -->
+    <string name="ringtone_added">Đã thêm nhạc chuông.</string>
+    <!-- IDS_MUSIC_POP_PHONE_RINGTONE -->
+    <string name="phone_ringtone">Nhạc chuông điện thoại</string>
+    <!-- IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE -->
+    <string name="caller_ringtone">Nhạc chuông người gọi</string>
+    <!-- IDS_CLOCK_HEADER_ALARM_TONE_ABB -->
+    <string name="alarm_tone">Âm báo</string>
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HSLOT_1_CHN_CTC -->
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HSLOT_2_CHN_CTC -->
+    <!-- IDS_MUSIC_HEADER_UNABLE_TO_FIND_ITEM -->
+    <string name="unable_to_find_item">Không thể tìm mục</string>
+    <!-- IDS_MF_NPBODY_NO_RESULTS_FOUND -->
+    <!-- IDS_MUSIC_NPBODY_NO_TRACKS -->
+    <string name="no_tracks">Không có bài hát</string>
+    <!-- IDS_MUSIC_BODY_NO_ALBUMS -->
+    <string name="no_albums">Không có album</string>
+    <!-- IDS_MUSIC_BODY_NO_ARTISTS -->
+    <string name="no_artists">Không có nghệ sĩ</string>
+    <!-- IDS_MUSIC_BODY_NO_COMPOSERS -->
+    <string name="no_composers">Không có nhạc sĩ</string>
+    <!-- IDS_MUSIC_BODY_NO_GENRES -->
+    <string name="no_genres">Không có thể loại</string>
+    <!-- IDS_MUSIC_BODY_NO_PLAYLISTS -->
+    <string name="no_playlists">Không có danh sách</string>
+    <!-- IDS_MUSIC_BODY_NO_YEARS -->
+    <string name="no_years">Không có năm</string>
+    <!-- IDS_MUSIC_BODY_NO_FOLDERS -->
+    <string name="no_folders">Không có thư mục</string>
+    <!-- IDS_IDLE_BODY_NO_SONGS_PLAYING -->
+    <string name="no_songs_playing">Không bài hát nào đang phát</string>
+    <!-- IDS_KA_BODY_NO_MUSIC_FILES -->
+    <string name="no_music_files">Không có File nhạc</string>
+    <!-- IDS_VR_NPBODY_NO_RECORDINGS_M_VOICE -->
+    <string name="no_recordings">Không có bản ghi</string>
+    <!-- IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_BE_CONNECTED_TO_A_WLAN_TO_SCAN_FOR_NEARBY_DEVICES_MSG_CHN -->
+    <!-- IDS_MUSIC_BODY_NO_DEVICES_FOUND_NENABLE_SHARE_CONTENT_ON_YOUR_NEARBY_DEVICES -->
+    <!-- IDS_COM_BUTTON_SIGN_IN -->
+    <string name="sign_in">Đăng nhập</string>
+    <!-- IDS_MUSIC_BUTTON_REGISTER_ABB -->
+    <string name="register">Đăng ký</string>
+    <!-- IDS_MUSIC_HEADER_HOW_TO_REGISTER_ABB -->
+    <string name="how_to_register">Cách đăng ký</string>
+    <!-- IDS_MUSIC_BODY_REGISTER_YOUR_PC_OR_OTHER_DEVICES_TO_ACCESS_YOUR_EXISTING_CONTENT -->
+    <!-- IDS_MUSIC_BODY_REGISTER_THIS_DEVICE_TO_ACCESS_YOUR_CONTENT_WITH_SAMSUNG_LINK -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_SIGN_IN_TO_YOUR_SAMSUNG_ACCOUNT_TO_ACCESS_CONTENT_ON_OTHER_DEVICES -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_SIGN_IN_TO_YOUR_GALAXY_ACCOUNT_TO_ACCESS_CONTENT_ON_OTHER_DEVICES_GALAXY_JPN -->
+    <string name="registration_guide">Hướng dẫn đăng ký</string>
+    <!-- IDS_BR_BODY_LOAD_CONTENTS -->
+    <string name="s_link_load_the_content">Nạp nội dung</string>
+    <!-- IDS_MUSIC_POP_LOAD_THE_CONTENT_STORED_ON_OTHER_REGISTERED_DEVICES_Q -->
+    <!-- IDS_MUSIC_POP_CONNECTING_TO_MOBILE_NETWORKS_MAY_INCUR_ADDITIONAL_CHARGES_AND_IT_MAY_TAKE_A_FEW_MINUTES_TO_LOAD_YOUR_CONTENT -->
+    <!-- IDS_MUSIC_OPT_ADD_TO -->
+    <string name="addto">Thêm vào</string>
+    <!-- IDS_EL_MBODY_SELECT_ALL -->
+    <string name="select_all">Chọn tất cả</string>
+    <!-- IDS_MSG_OPT_DESELECT_ALL_ABB -->
+    <string name="deselect_all">Bỏ chọn tất cả</string>
+    <!-- IDS_PB_BODY_BUFFERING_ING_ABB -->
+    <string name="buffering">Đang tải\u2026</string>
+    <!-- IDS_KA_BODY_NO_ITEMS_ABB -->
+    <string name="no_items">Không có khoản mục</string>
+    <!-- IDS_MUSIC_BUTTON_DONE -->
+    <string name="done">H.tất</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">Lưu</string>
+    <string name="ok">OK</string>
+    <!-- IDS_COM_SK_SET -->
+    <string name="set">Đặt</string>
+    <!-- IDS_KA_BUTTON_CANCEL -->
+    <string name="cancel">Thoát</string>
+    <!-- IDS_ACCS_BUTTON_YES -->
+    <string name="yes">OK</string>
+    <!-- IDS_ACCS_SK2_NO -->
+    <string name="no">Không</string>
+    <!-- IDS_MUSIC_BODY_ON -->
+    <string name="on">Bật</string>
+    <!-- IDS_MUSIC_BODY_OFF -->
+    <string name="off">\"TẮT\"</string>
+    <!-- IDS_MUSIC_BUTTON_RESET -->
+    <string name="reset">Xóa</string>
+    <!-- IDS_DLNA_SK3_REFRESH -->
+    <string name="refresh">Làm mới</string>
+    <!-- IDS_CLD_MBODY_TIME -->
+    <string name="time">Thời gian</string>
+    <!-- IDS_MUSIC_OPT_SETTINGS_HELP -->
+    <string name="help">Trợ giúp</string>
+    <!-- IDS_ST_BODY_INFORMATION -->
+    <string name="information">Thông tin</string>
+    <!-- IDS_MUSIC_BODY_MY_PLAYLIST -->
+    <string name="my_playlist">Danh sách phát của bạn</string>
+    <!-- IDS_MUSIC_POP_PS_ALREADY_IN_USE_ENTER_ANOTHER_NAME -->
+    <string name="error_n_already_in_use">%s đã được dùng. Nhập tên khác.</string>
+    <!-- IDS_MUSIC_SK3_CLEAR_A_B -->
+    <!-- IDS_VR_BODY_DELETING_ITEMS_ING -->
+    <string name="deleting_items">Đang xóa\u2026</string>
+    <string name="deleted">Đã xóa.</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_M_GENRE -->
+    <string name="unknown">Không biết</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_ALBUM -->
+    <string name="unknown_album">Album không rõ</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_ARTIST -->
+    <string name="unknown_artist">Không rõ ca sỹ</string>
+    <!-- IDS_MUSIC_BODY_VARIOUS_ARTISTS -->
+    <string name="various_artists">Các nghệ sĩ khác</string>
+    <!-- IDS_MUSIC_HEADER_NOW_PLAYING -->
+    <string name="now_playing">Đang nghe</string>
+    <!-- IDS_MUSIC_POP_LOW_BATTERY -->
+    <string name="low_battery">Pin yếu.</string>
+    <!-- IDS_COM_OPT_MUSIC_PLAYER_WILL_BE_CLOSED_DUE_TO_LOW_BATTERY_VODA -->
+    <!-- IDS_CAM_HEADER_WARNING_ABB -->
+    <string name="warning">Cảnh báo</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_call-->
+    <string name="unable_to_play_during_call">Không thể phát khi đang gọi.</string>
+    <!-- IDS_MUSIC_POP_SORRY_THE_PLAYER_DOES_NOT_SUPPORT_THIS_TYPE_OF_AUDIO_FILE -->
+    <string name="error_playback_failed_msg">Xin lỗi, trình phát không hỗ trợ loại file âm thanh này.</string>
+    <!-- IDS_VPL_TPOP_FAST_FORWARDING_NOT_SUPPORTED -->
+    <string name="not_support_ff">Không hỗ trợ tua nhanh.</string>
+    <!-- IDS_VPL_TPOP_REWINDING_NOT_SUPPORTED -->
+    <string name="not_support_rew">Không hỗ trợ tua lại.</string>
+    <!-- IDS_MUSIC_POP_STOP_PLAYING_MUSIC -->
+    <string name="stop_playing_music_q">Dừng phát nhạc?</string>
+    <!-- IDS_KA_BODY_DO_NOT_SHOW_AGAIN_ABB -->
+    <string name="error_max_char_reached_msg">Tối đa %d ký tự.</string>
+    <!-- IDS_SSCHOL_HEADER_PD_SELECTED -->
+    <string name="n_items_selected">Đã chọn %d</string>
+    <!-- IDS_MUSIC_HEADER_SEARCH_WITH -->
+    <string name="search_with">Tìm kiếm với</string>
+    <!-- IDS_VIPM_POP_INVALID_CHARACTER -->
+    <string name="invalid_character">Ký tự không hợp lệ.</string>
+    <!-- IDS_SAS_TPOP_WHILE_USING_SIDESYNC_VIDEO_SOUND_AND_MUSIC_MAY_OVERLAP -->
+    <!-- IDS_MUSIC_BODY_PD_BIT -->
+    <string name="n_bit">%d bit</string>
+    <!-- IDS_MUSIC_BODY_PD_KHZ -->
+    <string name="n_khz">%d kHz</string>
+    <!-- IDS_COM_BODY_SEARCH -->
+    <string name="search">Tìm kiếm</string>
+    <!-- IDS_MUSIC_HEADER_SUGGESTIONS_FOR_YOU -->
+    <string name="suggestions_for_you">Gợi ý cho bạn</string>
+    <!-- IDS_EL_BODY_PLAY -->
+    <string name="play">Phát</string>
+    <!-- IDS_GALLERY_TPOP_PD_DELETED -->
+    <string name="n_deleted">Đã xóa %d</string>
+    <string name="select_tracks">CHỌN BÀI HÁT</string>
+    <!-- IDS_LCKSCN_SBODY_CONTENT_HIDDEN_M_STATUS -->
+    <string name="content_hidden">Nội dung ẩn</string>
+    <!-- IDS_CMV_TPOP_FAILED_TO_ENABLE_QUICK_CONNECT -->
+    <!-- IDS_CMV_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_QUICK_CONNECT -->
+    <plurals name="n_tracks_deleted_msg">
+        <!--  IDS_MUSIC_POP_1_TRACK_WILL_BE_DELETED  -->
+        <item quantity="one">1 bài hát sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_WILL_BE_DELETED  -->
+        <item quantity="other">%d bài hát sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <!--  IDS_MUSIC_POP_1_PLAYLIST_WILL_BE_DELETED  -->
+        <item quantity="one">1 danh sách phát sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_BODY_PD_PLAYLISTS_WILL_BE_DELETED  -->
+        <item quantity="other">%d danh sách phát sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <!--  IDS_IV_POP_1_ALBUM_WILL_BE_DELETED  -->
+        <item quantity="one">1 album sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_BODY_PD_ALBUMS_WILL_BE_DELETED  -->
+        <item quantity="other">%d album sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTIST_WILL_BE_DELETED  -->
+        <item quantity="one">Tất cả bài hát của nghệ sĩ đã chọn sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTISTS_WILL_BE_DELETED  -->
+        <item quantity="other">Tất cả bài hát của các nghệ sĩ đã chọn sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <!--  IDS_MUSIC_POP_THE_SELECTED_FOLDER_WILL_BE_DELETED  -->
+        <item quantity="one">Thư mục đã chọn sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_POP_THE_SELECTED_FOLDERS_WILL_BE_DELETED  -->
+        <item quantity="other">Các thư mục đã chọn sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRE_WILL_BE_DELETED  -->
+        <item quantity="one">Tất cả bài hát thuộc thể loại đã chọn sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRES_WILL_BE_DELETED  -->
+        <item quantity="other">Tất cả bài hát thuộc các thể loại đã chọn sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSER_WILL_BE_DELETED  -->
+        <item quantity="one">Tất cả bài hát của tác giả đã chọn sẽ bị xóa.</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSERS_WILL_BE_DELETED  -->
+        <item quantity="other">Tất cả bài hát của những nhạc sĩ đã chọn sẽ bị xóa.</item>
+    </plurals>
+    <string name="error_UNABLE_TO_ADD_MORE_MUSIC_MAX_REACHED_MSG">Không thể thêm bất kỳ File nhạc nào. Đã đạt số File nhạc tối đa</string>
+    <!-- IDS_MUSIC_BODY_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED -->
+    <string name="error_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED">Không thể tạo danh sách phát. Đã đạt số danh sách phát tối đa.</string>
+    <!-- IDS_MUSIC_BODY_ARTISTS_ALBUMS_AND_TRACKS -->
+    <!-- IDS_PB_BODY_ABCDEFGHIJKLMNOPQRSTUVWXYZ_M_INDEXLIST -->
+    <string name="character_list">#AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVWXYZ</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_MUSIC_PLAYER_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <!-- IDS_COM_BODY_AND_PD_MORE -->
+    <string name="and_n_more">và %d mục nữa</string>
+    <plurals name="NNNtrack">
+        <!--  IDS_MUSIC_MBODY_PD_TRACK  -->
+        <item quantity="one">%d bài hát</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_ABB  -->
+        <item quantity="other">%d bài hát</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <!--  MIDS_IS_MBODY_PD_PLAYLIST  -->
+        <item quantity="one">%d danh sách phát</item>
+        <!--  IDS_MUSIC_BODY_PD_PLAYLISTS  -->
+        <item quantity="other">%d danh sách phát</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <!--  IDS_MUSIC_BODY_1_ALBUM  -->
+        <item quantity="one">1 Album</item>
+        <!--  IDS_MUSIC_BODY_PD_ALBUMS  -->
+        <item quantity="other">%d Album</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <!--  IDS_MUSIC_BODY_1_ARTIST  -->
+        <item quantity="one">1 nghệ sĩ</item>
+        <!--  IDS_MUSIC_BODY_PD_ARTISTS  -->
+        <item quantity="other">%d nghệ sĩ</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <!--  IDS_MUSIC_BODY_1_GENRE  -->
+        <item quantity="one">1 thể loại</item>
+        <!--  IDS_MUSIC_BODY_PD_GENRES  -->
+        <item quantity="other">%d thể loại</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <!--  IDS_VPL_BODY_1_FOLDER  -->
+        <item quantity="one">1 thư mục</item>
+        <!--  IDS_MF_BODY_DETAILFOLDERS  -->
+        <item quantity="other">%d thư mục</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <!--  IDS_MUSIC_BODY_1_COMPOSER  -->
+        <item quantity="one">1 người sáng tác</item>
+        <!--  IDS_MUSIC_BODY_PD_COMPOSERS  -->
+        <item quantity="other">%d tác giả</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <!--  IDS_MUSIC_BODY_1_YEAR  -->
+        <item quantity="one">1 năm</item>
+        <!--  IDS_HEALTH_BODY_PD_YEARS  -->
+        <item quantity="other">%d năm</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <!--  IDS_MUSIC_BODY_1_DEVICE  -->
+        <item quantity="one">1 thiết bị</item>
+        <!--  IDS_MUSIC_BODY_PD_DEVICES  -->
+        <item quantity="other">%d thiết bị</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_PLAYLIST  -->
+        <item quantity="one">Đã thêm 1 bài hát vào danh sách phát</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_ADDED_TO_PLAYLIST  -->
+        <item quantity="other">%d bài hát đã được thêm vào danh sách phát.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_DELETED  -->
+        <item quantity="one">Đã xóa 1 bài hát.</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_DELETED  -->
+        <item quantity="other">Đã xóa %d bài hát.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <!--  IDS_COM_POP_1_ITEM_DELETED  -->
+        <item quantity="one">Đã xóa 1 mục.</item>
+        <!--  IDS_MUSIC_POP_PD_ITEMS_DELETED  -->
+        <item quantity="other">%d mục đã được xóa.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_REMOVED  -->
+        <item quantity="one">Đã xóa 1 bài hát</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_REMOVED  -->
+        <item quantity="other">Đã xóa %d bài hát.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <!--  IDS_MUSIC_BODY_1_TRACK_ADDED_TO_NOW_PLAYING_LIST  -->
+        <item quantity="one">Đã thêm 1 bài hát vào danh sách đang phát</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_ADDED_TO_NOW_PLAYING_LIST  -->
+        <item quantity="other">Đã thêm %d bài hát vào danh sách đang phát</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES  -->
+        <item quantity="one">Đã thêm 1 bài hát vào mục yêu thích</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES  -->
+        <item quantity="other">%d bài hát đã được thêm vào mục yêu thích</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED  -->
+        <item quantity="one">Đã thêm 1 bài hát vào Mục yêu thích. Các bài hát đã có trong Mục yêu thích không được thêm vào.</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED  -->
+        <item quantity="other">%d bài hát đã được thêm vào Mục yêu thích. Các bài hát đã có trong Mục yêu thích không được thêm.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_REMOVED_FROM_FAVOURITES  -->
+        <item quantity="one">Đã xóa 1 bài hát khỏi Mục yêu thích.</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_REMOVED_FROM_FAVOURITES  -->
+        <item quantity="other">Đã xóa %d bài hát khỏi Mục yêu thích.</item>
+    </plurals>
+    <plurals name="NNNrecordings">
+        <!--  IDS_MUSIC_HEADER_PD_RECORDING_M_VOICE_ABB  -->
+        <item quantity="one">%d bản ghi</item>
+        <!--  IDS_MUSIC_HEADER_PD_RECORDINGS_M_VOICE_ABB  -->
+        <item quantity="other">%d bản ghi</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_NOW_PLAYING_LIST -->
+    <string name="now_playing_list">Danh sách đang phát</string>
+    <!-- IDS_MTTRL_BODY_LEARN_ABOUT_PALM_TOUCH -->
+    <!-- IDS_HELP_POP_YOU_HAVE_MUTED_PAUSED_THE_MUSIC_USING_PALM_MOTION -->
+    <!-- IDS_HELP_POP_COVER_THE_SCREEN_WITH_YOUR_PALM_TO_PAUSE_THE_MUSIC -->
+    <!-- IDS_HELP_POP_TUTORIAL_COMPLETE -->
+    <string name="tutorial_complete">Hướng dẫn đã hoàn tất.</string>
+    <!-- IDS_HELP_BODY_CONNECT_TO_WLAN_CHN -->
+    <!-- IDS_MUSIC_HEADER_CONNECT_VIA_MOBILE_NETWORKS_ABB -->
+    <string name="connect_via_network">Kết nối qua mạng di động</string>
+    <!-- IDS_CAM_BODY_WLAN_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="error_wifi_not_available">Không có WLAN. Việc kết nối với mạng di động có thể phát sinh thêm phí tùy thuộc vào gói cước của bạn.</string>
+    <!-- IDS_ST_POP_CONNECTING_VIA_HDMI_WILL_END_ANY_WIRELESS_CONNECTIONS_MSG -->
+    <!-- IDS_ST_HEADER_CONNECT_VIA_HDMI_ABB -->
+    <string name="app_not_available">Ứng dụng không sẵn sàng.</string>
+    <!-- IDS_SBAND_BUTTON_DEREGISTER_ABB -->
+    <string name="deregisterd_device">Hủy đăng ký</string>
+    <!-- MIDS_ASP_POP_DEREGISTER_THE_SELECTED_DEVICE_FROM_SAMSUNG_LINK_Q_THE_DEVICE_CAN_BE_REGISTERED_WITH_THE_SERVICE_AGAIN_LATER -->
+    <!-- IDS_VIDEO_TPOP_DEREGISTERING_SELECTED_DEVICE_ING -->
+    <string name="deregistered_progress_message">Đang hủy đăng ký thiết bị đã chọn\u2026</string>
+    <!-- IDS_ST_TPOP_TO_UNPIN_APPLICATION_PRESS_AND_HOLD_THE_RECENTS_AND_BACK_KEYS_AT_THE_SAME_TIME -->
+    <!-- IDS_ST_BODY_SEEK_CONTROL -->
+    <!-- IDS_IDLE_POP_UNABLE_TO_OPEN_PS_TAP_SETTINGS_GO_TO_APP_INFO_PERMISSIONS_THEN_ALLOW_MSG -->
+    <string name="permission_request_dialog_content">Không thể mở %s. Chạm CÀI ĐẶT, đi đến Thông tin ứng dụng &gt; Quyền, rồi cho phép các quyền sau đây và thử lại:</string>
+    <!-- IDS_FM_MBODY_STORAGE -->
+    <!-- IDS_IM_BODY_CONTACTS -->
+    <!-- IDS_CAM_TPOP_UNABLE_TO_PLAY_MUSIC_WHILE_RECORDING_AUDIO_OR_VIDEO -->
+    <string name="unable_to_play_during_recording">Không thể phát nhạc khi đang ghi âm hoặc quay video.</string>
+    <!-- IDS_CAM_BODY_CONNECTION_FAILED -->
+    <string name="connection_failed">Kết nối bị lỗi.</string>
+</resources>

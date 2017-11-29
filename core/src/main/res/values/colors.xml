@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- basic -->
+    <!-- 主色调 -->
+    <color name="colorPrimary">#ffeeeeee</color>
+    <!-- 主题相关颜色 -->
+    <color name="window_background_light">#ffeeeeee</color>
+    <color name="window_background_dark">#ff303030</color>
+    <color name="list_divider_light">#ffe0e0e0</color>
+    <color name="list_divider_dark">#ff666666</color>
+    <color name="selectable_item_background_general_light_normal">@android:color/white</color>
+    <color name="selectable_item_background_general_light_pressed">#ffeeeeee</color>
+    <color name="selectable_item_background_general_dark_normal">#ff3c3c3c</color>
+    <color name="selectable_item_background_general_dark_pressed">#ff444444</color>
+    <color name="white">#fff</color>
+    <!-- 主体文字,标题/标签 -->
+    <!-- 内容文字,正文 -->
+    <!-- 辅助文字,提示 -->
+    <!-- 背景色 -->
+    <!-- 按下灰色 -->
+    <!-- 高亮,红棕色 -->
+    <!-- 分割线 -->
+    <!-- other -->
+
+    <!-- wheel -->
+
+    <!-- drop down menu -->
+
+    <!-- position bar -->
+</resources>

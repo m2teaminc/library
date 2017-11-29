@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with STMS Automation System
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_MUSIC_HEADER_MUSIC_M_APPLICATION_NAME -->
+    <!-- IDS_MP_BODY_SOUND_PLAYER -->
+    <string name="sound_player">נגן מוזיקה</string>
+    <!-- IDS_MF_HEADER_COUNT -->
+    <string name="count">ספירה</string>
+    <!-- IDS_COM_BODY_OMADRMDETAILS_DATE -->
+    <!-- IDS_COM_POP_INTERVAL -->
+    <string name="interval">מרווח זמן</string>
+    <!-- IDS_MB_POP_UNLIMITED -->
+    <string name="unlimited">לא מוגבל</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_RIGHT_STATUS -->
+    <string name="right_status">מצב זכויות</string>
+    <!-- IDS_CALL_POP_IMPOSSIBLE -->
+    <string name="impossible">לא אפשרי</string>
+    <!-- IDS_DRM_BODY_RIGHTSTATUS_FORWARDING -->
+    <string name="forwarding">העברה</string>
+    <!-- IDS_KA_HEADER_FROM_M_PERIOD -->
+    <!-- IDS_CLD_OPT_UNTIL_ABB -->
+    <string name="until">עד</string>
+    <!-- IDS_MUSIC_OPT_PLAY_VIA_GROUP_PLAY -->
+    <!-- IDS_CAST_SK4_SHARE_VIA -->
+    <!-- IDS_MUSIC_BUTTON2_SET_AS -->
+    <!-- IDS_ST_MBODY_LISTEN_VIA_BLUETOOTH -->
+    <string name="listen_via_bluetooth">האזן דרך Bluetooth</string>
+    <!-- IDS_DLNA_BODY_ADD_TO_NOW_PLAYING_LIST -->
+    <string name="add_to_nowplaying">הוסף לרשימה המופעלת כעת</string>
+    <!-- IDS_VPL_OPT_LISTEN_VIA_DEVICE -->
+    <string name="listen_via_device">האזן באמצעות המכשיר</string>
+    <!-- IDS_MUSIC_OPT_SAVE_AS_PLAYLIST -->
+    <string name="save_as_playlist">שמור כרשימת השמעה</string>
+    <!-- IDS_CALL_SK_REMOVE -->
+    <!-- IDS_MUISC_OPT_SEARCH -->
+    <!-- IDS_MUSIC_BUTTON_ADD_TO_PLAYLIST -->
+    <string name="add_to_playlist">הוסף לרשימת השמעה</string>
+    <!-- IDS_MUSIC_OPT_ADD_TO_FAVOURITES -->
+    <string name="add_to_favourites">הוסף למועדפים</string>
+    <!-- IDS_MUSIC_OPT_REMOVE_FROM_FAVOURITES_ABB -->
+    <string name="remove_from_favourites">הסר ממועדפים</string>
+    <!-- IDS_KA_BUTTON_EDIT -->
+    <!-- IDS_MUSIC_HEADER_EDIT_TITLE -->
+    <string name="edit_title">עריכת כותרת</string>
+    <!-- IDS_ACCS_SK2_DELETE -->
+    <!-- IDS_MUSIC_OPT_CREATE_PLAYLIST -->
+    <string name="create_playlist">צור רשימת השמעה</string>
+    <!-- IDS_VIDEO_OPT_VIEW_AS_ABB -->
+    <string name="view_as">הצג בתור</string>
+    <string name="list">רשימה</string>
+    <!-- IDS_BR_OPT_THUMBNAIL -->
+    <string name="thumbnail">תמונה ממוזערת</string>
+    <!-- IDS_MUSIC_BUTTON_SHUFFLE -->
+    <string name="shuffle">הפעל בסדר אקראי</string>
+    <!-- IDS_VOLTE_BUTTON_END -->
+    <string name="end">סיים</string>
+    <string name="change_order">שנה סדר</string>
+    <!-- IDS_VPL_OPT_SEND_TO_ANOTHER_DEVICE -->
+    <string name="share_with_other_devices">שלח למכשיר אחר</string>
+    <!-- IDS_COM_OPT_SELECT -->
+    <!-- IDS_MUSIC_OPT_SAMSUNG_MUSIC -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1_2X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1_4X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_VIEW_LYRICS_FOR_TRACKS_STORED_ON_OTHER_DEVICES -->
+    <!-- IDS_MUSIC_OPT_SETTINGS -->
+    <string name="settings">הגדרות</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_AUTO_OFF -->
+    <string name="music_auto_off">כיבוי אוטומטי של מוסיקה</string>
+    <!-- IDS_MP_OPT2_PLAY_SPEED -->
+    <string name="play_speed">מהירות הפעלה</string>
+    <!-- IDS_CLOCK_OPT1_VOICE_CONTROL -->
+    <string name="voice_control">בקרה קולית</string>
+    <!-- IDS_MUSIC_BODY_USE_VOICE_COMMANDS_TO_CONTROL_THE_MUSIC_PLAYER -->
+    <!-- IDS_BR_SK_TABS -->
+    <string name="tabs">כרטיסיות</string>
+    <!-- IDS_MUSIC_BODY_PLAYLISTS -->
+    <!-- IDS_MUSIC_BODY_TRACKS -->
+    <string name="tracks">שירים</string>
+    <!-- IDS_MUSIC_BODY_PLAYLISTS -->
+    <string name="playlists">רשימות השמעה</string>
+    <!-- IDS_MUSIC_BODY_ALBUMS -->
+    <string name="albums">אלבומים</string>
+    <!-- IDS_MUSIC_TAB4_ARTISTS -->
+    <string name="artists">אמנים</string>
+    <!-- IDS_MUSIC_TAB4_GENRES -->
+    <!-- IDS_MUSIC_TAB_COMPOSERS -->
+    <string name="composers">מלחינים</string>
+    <!-- IDS_MUSIC_TAB_YEARS -->
+    <string name="years">שנים</string>
+    <!-- IDS_VIDEO_OPT_FOLDERS_ABB -->
+    <string name="folders">תיקיות</string>
+    <!-- IDS_VR_OPT_RECORDINGS_ABB -->
+    <string name="recordings">הקלטות</string>
+    <!-- IDS_MUSIC_MBODY_FAVOURITE_TRACKS -->
+    <string name="favourite_tracks">רצועות מועדפות</string>
+    <!-- IDS_VOICE_BODY_MOST_PLAYED -->
+    <string name="most_played">הושמע הכי הרבה</string>
+    <!-- IDS_VOICE_BODY_RECENTLY_PLAYED -->
+    <string name="recently_played">הושמעו לאחרונה</string>
+    <!-- IDS_MUSIC_MBODY_RECENTLY_ADDED -->
+    <string name="recently_added">נוספו לאחרונה</string>
+    <string name="default_s_playlists">רשימות השמעה שהוגדרו כברירת מחדל</string>
+    <!-- IDS_MUSIC_HEADER_MY_PLAYLISTS_ABB -->
+    <string name="my_playlists">רשימות ההשמעה שלי</string>
+    <!-- IDS_MUSIC_BUTTON_DOWNLOAD_ALL -->
+    <string name="download_all">הורד הכל</string>
+    <plurals name="NNNtracksinsquare">
+        <!--  IDS_MUSIC_SHEADER_1_TRACK_SELECTED  -->
+        <item quantity="one">נבחר שיר אחד</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_SELECTED_IN_SQUARE  -->
+        <item quantity="other">%d רצועות נבחרו בריבוע מוסיקה</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_TAP_AND_SWIPE_ACROSS_THE_CELLS_IN_THE_MUSIC_SQUARE_TO_CREATE_A_PLAYLIST_BASED_ON_MOOD -->
+    <!-- IDS_CST_SK2_CHECK_ADAPT_SOUND_AGAIN -->
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="after_15_min">לאחר 15 דקות</string>
+    <!-- IDS_MP_BODY_ST_AFTER_30_MIN -->
+    <string name="after_30_min">לאחר 30 דקות</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_ABB -->
+    <string name="after_1_hour">לאחר שעה אחת</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_30_MIN_ABB -->
+    <string name="after_1_hour_30_min">לאחר שעה וחצי</string>
+    <!-- IDS_MUSIC_OPT_AFTER_2_HR_ABB -->
+    <string name="after_2_hour">לאחר שעתיים</string>
+    <!-- IDS_MUSIC_BODY_AFTER_1_MIN -->
+    <string name="after_1_min">לאחר אחת דקות</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_MINS -->
+    <string name="after_n_mins">לאחר %d דקות</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_ABB -->
+    <!-- IDS_MUSIC_BODY_AFTER_1_HR_1_MIN -->
+    <string name="after_1_hr_1_min">לאחר שעה אחת ודקה אחת</string>
+    <!-- IDS_MUSIC_BODY_AFTER_1_HR_PD_MINS -->
+    <string name="after_1_hr_n_mins">לאחר שעה אחת ו-%d דקות</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_HRS -->
+    <string name="after_n_hrs">לאחר %d שעות</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_HRS_1_MIN -->
+    <string name="after_n_hrs_1_min">לאחר %d שעות ודקה אחת</string>
+    <!-- IDS_MUSIC_OPT_AFTER_P1SD_HRS_P2SD_MINS -->
+    <string name="after_n_hrs_n_mins">לאחר %1$d שעות ו-%2$d דקות</string>
+    <!-- IDS_MUSIC_BODY_AUTO_M_SOUNDEFFECT -->
+    <string name="auto">אוטומטי</string>
+    <!-- IDS_MUSIC_BODY_POP -->
+    <string name="pop">פופ</string>
+    <!-- IDS_MUSIC_BODY_ROCK -->
+    <string name="rock">רוק</string>
+    <!-- IDS_MUSIC_BODY_DANCE -->
+    <string name="dance">דאנס</string>
+    <!-- IDS_MUSIC_BODY_SOUNDEFFECTS_JAZZ -->
+    <!-- IDS_MP_BODY_SOUNDEFFECT_CLASSIC -->
+    <string name="classic">קלאסי</string>
+    <!-- IDS_MUSIC_BODY_NORMAL_M_SOUNDEFFECT -->
+    <string name="normal">רגיל</string>
+    <!-- IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2 -->
+    <string name="vocal">שירה</string>
+    <!-- IDS_MUSIC_MBODY_BASS_BOOST -->
+    <string name="bass_boost">מגביר בס</string>
+    <!-- IDS_MUSIC_BODY_TREBLE_BOOST -->
+    <!-- IDS_MUSIC_HEADER_TUBE_AMP_M_EQUALISER_ABB -->
+    <!-- IDS_MUSIC_OPT_VIRTUAL_71_CH -->
+    <!-- IDS_MUSIC_BODY_EXTERNALISATION_M_SOUNDEFFECT -->
+    <!-- IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT -->
+    <string name="cafe">קפה</string>
+    <!-- IDS_MUSIC_BODY_CONCERT_HALL_M_SOUNDEFFECT -->
+    <string name="concert_hall">אולם קונצרטים</string>
+    <!-- IDS_MUSIC_BODY_CUSTOM -->
+    <string name="custom">מותאם</string>
+    <!-- IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY -->
+    <!-- IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_BLUETOOTH -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_LINE_OUT -->
+    <!-- IDS_MUSIC_TPOP_SOUND_EFFECTS_ONLY_AVAILABLE_WHILE_HEADPHONES_CONNECTED -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_HDMI -->
+    <!-- IDS_MUSIC_POP_3D_EFFECT_NOT_SUPPORTED_BY_SPEAKER -->
+    <!-- IDS_MEDIABR_TAB_BASIC -->
+    <string name="basic">בסיסי</string>
+    <!-- IDS_DLNA_HEADER_ADVANCED -->
+    <string name="advanced">מתקדם</string>
+    <!-- IDS_MUSIC_BUTTON_EFFECT -->
+    <string name="effect">אפקט</string>
+    <!-- IDS_MUSIC_HEADER_SMALL_ROOM_M_REVERB_ABB -->
+    <string name="small_room">חדר קטן</string>
+    <!-- IDS_MUSIC_HEADER_LARGE_ROOM_M_REVERB_ABB -->
+    <string name="large_room">חדר גדול</string>
+    <string name="none">ללא</string>
+    <!-- IDS_MUSIC_OPT_TREBLE_M_EQUALISER -->
+    <string name="treble">טרבל</string>
+    <!-- IDS_MUSIC_OPT_BASS_M_EQUALISER -->
+    <string name="bass">בס</string>
+    <!-- IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2 -->
+    <!-- IDS_MUSIC_BODY_INSTRUMENT -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_TIMBRE_OF_A_TUBE_AMP_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_EFFECT_OF_VIRTUAL_71_CHANNEL_SURROUND_SOUND_ABB -->
+    <!-- IDS_MUSIC_TPOP_AUTO_MODE_DISABLED -->
+    <!-- IDS_MUSIC_SBODY_NO_EFFECTS -->
+    <string name="no_effects">ללא אפקטים.</string>
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_SMALL_SPACE_EG_A_STUDIO_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_LARGE_ROOM_EG_A_THEATRE_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_CONCERT_HALL_ABB -->
+    <!-- IDS_MUSIC_TPOP_EQUALISER_SETTINGS_WILL_BE_APPLIED_WHEN_MUSIC_PLAYED -->
+    <!-- IDS_MUSIC_BUTTON_3D_CHN -->
+    <!-- IDS_MUSIC_BODY_BASS_M_EQUALISER -->
+    <!-- IDS_MUSIC_BODY_CLARITY_M_SOUNDEFFECT -->
+    <string name="new_soundalive_clarity">צלילות</string>
+    <!-- IDS_MUSIC_MBODY_SMART_VOLUME -->
+    <string name="smart_volume">עוצמת קול חכמה</string>
+    <!-- IDS_MUSIC_HEADER_SMART_VOLUME_IS_ENABLED -->
+    <string name="smart_volume_on">עוצמת קול חכמה מופעלת</string>
+    <!-- IDS_MUSIC_TPOP_VOLUME_OF_ALL_TRACKS_WILL_BE_ADJUSTED_TO_CURRENT_LEVEL_HPD -->
+    <!-- IDS_MUSIC_TPOP_VOLUME_OF_ALL_TRACKS_WILL_BE_ADJUSTED_TO_CURRENT_LEVEL_HPDP_ABB -->
+    <!-- IDS_MUSIC_BODY_AUTOMATICALLY_ADJUST_EACH_TRACKS_VOLUME_TO_AN_EQUAL_LEVEL -->
+    <!-- IDS_MUSIC_MBODY_K2HD_JPN -->
+    <!-- IDS_MUSIC_HEADER_K2HD_JPN -->
+    <!-- IDS_MUSIC_POP_REOPEN_MUSIC_TO_ENABLE_K2HD_JPN -->
+    <!-- IDS_MUSIC_SBODY_IMPROVE_AUDIO_PLAYBACK_QUALITY_JPN -->
+    <string name="improve_audio_quality">Improve audio playback quality.</string>
+    <!-- IDS_ST_HEADER_SAMSUNG_LINK_M_APPLICATION -->
+    <!-- IDS_MUSIC_HEADER_REGISTER_DEVICE -->
+    <string name="register_device_header">רשום את המכשיר</string>
+    <!-- IDS_GALLERY_BODY_REGISTER_YOUR_DEVICE_WITH_SAMSUNG_LINK_REGISTERING_ALLOWS_YOU_TO_VIEW_CONTENT_ON_CONNECTED_DEVICES_DESELECT_TO_DEREGISTER_YOUR_DEVICE -->
+    <string name="nearby_devices">מכשירים קרובים</string>
+    <!-- IDS_DLNA_BODY_MY_DEVICE -->
+    <string name="my_device">המכשיר שלי</string>
+    <string name="change_player">שנה נגן</string>
+    <!-- IDS_DLNA_POP_FAILED_TO_CONNECT_NETWORK -->
+    <string name="failed_to_connect_network">החיבור לרשת נכשל.</string>
+    <string name="unable_to_play">לא ניתן להפעיל</string>
+    <!-- IDS_DLNA_POP_PLAYER_IS_NOT_AVAILABLE_CHECK_THE_NETWORK_STATUS_AND_CONNECTED_DEVICE -->
+    <string name="player_is_not_available_msg">הנגן אינו זמין. בדוק את מצב הרשת ואת המכשיר המחובר.</string>
+    <!-- IDS_MUSIC_OPT_SEARCH_FOR_NEARBY_DEVICES_ABB -->
+    <!-- IDS_DLNA_POP_NO_DEVICES_FOUND_SCANNING_FOR_NEARBY_DEVICES_WILL_continue_s_IN_BACKGROUND -->
+    <!-- IDS_MUSIC_POP_NEARBY_DEVICES_FOUND -->
+    <string name="nearby_devices_found">נמצאו מכשירים קרובים.</string>
+    <!-- IDS_MUSIC_POP_NETWORK_ERROR_OCCURRED_TRY_AGAIN -->
+    <string name="err_network_error_occurred_msg">אירעה שגיאת רשת. נסה שוב.</string>
+    <string name="file_size">גודל קובץ</string>
+    <string name="available_devices">מכשירים זמינים</string>
+    <!-- IDS_KA_HEADER_SELECT_DEVICE -->
+    <string name="select_device">בחר מכשיר</string>
+    <!-- IDS_DLNA_POP_UNABLE_TO_USE_FAST_FORWARD_AND_REWIND_WHEN_NEARBY_DEVICES_ARE_ENABLED -->
+    <!-- IDS_MUSIC_BODY_AFTER_YOU_SHARE_TRACKS_WITH_THE_CONNECTED_DEVICES_THEY_WILL_BE_SHOWN_HERE -->
+    <!-- IDS_DLNA_POP_DISCONNECTED_FROM_PS_CHECK_THE_NETWORK_STATUS_AND_THE_CONNECTED_DEVICE -->
+    <string name="disconnected_devices">מנותק מ-%s. בדוק את מצב הרשת ואת המכשיר המחובר.</string>
+    <!-- IDS_SMR_SBODY_VIA_HOME_NETWORK_M_STATUS -->
+    <string name="via_home_network">באמצעות רשת הבית</string>
+    <!-- IDS_SMR_SBODY_VIA_SCREEN_MIRRORING_M_STATUS -->
+    <!-- IDS_ST_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WI_FI_IS_OFF_TAP_CHANGE_PLAYER_AGAIN_OR_ENABLE_SCREEN_MIRRORING_MSG -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WLAN_IS_OFF_MSG_CHN -->
+    <!-- IDS_VIDEO_BODY_NO_DEVICES_HAVE_BEEN_FOUND_ENABLE_THE_SHARE_CONTENT_FUNCTION_ON_YOUR_NEARBY_DEVICES_AND_THEN_TAP_THE_REFRESH_ICON_ABOVE -->
+    <!-- IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB -->
+    <string name="unable_to_scan_header">לא ניתן לבצע סריקה לאיתור מכשירים</string>
+    <!-- IDS_ST_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WI_FI_IS_OFF_TO_SCAN_FOR_CONNECTED_DEVICES_MSG -->
+    <!-- IDS_HOMESYNC_BODY_SCREEN_MIRRORING_M_FEATURE_NAME -->
+    <!-- IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB -->
+    <!-- IDS_ST_POP_CHANGE_THE_TV_SOURCE_TO_HDMI_TO_DISPLAY_CONTENT_VIA_THE_ALLSHARE_CAST_DONGLE -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_PORTABLE_WLAN_HOTSPOT_IS_ENABLED_CHN -->
+    <!-- IDS_SMR_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WI_FI_DIRECT_IS_ENABLED -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WLAN_DIRECT_IS_ENABLED_CHN -->
+    <!-- IDS_SMR_TPOP_PLAYER_CHANGED_DISCONNECT_CURRENT_CONNECTION -->
+    <!-- IDS_NFC_POP_UNABLE_TO_SCAN_FOR_DEVICES_THAT_ARE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_SIDESYNC_IS_RUNNING -->
+    <!-- IDS_NFC_POP_UNABLE_TO_SCAN_FOR_DEVICES_THAT_ARE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_POWER_SAVING_MODE_IS_ENABLED -->
+    <!-- IDS_SMR_POP_UNABLE_TO_OPEN_THIS_FILE_VIA_SCREEN_MIRRORING -->
+    <!-- IDS_SMR_POP_UNABLE_TO_CHANGE_PLAYER_WHILE_GROUP_PLAY_IS_RUNNING -->
+    <!-- IDS_SMR_BODY_UNABLE_TO_CHANGE_PLAYER_WHILE_ALLTOGETHER_IS_OPEN_ALLTOGETHER_WILL_BE_CLOSED -->
+    <!-- IDS_MUSIC_HEADER_DEVICES -->
+    <string name="devices">מכשירים</string>
+    <!-- IDS_MUSIC_HEADER_REGISTERED_DEVICES_ABB -->
+    <string name="registered_devices">מכשירים רשומים</string>
+    <!-- IDS_MUSIC_OPT_SEARCH_FOR_REGISTERED_DEVICES_TTS -->
+    <!-- IDS_MUSIC_SBODY_NOT_CONNECTED -->
+    <string name="not_connected">לא מחובר</string>
+    <!-- IDS_MUSIC_BODY_WI_FI -->
+    <!-- IDS_ST_BODY_WLAN_CHN -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_PLAY_THIS_FILE_WHILE_IT_IS_BEING_PLAYED_ON_ANOTHER_DEVICE -->
+    <!-- IDS_MUSIC_POP_SEARCHING_ING -->
+    <string name="search_device">מחפש\u2026</string>
+    <!-- IDS_MUSIC_TAB4_MUSIC_SQUARE -->
+    <!-- IDS_MUSIC_BODY_CHANGE_HORIZONTAL_AXIS -->
+    <string name="change_horizontal_axis">שנה ציר אופקי</string>
+    <!-- IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE -->
+    <string name="mood_passionate">נלהב</string>
+    <string name="mood_joyful">עליז</string>
+    <!-- IDS_MUSIC_BODY_EXCITING_M_ADJECTIVE -->
+    <string name="mood_exciting">מרגש</string>
+    <!-- IDS_MUSIC_BODY_CALM_M_ADJECTIVE -->
+    <string name="calm">רגוע</string>
+    <!-- IDS_MUSIC_BODY_OLD -->
+    <string name="old">ישן</string>
+    <!-- IDS_MUSIC_BODY_NEW_M_LATEST -->
+    <string name="moods">מצבי רוח</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_SQUARE_ANALYSES_THE_CHARACTERISTICS_OF_MUSIC_FILES_STORED_ON_YOUR_DEVICE_MSG -->
+    <!-- IDS_MUSIC_POP_SELECTED_LIST_EMPTY -->
+    <string name="selected_list_empty">הרשימה שנבחרה ריקה.</string>
+    <!-- IDS_MUSIC_POP_TAP_TO_EXPAND_THE_LIST -->
+    <string name="tap_to_expand_the_list">הקש כדי להרחיב את הרשימה.</string>
+    <!-- IDS_MUSIC_POP_TAP_TO_COLLAPSE_THE_LIST -->
+    <string name="tap_to_collapse_the_list">הקש כדי לכווץ את הרשימה.</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="artist">אמן</string>
+    <!-- IDS_MUSIC_BODY_TITLE -->
+    <string name="title">כותרת</string>
+    <!-- IDS_MUSIC_BODY_ALBUM -->
+    <string name="album">אלבום</string>
+    <!-- IDS_MUSIC_BODY_TRACK_LENGTH -->
+    <string name="track_length">אורך רצועה</string>
+    <!-- IDS_MUSIC_BODY_GENRE -->
+    <string name="genre">סגנון</string>
+    <!-- IDS_MUSIC_BODY_DETAILS_RECORDING_DATE -->
+    <string name="recording_date">תאריך הקלטה</string>
+    <!-- IDS_COM_BODY_CONTENTFILEDETAIL_TRACK_NUMBER -->
+    <string name="track_number">מספר רצועה</string>
+    <!-- IDS_MUSIC_MBODY_FORMAT -->
+    <string name="format">סוג קובץ</string>
+    <!-- IDS_MUSIC_BODY_BIT_DEPTH -->
+    <string name="bit_depth">עומק סיביות</string>
+    <!-- IDS_MUSIC_BODY_SAMPLING_RATE -->
+    <string name="sampling_rate">קצב דגימה</string>
+    <!-- IDS_KA_BODY_SIZE -->
+    <string name="size">גודל</string>
+    <!-- IDS_DLNA_BODY_PATH -->
+    <string name="path">נתיב</string>
+    <!-- IDS_COM_BODY_MB -->
+    <!-- IDS_COM_BODY_KB -->
+    <!-- IDS_COM_BODY_B -->
+    <!-- IDS_HELP_BODY_TAGS_ABB -->
+    <string name="tags">תגיות</string>
+    <!-- IDS_MUSIC_BODY_PART_OF_THE_CONTENT_PROVIDED_BY_ALL_MEDIA_GUIDE -->
+    <!-- IDS_MUSIC_HEADER_SELECT_ALBUM -->
+    <string name="select_album">בחר אלבום</string>
+    <!-- IDS_MUSIC_BODY_TRACK_LIST -->
+    <string name="track_list">רשימת הרצועות</string>
+    <!-- IDS_MUSIC_OPT_LYRICS_ABB -->
+    <string name="lyrics">מילים</string>
+    <!-- IDS_MUSIC_BODY_REVIEW -->
+    <string name="review">סקירה</string>
+    <!-- IDS_MUSIC_BODY_BIOGRAPHY -->
+    <string name="biography">ביוגרפיה</string>
+    <!-- IDS_MUSIC_BODY_DISCOGRAPHY -->
+    <string name="discography">דיסקוגרפיה</string>
+    <!-- IDS_MUSIC_BODY_CREDITS -->
+    <string name="credits">קרדיטים</string>
+    <!-- IDS_MUSIC_BODY_TRACK -->
+    <string name="track">רצועה</string>
+    <!-- IDS_EMAIL_BODY_OTHERS -->
+    <string name="others">אחרים</string>
+    <!-- IDS_MUSIC_HEADER_DISC_PD -->
+    <string name="disc_n">תקליטור ‎%d</string>
+    <!-- IDS_MUSIC_HEADER_SIMILAR_ALBUMS -->
+    <string name="similar_albums">אלבומים דומים</string>
+    <!-- IDS_MUSIC_HEADER_SIMILAR_ARTISTS -->
+    <string name="similar_artists">אמנים דומים</string>
+    <!-- IDS_IDLE_HEADER_LOADING_ING_ABB -->
+    <string name="loading">טוען…</string>
+    <!-- IDS_GC_BODY_CONNECTING_ING -->
+    <string name="connecting">מתחבר\u2026</string>
+    <!-- IDS_ST_POP_FINDING_ING -->
+    <string name="finding">מוצא\u2026</string>
+    <!-- IDS_MUSIC_POP_GET_SIGNATURE_FROM_CURRENT_AUDIO_FILE -->
+    <!-- IDS_PB_POP_SAVING_ING -->
+    <string name="saving">שומר\u2026</string>
+    <!-- IDS_BR_POP_DATA_CONNECTION_FAILED -->
+    <string name="err_data_connection_failed">חיבור הנתונים נכשל.</string>
+    <string name="unable_to_save_file">לא ניתן לשמור קובץ.</string>
+    <!-- IDS_MUSIC_TPOP_RETRIEVING_ADDITIONAL_TAG_DATA_FOR_CURRENT_TRACK_ING -->
+    <!-- IDS_SIDL_SK3_SET_default_s -->
+    <string name="set_default_s">הגדר ברירתמחדל</string>
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPE_ABB -->
+    <string name="encoding_type">סוג קידוד</string>
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPES_ARE_CHARACTER_SETS_THAT_THE_TRACKS_DETAILS_ARE_DISPLAYED_IN_MSG -->
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPES_ARE_CHARACTER_SETS_THAT_THE_TRACKS_DETAILS_ARE_DISPLAYED_IN_SET_THE_ENCODING_TYPE_TO_VIEW_THE_DETAILS_MSG -->
+    <!-- IDS_MUSIC_POP_MUSIC_DATA_HAS_BEEN_SAVED_IN_UNICODE_HUTF_8 -->
+    <string name="edit_meta_saved_unicode">נתוני מוסיקה נשמרו ב-Unicode ‏(UTF-8)</string>
+    <!-- IDS_ACCS_POP_SAVED -->
+    <string name="saved_dot">נשמר</string>
+    <!-- IDS_COM_POP_WANT_TO_UNLOCK_IT_NOW_Q -->
+    <string name="want_unlock_q">האם ברצונך לבטל את נעילתו כעת?</string>
+    <!-- IDS_MP_POP_THIS_ITEM_IS_NO_LONGER_AVAILABLE -->
+    <string name="no_longer_available">פריט זה אינו זמין עוד.</string>
+    <!-- IDS_JAVA_POP_DRM_DELETE_MSG -->
+    <string name="want_delete_q">האם ברצונך למחוק פריט זה?</string>
+    <!-- IDS_MP_POP_PLAY_NOW_QUESTION -->
+    <string name="play_now_q">להפעיל כעת?</string>
+    <!-- IDS_MUSIC_POP_FAILED_TO_ACQUIRE_LICENCE -->
+    <string name="failed_acquire_license">השגת הרישיון נכשלה.</string>
+    <!-- IDS_MUSIC_POP_UNABLE_TO_ACCESS_SERVER_WHILE_ROAMING_OR_IN_FLIGHT_MODE_KOR -->
+    <!-- IDS_VPL_POP_SERVER_EXPERIENCING_PROBLEMS_TRY_LATER -->
+    <string name="err_server_problem_msg">יש בעיות בשרת. נסה מאוחר יותר.</string>
+    <!-- IDS_MUSIC_BODY_ACQUIRING_LICENCE_ING -->
+    <string name="acquiring_license">משיג רישיון\u2026</string>
+    <!-- IDS_MUSIC_BODY_NO_DATA_CONNECTIVITY -->
+    <string name="no_data_connectivity">אין קישוריות נתונים</string>
+    <!-- IDS_VPL_POP_SORRY_LICENCE_EXPIRED -->
+    <string name="error_sorry_license_expired">מצטערים, הרישיון פג.</string>
+    <plurals name="drm_can_use_n_times">
+        <!--  IDS_COM_POP_RENDER_INFO_CAN_USE_1_TIME  -->
+        <item quantity="one">באפשרותך להשתמש ב-%s פעם אחת.</item>
+        <!--  IDS_COM_POP_RENDER_INFO_CAN_USE_N_TIMES  -->
+        <item quantity="other">באפשרותך להשתמש ב-%1$s ‏%2$d פעמים.</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_ON -->
+    <!-- IDS_MUSIC_BODY_MUSIC_PLAYER -->
+    <string name="tts_music_player">מוסיקה</string>
+    <!-- IDS_MP_OPT_GOTOMUSIC -->
+    <string name="tts_go_to_music">עבור למוסיקה</string>
+    <!-- IDS_MUSIC_BODY_REWIND_T_TTS -->
+    <string name="tts_rewind">הרץ אחורה</string>
+    <!-- IDS_MUSIC_BODY_FAST_FORWARD_T_TTS -->
+    <string name="tts_fast_forward">הרץ קדימה</string>
+    <!-- IDS_MUSIC_BODY_PREVIOUS_M_SONG -->
+    <string name="tts_previous">הקודם</string>
+    <!-- IDS_MUSIC_BODY_NEXT_M_SONG -->
+    <!-- IDS_VOICE_HEADER_PLAY_ABB -->
+    <string name="tts_pause">השהה</string>
+    <!-- IDS_MUSIC_OPT_VOLUME -->
+    <string name="volume">עוצמת צלצול</string>
+    <!-- IDS_MUSIC_TBOPT_SHUFFLE -->
+    <!-- IDS_MUSIC_BODY_SHUFFLE_ON -->
+    <string name="shuffle_on">ערבוב פועל</string>
+    <!-- IDS_MUSIC_BODY_SHUFFLE_OFF -->
+    <string name="shuffle_off">ערבוב כבוי</string>
+    <!-- IDS_MUSIC_BUTTON_REPEAT -->
+    <string name="tts_repeat">חזור על</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_1 -->
+    <string name="tts_repeat_1">חזרה 1</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_ALL -->
+    <string name="tts_repeat_all">חזרה על הכל</string>
+    <!-- IDS_MUSIC_BODY_REPEAT_OFF -->
+    <string name="tts_repeat_off">חזרה מבוטלת</string>
+    <!-- IDS_MUSIC_BODY_VOLUME_UP -->
+    <string name="volume_up">הגברת עוצמת קול</string>
+    <!-- IDS_MUSIC_BODY_VOLUME_DOWN -->
+    <string name="volume_down">החלש עוצמה</string>
+    <!-- IDS_VPL_POP_MUTE -->
+    <string name="tts_volume_mute">השתק</string>
+    <!-- IDS_PB_BODY_PLUS -->
+    <string name="plus">פלוס</string>
+    <!-- IDS_PB_BODY_MINUS -->
+    <string name="minus">מינוס</string>
+    <!-- IDS_MUSIC_MBODY_FAVOURITE -->
+    <string name="tts_favourite">פריט מועדף</string>
+    <!-- IDS_MUSIC_BODY_NOT_MARKED_AS_A_FAVOURITE -->
+    <string name="tts_favourite_not_marked">לא סומן כמועדף.</string>
+    <!-- IDS_MUSIC_BODY_MARKED_AS_A_FAVOURITE -->
+    <string name="tts_favourite_marked">סומן כמועדף.</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <!-- IDS_IMGE_BODY_CONTROL_BAR_T_TTS -->
+    <string name="control_bar">סרגל בקרה</string>
+    <!-- IDS_VPL_BODY_SWIPE_WITH_TWO_FINGERS_TO_CONTROL_T_TTS -->
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <!-- IDS_CAM_BUTTON_LIST -->
+    <!-- IDS_MUSIC_SK3_LIST_VIEW -->
+    <string name="tts_list_view">תצוגת רשימה</string>
+    <!-- IDS_ST_OPT_HEADER_T_TTS -->
+    <string name="tts_header">כותרת</string>
+    <!-- IDS_PB_OPT_MORE_OPTIONS -->
+    <string name="tts_more_options">אפשרויות נוספות</string>
+    <!-- IDS_COM_BODY_SELECTED_T_TTS -->
+    <string name="tts_selected">נבחר</string>
+    <!-- IDS_BT_BODY_NOT_SELECTED -->
+    <string name="tts_not_selected">לא נבחר</string>
+    <!-- IDS_MUSIC_BODY_PS_TAB_T_TTS -->
+    <!-- IDS_MUSIC_BODY_PS_TAB_CURRENTLY_SET_T_TTS -->
+    <!-- IDS_MUSIC_OPT_CELL_TTS -->
+    <string name="cell">תא</string>
+    <!-- IDS_MUSIC_HEADER_ADD_TO_PLAYLIST -->
+    <!-- IDS_ACCS_BODY_DOUBLE_TAP_TO_EXPAND_THE_LIST_T_TTS -->
+    <string name="tts_double_tap_to_expand_the_list">הקש הקשה כפולה להרחבת הרשימה</string>
+    <!-- IDS_ACCS_BODY_DOUBLE_TAP_TO_COLLAPSE_THE_LIST_T_TTS -->
+    <string name="tts_double_tap_to_collapse_the_list">הקש הקשה כפולה כדי לכווץ את הרשימה.</string>
+    <!-- IDS_CLOCK_BODY_PD_HOURS -->
+    <string name="hours_s">%d שעות</string>
+    <!-- IDS_CLOCK_BODY_PD_MINUTES -->
+    <string name="s_minutes">%d דקות</string>
+    <!-- IDS_CST_BODY_PD_SECONDS -->
+    <!-- IDS_MUSIC_BODY_TAB_P1SD_OF_P2SD_T_TTS -->
+    <!-- IDS_MF_BODY_MEGABYTES_T_TTS -->
+    <!-- IDS_MF_BODY_KILOBYTES_T_TTS -->
+    <string name="tts_size_kb">קילו בייט</string>
+    <!-- IDS_MF_BODY_BYTES_T_TTS -->
+    <!-- IDS_GALLERY_OPT_PRIVATE_M_CONTENT -->
+    <string name="tts_private">פרטי</string>
+    <!-- IDS_MUSIC_OPT_ALBUM_COVER -->
+    <string name="albumcover">עטיפת אלבום</string>
+    <!-- IDS_ST_BODY_SEEK_CONTROL -->
+    <string name="seek_control">בקרת חיפוש</string>
+    <!-- IDS_MUSIC_TBOPT_P1SS_OF_P2SS -->
+    <string name="n_of_n">%1$s מתוך %2$s</string>
+    <!-- IDS_COM_BODY_1_SECOND -->
+    <!-- IDS_VR_BODY_1_MINUTE_TTS -->
+    <!-- IDS_VR_BODY_1_HOUR_TTS -->
+    <!-- IDS_GCTS_OPT_P1SS_BUTTON_TTS -->
+    <string name="button_s">לחצן %1$s</string>
+    <!-- IDS_MUSIC_BODY_DOUBLE_TAP_TO_CREATE_PLAYLIST_TTS -->
+    <string name="tts_double_tap_to_create_playlist">הקש הקשה כפולה כדי ליצור רשימת השמעה.</string>
+    <!-- IDS_MUSIC_SBODY_DISABLED_M_STATUS -->
+    <!-- MIDS_OTS_TBOPT_EDIT_BOX -->
+    <string name="tts_edit_box">תיבת עריכה</string>
+    <!-- WDS_WMGR_TBOPT_EDITING -->
+    <string name="tts_editing">עריכה</string>
+    <!-- IDS_ST_TBOPT_NAVIGATE_UP -->
+    <!-- IDS_GALLERY_OPT_MOVE_TO_PRIVATE -->
+    <string name="move_to_private">העבר לתיקייה פרטי</string>
+    <!-- IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE -->
+    <string name="remove_from_personal_page">הסר מרשימת פרטי</string>
+    <!-- IDS_COM_POP_MOVING -->
+    <string name="moving">מעביר\u2026</string>
+    <!-- IDS_MP_POP_PROCESSING_ING -->
+    <string name="processing">מעבד\u2026</string>
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE -->
+    <string name="s_moved_to_private">%d אלבומים הועברו לתיקייה פרטי.</string>
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_P1SD_ITEMS_REMOVED_FROM_PRIVATE_AND_MOVED_TO_P2SS -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_REMOVED_FROM_PRIVATE_AND_MOVED_TO_PS -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_REMOVED_FROM_PRIVATE -->
+    <string name="s_removed_from_private">%d פריטים הוסרו מהתיקייה פרטי.</string>
+    <!-- IDS_GALLERY_TPOP_1_ITEM_REMOVED_FROM_PRIVATE -->
+    <!-- IDS_MUSIC_POP_THE_NEXT_TRACK_ON_THE_LIST_WILL_BE_PLAYED_IF_THE_CURRENT_PLAYING_TRACK_IS_MOVED_TO_PRIVATE -->
+    <!-- IDS_MUSIC_POP_THE_NEXT_TRACK_ON_THE_LIST_WILL_BE_PLAYED_IF_THE_CURRENT_PLAYING_TRACK_IS_REMOVED_FROM_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE_OTHER_ITEM_ALREADY_EXISTS_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEM_ALREADY_EXISTS_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE -->
+    <string name="add_n_item_n_item_exist">%d פריטים הועברו לתיקייה פרטי. כבר יש פריטים בתיקייה פרטי.</string>
+    <!-- IDS_MF_POP_APPLY_TO_ALL_ITEMS -->
+    <string name="apply_to_all_items">החל על כל הפריטים</string>
+    <!-- IDS_MUSIC_HEADER_RENAME -->
+    <string name="rename">שנה שם</string>
+    <!-- IDS_CAM_POP_OVERWRITE -->
+    <string name="overwrite">החלף</string>
+    <!-- IDS_MF_POP_PS_CANNOT_BE_COPIED_THERE_IS_ALREADY_A_FILE_WITH_THIS_NAME_IN_THE_DESTINATION_FOLDER -->
+    <string name="error_already_exist_file_copy">לא ניתן להעתיק את %s. בתיקיית היעד כבר קיים קובץ בשם זה.</string>
+    <!-- IDS_GALLERY_HEADER_FILE_NAME_IN_USE_ABB -->
+    <string name="file_name_in_use">שם הקובץ כבר נמצא בשימוש</string>
+    <!-- IDS_GALLERY_BUTTON_REPLACE_ABB -->
+    <string name="replace">החלף</string>
+    <!-- IDS_ST_HEADER_SELECT_SIM_CARD -->
+    <string name="select_sim">בחר כרטיס SIM</string>
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HCDMA -->
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HGSM -->
+    <!-- IDS_MUSIC_POP_CHECKING_LICENCE_ING_KOR -->
+    <string name="checking_licence">בודק את הרישיון\u2026</string>
+    <!-- IDS_MUSIC_MBODY_RESET_LICENCES_KOR -->
+    <string name="reset_licences">אפס רישיונות</string>
+    <!-- IDS_MUSIC_POP_LICENCES_RESET_KOR -->
+    <string name="licences_reset">איפוס רישיונות.</string>
+    <!-- IDS_MUSIC_POP_UNABLE_TO_ACCESS_SERVER_WHILE_ROAMING_OR_IN_FLIGHT_MODE_KOR -->
+    <!-- IDS_MUSIC_OPT_MP3_RINGTONE_KOR_LGT -->
+    <string name="mp3_ringtone">MP3 ringtone</string>
+    <!-- IDS_MUSIC_BODY_DOWNLOAD_MUSIC_FROM_BIGPOND -->
+    <!-- IDS_KNOX_MBODY_KNOX -->
+    <!-- IDS_KNOX_TAB4_PERSONAL_MODE -->
+    <string name="personal_mode">מצב \'אישי\'</string>
+    <!-- IDS_KNOX_OPT_MOVE_TO_KNOX -->
+    <!-- IDS_KNOX_OPT_MOVE_TO_PERSONAL_MODE -->
+    <string name="move_to_personal_mode">העבר למצב אישי</string>
+    <!-- IDS_KNOX_TPOP_1_ITEM_MOVED_TO_KNOX -->
+    <!-- IDS_KNOX_TPOP_PD_ITEMS_MOVED_TO_KNOX -->
+    <!-- IDS_COM_POP_ERROR -->
+    <string name="error">שגיאה</string>
+    <string name="not_enough_memory_popup">אין די זיכרון. מחק כמה קבצים</string>
+    <!-- IDS_IDLE_TPOP_UNABLE_TO_OPEN_APPLICATION_DELETE_SOME_FILES_MSG -->
+    <!-- IDS_IDLE_TPOP_NOT_ENOUGH_SPACE_IN_DEVICE_STORAGE_MSG -->
+    <string name="not_enough_memory_toast">אין די שטח פנוי באחסון של המכשיר. מחק פריטים אחדים ונסה שוב.</string>
+    <!-- IDS_DM_BUTTON_GO_TO_STORAGE_ABB -->
+    <string name="go_to_storage">עבור אל \'אחסון\'</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY -->
+    <string name="err_not_enough_memory">אין די זיכרון.</string>
+    <!-- IDS_SH_POP_SOME_ITEMS_CANNOT_BE_MOVED -->
+    <string name="error_move_failed">לא ניתן להעביר חלק מהפריטים.</string>
+    <!-- IDS_KNOX_TPOP_FAILED_TO_MOVE -->
+    <string name="error_failed_to_move">ההעברה נכשלה.</string>
+    <!-- IDS_KNOX_TPOP_1_ITEM_MOVED_TO_PS -->
+    <!-- IDS_KNOX_TPOP_P1SD_ITEMS_MOVED_TO_P2SS -->
+    <!-- IDS_KNOX_TPOP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_MOVED_AT_ONE_TIME_HPD_HAS_BEEN_EXCEEDED_MSG -->
+    <string name="error_maximum_file_moved">חרגת מהמספר המרבי של קבצים (%d) שניתן להעביר בפעם אחת. בטל את הבחירה בקבצים אחדים ונסה שוב.</string>
+    <!-- IDS_MUSIC_BUTTON_FROM_THE_BEGINNING -->
+    <string name="from_beginning">מההתחלה</string>
+    <!-- IDS_MUSIC_BUTTON_AUTO_RECOMMENDATIONS -->
+    <string name="auto_recommendation">המלצות אוטומטיות</string>
+    <!-- IDS_PB_BODY_AUTO_RECOMMENDATIONS_CAN_EXTRACT_THE_HIGHLIGHTS_FROM_SOUND_FILES -->
+    <!-- IDS_COM_BODY_PROCESSING_ING -->
+    <!-- IDS_MUSIC_POP_AUTO_RECOMMENDATION_DOES_NOT_SUPPORT_THIS_AUDIO_FILE -->
+    <!-- IDS_BT_HEADER_UNKNOWN_ERROR -->
+    <string name="error_unknown">שגיאה לא ידועה</string>
+    <!-- IDS_MUSIC_BUTTON2_SET_AS -->
+    <string name="option_set_as">הגדר כ</string>
+    <!-- IDS_MUSIC_POP_RINGTONE_ADDED -->
+    <string name="ringtone_added">צלצול נוסף.</string>
+    <!-- IDS_MUSIC_POP_PHONE_RINGTONE -->
+    <string name="phone_ringtone">צלצול טלפון</string>
+    <!-- IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE -->
+    <string name="caller_ringtone">צלצול מתקשר</string>
+    <!-- IDS_CLOCK_HEADER_ALARM_TONE_ABB -->
+    <string name="alarm_tone">צליל התראה</string>
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HSLOT_1_CHN_CTC -->
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HSLOT_2_CHN_CTC -->
+    <!-- IDS_MUSIC_HEADER_UNABLE_TO_FIND_ITEM -->
+    <string name="unable_to_find_item">לא ניתן למצוא את הפריט</string>
+    <!-- IDS_MF_NPBODY_NO_RESULTS_FOUND -->
+    <!-- IDS_MUSIC_NPBODY_NO_TRACKS -->
+    <string name="no_tracks">אין רצועות</string>
+    <!-- IDS_MUSIC_BODY_NO_ALBUMS -->
+    <string name="no_albums">אין אלבומים</string>
+    <!-- IDS_MUSIC_BODY_NO_ARTISTS -->
+    <string name="no_artists">אין אמנים</string>
+    <!-- IDS_MUSIC_BODY_NO_COMPOSERS -->
+    <string name="no_composers">אין מלחינים</string>
+    <!-- IDS_MUSIC_BODY_NO_GENRES -->
+    <string name="no_genres">אין ז\'אנרים</string>
+    <!-- IDS_MUSIC_BODY_NO_PLAYLISTS -->
+    <string name="no_playlists">אין רשימות השמעה</string>
+    <!-- IDS_MUSIC_BODY_NO_YEARS -->
+    <string name="no_years">אין שנים</string>
+    <!-- IDS_MUSIC_BODY_NO_FOLDERS -->
+    <string name="no_folders">אין תיקיות</string>
+    <!-- IDS_IDLE_BODY_NO_SONGS_PLAYING -->
+    <string name="no_songs_playing">אין שירים מושמעים</string>
+    <!-- IDS_KA_BODY_NO_MUSIC_FILES -->
+    <string name="no_music_files">אין קובצי מוסיקה</string>
+    <!-- IDS_VR_NPBODY_NO_RECORDINGS_M_VOICE -->
+    <string name="no_recordings">אין הקלטות</string>
+    <!-- IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_BE_CONNECTED_TO_A_WLAN_TO_SCAN_FOR_NEARBY_DEVICES_MSG_CHN -->
+    <!-- IDS_MUSIC_BODY_NO_DEVICES_FOUND_NENABLE_SHARE_CONTENT_ON_YOUR_NEARBY_DEVICES -->
+    <!-- IDS_COM_BUTTON_SIGN_IN -->
+    <string name="sign_in">היכנס</string>
+    <!-- IDS_MUSIC_BUTTON_REGISTER_ABB -->
+    <string name="register">הירשם</string>
+    <!-- IDS_MUSIC_HEADER_HOW_TO_REGISTER_ABB -->
+    <string name="how_to_register">כיצד להירשם</string>
+    <!-- IDS_MUSIC_BODY_REGISTER_YOUR_PC_OR_OTHER_DEVICES_TO_ACCESS_YOUR_EXISTING_CONTENT -->
+    <!-- IDS_MUSIC_BODY_REGISTER_THIS_DEVICE_TO_ACCESS_YOUR_CONTENT_WITH_SAMSUNG_LINK -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_SIGN_IN_TO_YOUR_SAMSUNG_ACCOUNT_TO_ACCESS_CONTENT_ON_OTHER_DEVICES -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_SIGN_IN_TO_YOUR_GALAXY_ACCOUNT_TO_ACCESS_CONTENT_ON_OTHER_DEVICES_GALAXY_JPN -->
+    <string name="registration_guide">מדריך הרשמה</string>
+    <!-- IDS_BR_BODY_LOAD_CONTENTS -->
+    <string name="s_link_load_the_content">טען תוכן</string>
+    <!-- IDS_MUSIC_POP_LOAD_THE_CONTENT_STORED_ON_OTHER_REGISTERED_DEVICES_Q -->
+    <!-- IDS_MUSIC_POP_CONNECTING_TO_MOBILE_NETWORKS_MAY_INCUR_ADDITIONAL_CHARGES_AND_IT_MAY_TAKE_A_FEW_MINUTES_TO_LOAD_YOUR_CONTENT -->
+    <!-- IDS_MUSIC_OPT_ADD_TO -->
+    <string name="addto">הוסף אל</string>
+    <!-- IDS_EL_MBODY_SELECT_ALL -->
+    <string name="select_all">בחר הכל</string>
+    <!-- IDS_MSG_OPT_DESELECT_ALL_ABB -->
+    <string name="deselect_all">בטל בחירה</string>
+    <!-- IDS_PB_BODY_BUFFERING_ING_ABB -->
+    <string name="buffering">מבצע אגירה\u2026</string>
+    <!-- IDS_KA_BODY_NO_ITEMS_ABB -->
+    <string name="no_items">אין פריטים</string>
+    <!-- IDS_MUSIC_BUTTON_DONE -->
+    <string name="done">סיום</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">שמור</string>
+    <string name="ok">אישור</string>
+    <!-- IDS_COM_SK_SET -->
+    <string name="set">הגדר</string>
+    <!-- IDS_KA_BUTTON_CANCEL -->
+    <string name="cancel">ביטול</string>
+    <!-- IDS_ACCS_BUTTON_YES -->
+    <string name="yes">כן</string>
+    <!-- IDS_ACCS_SK2_NO -->
+    <string name="no">לא</string>
+    <!-- IDS_MUSIC_BODY_ON -->
+    <string name="on">מופעל</string>
+    <!-- IDS_MUSIC_BODY_OFF -->
+    <string name="off">כבוי</string>
+    <!-- IDS_MUSIC_BUTTON_RESET -->
+    <string name="reset">איפוס</string>
+    <!-- IDS_DLNA_SK3_REFRESH -->
+    <string name="refresh">רענון</string>
+    <!-- IDS_CLD_MBODY_TIME -->
+    <string name="time">שעה</string>
+    <!-- IDS_MUSIC_OPT_SETTINGS_HELP -->
+    <string name="help">עזרה</string>
+    <!-- IDS_ST_BODY_INFORMATION -->
+    <string name="information">מידע</string>
+    <!-- IDS_MUSIC_BODY_MY_PLAYLIST -->
+    <string name="my_playlist">רשימת ההשמעה שלי</string>
+    <!-- IDS_MUSIC_POP_PS_ALREADY_IN_USE_ENTER_ANOTHER_NAME -->
+    <string name="error_n_already_in_use">‎%s כבר נמצא בשימוש. הזן שם אחר.</string>
+    <!-- IDS_MUSIC_SK3_CLEAR_A_B -->
+    <!-- IDS_VR_BODY_DELETING_ITEMS_ING -->
+    <string name="deleting_items">מוחק פריטים\u2026</string>
+    <string name="deleted">נמחק</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_M_GENRE -->
+    <string name="unknown">לא ידוע</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_ALBUM -->
+    <string name="unknown_album">אלבום לא ידוע</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_ARTIST -->
+    <string name="unknown_artist">אמן לא ידוע</string>
+    <!-- IDS_MUSIC_BODY_VARIOUS_ARTISTS -->
+    <string name="various_artists">אמנים שונים</string>
+    <!-- IDS_MUSIC_HEADER_NOW_PLAYING -->
+    <string name="now_playing">פועל כעת</string>
+    <!-- IDS_MUSIC_POP_LOW_BATTERY -->
+    <string name="low_battery">סוללה חלשה.</string>
+    <!-- IDS_COM_OPT_MUSIC_PLAYER_WILL_BE_CLOSED_DUE_TO_LOW_BATTERY_VODA -->
+    <!-- IDS_CAM_HEADER_WARNING_ABB -->
+    <string name="warning">אזהרה</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_call-->
+    <string name="unable_to_play_during_call">לא ניתן להפעיל במהלך שיחה.</string>
+    <!-- IDS_MUSIC_POP_SORRY_THE_PLAYER_DOES_NOT_SUPPORT_THIS_TYPE_OF_AUDIO_FILE -->
+    <string name="error_playback_failed_msg">מצטערים, הנגן אינו תומך בסוג זה של קובץ שמע.</string>
+    <!-- IDS_VPL_TPOP_FAST_FORWARDING_NOT_SUPPORTED -->
+    <string name="not_support_ff">אין תמיכה בהרצה קדימה.</string>
+    <!-- IDS_VPL_TPOP_REWINDING_NOT_SUPPORTED -->
+    <string name="not_support_rew">אין תמיכה בהרצה לאחור.</string>
+    <!-- IDS_MUSIC_POP_STOP_PLAYING_MUSIC -->
+    <string name="stop_playing_music_q">לעצור השמעת מוסיקה?</string>
+    <!-- IDS_KA_BODY_DO_NOT_SHOW_AGAIN_ABB -->
+    <string name="error_max_char_reached_msg">עד %d תווים זמינים.</string>
+    <!-- IDS_SSCHOL_HEADER_PD_SELECTED -->
+    <string name="n_items_selected">נבחרו %d</string>
+    <!-- IDS_MUSIC_HEADER_SEARCH_WITH -->
+    <string name="search_with">חפש באמצעות</string>
+    <!-- IDS_VIPM_POP_INVALID_CHARACTER -->
+    <string name="invalid_character">תו לא חוקי.</string>
+    <!-- IDS_SAS_TPOP_WHILE_USING_SIDESYNC_VIDEO_SOUND_AND_MUSIC_MAY_OVERLAP -->
+    <!-- IDS_MUSIC_BODY_PD_BIT -->
+    <string name="n_bit">%d סיביות</string>
+    <!-- IDS_MUSIC_BODY_PD_KHZ -->
+    <string name="n_khz">‎%d kHz</string>
+    <!-- IDS_COM_BODY_SEARCH -->
+    <string name="search">חיפוש</string>
+    <!-- IDS_MUSIC_HEADER_SUGGESTIONS_FOR_YOU -->
+    <string name="suggestions_for_you">הצעות בשבילך</string>
+    <!-- IDS_EL_BODY_PLAY -->
+    <string name="play">הפעל</string>
+    <!-- IDS_GALLERY_TPOP_PD_DELETED -->
+    <string name="n_deleted">%d נמחקו</string>
+    <string name="select_tracks">‏‎בחר רצועות</string>
+    <!-- IDS_LCKSCN_SBODY_CONTENT_HIDDEN_M_STATUS -->
+    <string name="content_hidden">התוכן מוסתר</string>
+    <!-- IDS_CMV_TPOP_FAILED_TO_ENABLE_QUICK_CONNECT -->
+    <!-- IDS_CMV_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_QUICK_CONNECT -->
+    <plurals name="n_tracks_deleted_msg">
+        <!--  IDS_MUSIC_POP_1_TRACK_WILL_BE_DELETED  -->
+        <item quantity="one">1 רצועה תימחק.</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_WILL_BE_DELETED  -->
+        <item quantity="other">%d רצועות יימחקו.</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <!--  IDS_MUSIC_POP_1_PLAYLIST_WILL_BE_DELETED  -->
+        <item quantity="one">רשימת השמעה אחת תימחק.</item>
+        <!--  IDS_MUSIC_BODY_PD_PLAYLISTS_WILL_BE_DELETED  -->
+        <item quantity="other">%d רשימות השמעה יימחקו.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <!--  IDS_IV_POP_1_ALBUM_WILL_BE_DELETED  -->
+        <item quantity="one">אלבום אחד יימחק.</item>
+        <!--  IDS_MUSIC_BODY_PD_ALBUMS_WILL_BE_DELETED  -->
+        <item quantity="other">%d אלבומים יימחקו.</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTIST_WILL_BE_DELETED  -->
+        <item quantity="one">תתבצע מחיקה של כל הרצועות מאת האמן שנבחר.</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTISTS_WILL_BE_DELETED  -->
+        <item quantity="other">תתבצע מחיקה של כל הרצועות מאת האמנים שנבחרו.</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <!--  IDS_MUSIC_POP_THE_SELECTED_FOLDER_WILL_BE_DELETED  -->
+        <item quantity="one">התיקייה שנבחרה תימחק.</item>
+        <!--  IDS_MUSIC_POP_THE_SELECTED_FOLDERS_WILL_BE_DELETED  -->
+        <item quantity="other">התיקיות שנבחרו יימחקו.</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRE_WILL_BE_DELETED  -->
+        <item quantity="one">תתבצע מחיקה של כל הרצועות מהסגנון שנבחר.</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRES_WILL_BE_DELETED  -->
+        <item quantity="other">תתבצע מחיקה של כל הרצועות מהסגנונות שנבחרו.</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSER_WILL_BE_DELETED  -->
+        <item quantity="one">תתבצע מחיקה של כל הרצועות מאת המלחין שנבחר.</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSERS_WILL_BE_DELETED  -->
+        <item quantity="other">תתבצע מחיקה של כל הרצועות מאת המלחין שנבחר.</item>
+    </plurals>
+    <string name="error_UNABLE_TO_ADD_MORE_MUSIC_MAX_REACHED_MSG">לא ניתן להוסיף קובצי מוסיקה נוספים. הגעת למספר המרבי של קובצי מוסיקה</string>
+    <!-- IDS_MUSIC_BODY_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED -->
+    <string name="error_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED">לא ניתן ליצור רשמית השמעה. הגעת למספר המרבי של רשימות השמעה.</string>
+    <!-- IDS_MUSIC_BODY_ARTISTS_ALBUMS_AND_TRACKS -->
+    <!-- IDS_PB_BODY_ABCDEFGHIJKLMNOPQRSTUVWXYZ_M_INDEXLIST -->
+    <string name="character_list">#אבגדהוזחטיכלמנסעפצקרשתABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_MUSIC_PLAYER_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <!-- IDS_COM_BODY_AND_PD_MORE -->
+    <string name="and_n_more">ועוד %d נוספים</string>
+    <plurals name="NNNtrack">
+        <!--  IDS_MUSIC_MBODY_PD_TRACK  -->
+        <item quantity="one">%d שירים</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_ABB  -->
+        <item quantity="other">%d שירים</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <!--  MIDS_IS_MBODY_PD_PLAYLIST  -->
+        <item quantity="one">%d רשימות השמעה</item>
+        <!--  IDS_MUSIC_BODY_PD_PLAYLISTS  -->
+        <item quantity="other">%d רשימות</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <!--  IDS_MUSIC_BODY_1_ALBUM  -->
+        <item quantity="one">אלבום אחד</item>
+        <!--  IDS_MUSIC_BODY_PD_ALBUMS  -->
+        <item quantity="other">%d אלבומים</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <!--  IDS_MUSIC_BODY_1_ARTIST  -->
+        <item quantity="one">אמן אחד</item>
+        <!--  IDS_MUSIC_BODY_PD_ARTISTS  -->
+        <item quantity="other">%d אמנים</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <!--  IDS_MUSIC_BODY_1_GENRE  -->
+        <item quantity="one">סגנון אחד</item>
+        <!--  IDS_MUSIC_BODY_PD_GENRES  -->
+        <item quantity="other">%d סגנונות</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <!--  IDS_VPL_BODY_1_FOLDER  -->
+        <item quantity="one">תיקייה אחת</item>
+        <!--  IDS_MF_BODY_DETAILFOLDERS  -->
+        <item quantity="other">%d תיקיות</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <!--  IDS_MUSIC_BODY_1_COMPOSER  -->
+        <item quantity="one">מלחין אחד</item>
+        <!--  IDS_MUSIC_BODY_PD_COMPOSERS  -->
+        <item quantity="other">%d יוצרים</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <!--  IDS_MUSIC_BODY_1_YEAR  -->
+        <item quantity="one">שנה אחת</item>
+        <!--  IDS_HEALTH_BODY_PD_YEARS  -->
+        <item quantity="other">%d שנים</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <!--  IDS_MUSIC_BODY_1_DEVICE  -->
+        <item quantity="one">מכשיר אחד</item>
+        <!--  IDS_MUSIC_BODY_PD_DEVICES  -->
+        <item quantity="other">%d מכשירים</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_PLAYLIST  -->
+        <item quantity="one">רצועה אחת נוספה לרשימת ההשמעה</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_ADDED_TO_PLAYLIST  -->
+        <item quantity="other">%d רצועות נוספו לרשימת ההשמעה.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_DELETED  -->
+        <item quantity="one">1 רצועה נמחקה.</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_DELETED  -->
+        <item quantity="other">%d רצועות נמחקו.</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <!--  IDS_COM_POP_1_ITEM_DELETED  -->
+        <item quantity="one">1 פריט נמחק.</item>
+        <!--  IDS_MUSIC_POP_PD_ITEMS_DELETED  -->
+        <item quantity="other">%d פריטים נמחקו.</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_REMOVED  -->
+        <item quantity="one">רצועה אחת הוסרה</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_REMOVED  -->
+        <item quantity="other">%d רצועות הוסרו.</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <!--  IDS_MUSIC_BODY_1_TRACK_ADDED_TO_NOW_PLAYING_LIST  -->
+        <item quantity="one">1 רצועה נוספה לרשימה \'פועל כעת\'</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_ADDED_TO_NOW_PLAYING_LIST  -->
+        <item quantity="other">%d רצועות נוספו לרשימה \'פועל כעת\'</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES  -->
+        <item quantity="one">1 רצועה נוספה למועדפים</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES  -->
+        <item quantity="other">%d רצועות נוספו למועדפים</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED  -->
+        <item quantity="one">1 רצועה נוספה למועדפים. רצועות שכבר נשמרו במועדפים לא יתווספו.</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED  -->
+        <item quantity="other">%d רצועות נוספו למועדפים. רצועות שכבר נשמרו במועדפים לא יתווספו.</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_REMOVED_FROM_FAVOURITES  -->
+        <item quantity="one">1 רצועה הוסרה מהמועדפים.</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_REMOVED_FROM_FAVOURITES  -->
+        <item quantity="other">%d רצועות הוסרו מהמועדפים.</item>
+    </plurals>
+    <plurals name="NNNrecordings">
+        <!--  IDS_MUSIC_HEADER_PD_RECORDING_M_VOICE_ABB  -->
+        <item quantity="one">%d הקלטה</item>
+        <!--  IDS_MUSIC_HEADER_PD_RECORDINGS_M_VOICE_ABB  -->
+        <item quantity="other">%d הקלטות</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_NOW_PLAYING_LIST -->
+    <string name="now_playing_list">רשימת פריטים הפועלים כעת</string>
+    <!-- IDS_MTTRL_BODY_LEARN_ABOUT_PALM_TOUCH -->
+    <!-- IDS_HELP_POP_YOU_HAVE_MUTED_PAUSED_THE_MUSIC_USING_PALM_MOTION -->
+    <!-- IDS_HELP_POP_COVER_THE_SCREEN_WITH_YOUR_PALM_TO_PAUSE_THE_MUSIC -->
+    <!-- IDS_HELP_POP_TUTORIAL_COMPLETE -->
+    <string name="tutorial_complete">ערכת הלימוד הושלמה.</string>
+    <!-- IDS_HELP_BODY_CONNECT_TO_WLAN_CHN -->
+    <!-- IDS_MUSIC_HEADER_CONNECT_VIA_MOBILE_NETWORKS_ABB -->
+    <string name="connect_via_network">התחבר דרך רשתות ניידות</string>
+    <!-- IDS_CAM_BODY_WLAN_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="error_wifi_not_available">‏WLAN לא זמין. התחברות לרשתות סלולריות עשויה לגרור תוספת חיובים, בהתאם להסדר שלך עם ספק השירות.</string>
+    <!-- IDS_ST_POP_CONNECTING_VIA_HDMI_WILL_END_ANY_WIRELESS_CONNECTIONS_MSG -->
+    <!-- IDS_ST_HEADER_CONNECT_VIA_HDMI_ABB -->
+    <string name="app_not_available">היישום אינו זמין.</string>
+    <!-- IDS_SBAND_BUTTON_DEREGISTER_ABB -->
+    <string name="deregisterd_device">בטל הרשמה</string>
+    <!-- MIDS_ASP_POP_DEREGISTER_THE_SELECTED_DEVICE_FROM_SAMSUNG_LINK_Q_THE_DEVICE_CAN_BE_REGISTERED_WITH_THE_SERVICE_AGAIN_LATER -->
+    <!-- IDS_VIDEO_TPOP_DEREGISTERING_SELECTED_DEVICE_ING -->
+    <string name="deregistered_progress_message">מבטל את רישום המכשיר שנבחר\u2026</string>
+    <!-- IDS_ST_TPOP_TO_UNPIN_APPLICATION_PRESS_AND_HOLD_THE_RECENTS_AND_BACK_KEYS_AT_THE_SAME_TIME -->
+    <!-- IDS_ST_BODY_SEEK_CONTROL -->
+    <!-- IDS_IDLE_POP_UNABLE_TO_OPEN_PS_TAP_SETTINGS_GO_TO_APP_INFO_PERMISSIONS_THEN_ALLOW_MSG -->
+    <string name="permission_request_dialog_content">לא ניתן לפתוח את ‎%s. הקש על \'הגדרות\' ועבור אל \'פרטי יישומים\' &gt; \'הרשאות\'; כעת אשר את ההרשאות הבאות ונסה שוב:</string>
+    <!-- IDS_FM_MBODY_STORAGE -->
+    <!-- IDS_IM_BODY_CONTACTS -->
+    <!-- IDS_CAM_TPOP_UNABLE_TO_PLAY_MUSIC_WHILE_RECORDING_AUDIO_OR_VIDEO -->
+    <string name="unable_to_play_during_recording">לא ניתן להשמיע מוסיקה תוך כדי הקלטת שמע או וידאו.</string>
+    <!-- IDS_CAM_BODY_CONNECTION_FAILED -->
+    <string name="connection_failed">החיבור נכשל.</string>
+</resources>

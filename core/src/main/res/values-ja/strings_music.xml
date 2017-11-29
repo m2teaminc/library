@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with STMS Automation System
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_MUSIC_HEADER_MUSIC_M_APPLICATION_NAME -->
+    <!-- IDS_MP_BODY_SOUND_PLAYER -->
+    <string name="sound_player">サウンドプレーヤー</string>
+    <!-- IDS_MF_HEADER_COUNT -->
+    <string name="count">回数</string>
+    <!-- IDS_COM_BODY_OMADRMDETAILS_DATE -->
+    <!-- IDS_COM_POP_INTERVAL -->
+    <string name="interval">間隔</string>
+    <!-- IDS_MB_POP_UNLIMITED -->
+    <string name="unlimited">制限なし</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_RIGHT_STATUS -->
+    <string name="right_status">権限の状態</string>
+    <!-- IDS_CALL_POP_IMPOSSIBLE -->
+    <string name="impossible">不可</string>
+    <!-- IDS_DRM_BODY_RIGHTSTATUS_FORWARDING -->
+    <string name="forwarding">転送</string>
+    <!-- IDS_KA_HEADER_FROM_M_PERIOD -->
+    <!-- IDS_CLD_OPT_UNTIL_ABB -->
+    <string name="until">終了日</string>
+    <!-- IDS_MUSIC_OPT_PLAY_VIA_GROUP_PLAY -->
+    <!-- IDS_CAST_SK4_SHARE_VIA -->
+    <!-- IDS_MUSIC_BUTTON2_SET_AS -->
+    <!-- IDS_ST_MBODY_LISTEN_VIA_BLUETOOTH -->
+    <string name="listen_via_bluetooth">Bluetoothで聴く</string>
+    <!-- IDS_DLNA_BODY_ADD_TO_NOW_PLAYING_LIST -->
+    <string name="add_to_nowplaying">現在​再生中​の​リスト​に​追加</string>
+    <!-- IDS_VPL_OPT_LISTEN_VIA_DEVICE -->
+    <string name="listen_via_device">端末で聴く</string>
+    <!-- IDS_MUSIC_OPT_SAVE_AS_PLAYLIST -->
+    <string name="save_as_playlist">プレイリストとして保存</string>
+    <!-- IDS_CALL_SK_REMOVE -->
+    <!-- IDS_MUISC_OPT_SEARCH -->
+    <!-- IDS_MUSIC_BUTTON_ADD_TO_PLAYLIST -->
+    <string name="add_to_playlist">プレイリストに追加</string>
+    <!-- IDS_MUSIC_OPT_ADD_TO_FAVOURITES -->
+    <string name="add_to_favourites">お気に入りに追加</string>
+    <!-- IDS_MUSIC_OPT_REMOVE_FROM_FAVOURITES_ABB -->
+    <string name="remove_from_favourites">お気に入りから削除</string>
+    <!-- IDS_KA_BUTTON_EDIT -->
+    <!-- IDS_MUSIC_HEADER_EDIT_TITLE -->
+    <string name="edit_title">タイトルを編集</string>
+    <!-- IDS_ACCS_SK2_DELETE -->
+    <!-- IDS_MUSIC_OPT_CREATE_PLAYLIST -->
+    <string name="create_playlist">プレイリストを作成</string>
+    <!-- IDS_VIDEO_OPT_VIEW_AS_ABB -->
+    <string name="view_as">表示形式</string>
+    <string name="list">リスト</string>
+    <!-- IDS_BR_OPT_THUMBNAIL -->
+    <string name="thumbnail">サムネイル</string>
+    <!-- IDS_MUSIC_BUTTON_SHUFFLE -->
+    <string name="shuffle">シャッフル再生</string>
+    <!-- IDS_VOLTE_BUTTON_END -->
+    <string name="end">終了</string>
+    <string name="change_order">並べ替え</string>
+    <!-- IDS_VPL_OPT_SEND_TO_ANOTHER_DEVICE -->
+    <string name="share_with_other_devices">他の端末に送信</string>
+    <!-- IDS_COM_OPT_SELECT -->
+    <!-- IDS_MUSIC_OPT_SAMSUNG_MUSIC -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1_2X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_DETAILED_SEEK_H1_4X_N_SLIDE_YOUR_FINGER_UPWARDS_TO_ADJUST_THE_SCRUBBING_RATE -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_VIEW_LYRICS_FOR_TRACKS_STORED_ON_OTHER_DEVICES -->
+    <!-- IDS_MUSIC_OPT_SETTINGS -->
+    <string name="settings">設定</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_AUTO_OFF -->
+    <string name="music_auto_off">音楽自動停止</string>
+    <!-- IDS_MP_OPT2_PLAY_SPEED -->
+    <string name="play_speed">再生スピード</string>
+    <!-- IDS_CLOCK_OPT1_VOICE_CONTROL -->
+    <string name="voice_control">音声コントロール</string>
+    <!-- IDS_MUSIC_BODY_USE_VOICE_COMMANDS_TO_CONTROL_THE_MUSIC_PLAYER -->
+    <!-- IDS_BR_SK_TABS -->
+    <string name="tabs">タブ</string>
+    <!-- IDS_MUSIC_BODY_PLAYLISTS -->
+    <!-- IDS_MUSIC_BODY_TRACKS -->
+    <string name="tracks">曲</string>
+    <!-- IDS_MUSIC_BODY_PLAYLISTS -->
+    <string name="playlists">プレイリスト</string>
+    <!-- IDS_MUSIC_BODY_ALBUMS -->
+    <string name="albums">アルバム</string>
+    <!-- IDS_MUSIC_TAB4_ARTISTS -->
+    <string name="artists">アーティスト</string>
+    <!-- IDS_MUSIC_TAB4_GENRES -->
+    <!-- IDS_MUSIC_TAB_COMPOSERS -->
+    <string name="composers">作曲者</string>
+    <!-- IDS_MUSIC_TAB_YEARS -->
+    <string name="years">年</string>
+    <!-- IDS_VIDEO_OPT_FOLDERS_ABB -->
+    <string name="folders">フォルダ</string>
+    <!-- IDS_VR_OPT_RECORDINGS_ABB -->
+    <string name="recordings">録音ファイル</string>
+    <!-- IDS_MUSIC_MBODY_FAVOURITE_TRACKS -->
+    <string name="favourite_tracks">お気に入りの曲</string>
+    <!-- IDS_VOICE_BODY_MOST_PLAYED -->
+    <string name="most_played">よく聴く曲</string>
+    <!-- IDS_VOICE_BODY_RECENTLY_PLAYED -->
+    <string name="recently_played">最近再生した曲</string>
+    <!-- IDS_MUSIC_MBODY_RECENTLY_ADDED -->
+    <string name="recently_added">最近追加した曲</string>
+    <string name="default_s_playlists">標準プレイリスト</string>
+    <!-- IDS_MUSIC_HEADER_MY_PLAYLISTS_ABB -->
+    <string name="my_playlists">マイプレイリスト</string>
+    <!-- IDS_MUSIC_BUTTON_DOWNLOAD_ALL -->
+    <string name="download_all">全てダウンロード</string>
+    <plurals name="NNNtracksinsquare">
+        <!--  IDS_MUSIC_SHEADER_1_TRACK_SELECTED  -->
+        <item quantity="one">1曲選択</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_SELECTED_IN_SQUARE  -->
+        <item quantity="other">ﾐｭｰｼﾞｯｸｽｸｴｱから%d曲を選択</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_TAP_AND_SWIPE_ACROSS_THE_CELLS_IN_THE_MUSIC_SQUARE_TO_CREATE_A_PLAYLIST_BASED_ON_MOOD -->
+    <!-- IDS_CST_SK2_CHECK_ADAPT_SOUND_AGAIN -->
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="after_15_min">15分後</string>
+    <!-- IDS_MP_BODY_ST_AFTER_30_MIN -->
+    <string name="after_30_min">30分後</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_ABB -->
+    <string name="after_1_hour">1時間後</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_30_MIN_ABB -->
+    <string name="after_1_hour_30_min">1時間30分後</string>
+    <!-- IDS_MUSIC_OPT_AFTER_2_HR_ABB -->
+    <string name="after_2_hour">2時間後</string>
+    <!-- IDS_MUSIC_BODY_AFTER_1_MIN -->
+    <string name="after_1_min">1分後</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_MINS -->
+    <string name="after_n_mins">%d分後</string>
+    <!-- IDS_MUSIC_OPT_AFTER_1_HR_ABB -->
+    <!-- IDS_MUSIC_BODY_AFTER_1_HR_1_MIN -->
+    <string name="after_1_hr_1_min">1時間1分後</string>
+    <!-- IDS_MUSIC_BODY_AFTER_1_HR_PD_MINS -->
+    <string name="after_1_hr_n_mins">1時間%d分後</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_HRS -->
+    <string name="after_n_hrs">%d時間後</string>
+    <!-- IDS_MUSIC_BODY_AFTER_PD_HRS_1_MIN -->
+    <string name="after_n_hrs_1_min">%d時間1分後</string>
+    <!-- IDS_MUSIC_OPT_AFTER_P1SD_HRS_P2SD_MINS -->
+    <string name="after_n_hrs_n_mins">%1$d時間%2$d分後</string>
+    <!-- IDS_MUSIC_BODY_AUTO_M_SOUNDEFFECT -->
+    <string name="auto">オート</string>
+    <!-- IDS_MUSIC_BODY_POP -->
+    <string name="pop">ポップ</string>
+    <!-- IDS_MUSIC_BODY_ROCK -->
+    <string name="rock">ロック</string>
+    <!-- IDS_MUSIC_BODY_DANCE -->
+    <string name="dance">ダンス</string>
+    <!-- IDS_MUSIC_BODY_SOUNDEFFECTS_JAZZ -->
+    <!-- IDS_MP_BODY_SOUNDEFFECT_CLASSIC -->
+    <string name="classic">クラシック</string>
+    <!-- IDS_MUSIC_BODY_NORMAL_M_SOUNDEFFECT -->
+    <string name="normal">標準</string>
+    <!-- IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2 -->
+    <string name="vocal">ボーカル</string>
+    <!-- IDS_MUSIC_MBODY_BASS_BOOST -->
+    <string name="bass_boost">低音強調</string>
+    <!-- IDS_MUSIC_BODY_TREBLE_BOOST -->
+    <!-- IDS_MUSIC_HEADER_TUBE_AMP_M_EQUALISER_ABB -->
+    <!-- IDS_MUSIC_OPT_VIRTUAL_71_CH -->
+    <!-- IDS_MUSIC_BODY_EXTERNALISATION_M_SOUNDEFFECT -->
+    <!-- IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT -->
+    <string name="cafe">カフェ</string>
+    <!-- IDS_MUSIC_BODY_CONCERT_HALL_M_SOUNDEFFECT -->
+    <string name="concert_hall">コンサートホール</string>
+    <!-- IDS_MUSIC_BODY_CUSTOM -->
+    <string name="custom">カスタム</string>
+    <!-- IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY -->
+    <!-- IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_BLUETOOTH -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_LINE_OUT -->
+    <!-- IDS_MUSIC_TPOP_SOUND_EFFECTS_ONLY_AVAILABLE_WHILE_HEADPHONES_CONNECTED -->
+    <!-- IDS_MUSIC_POP_CURRENT_SOUND_EFFECT_NOT_SUPPORTED_BY_HDMI -->
+    <!-- IDS_MUSIC_POP_3D_EFFECT_NOT_SUPPORTED_BY_SPEAKER -->
+    <!-- IDS_MEDIABR_TAB_BASIC -->
+    <string name="basic">標準</string>
+    <!-- IDS_DLNA_HEADER_ADVANCED -->
+    <string name="advanced">詳細設定</string>
+    <!-- IDS_MUSIC_BUTTON_EFFECT -->
+    <string name="effect">エフェクト</string>
+    <!-- IDS_MUSIC_HEADER_SMALL_ROOM_M_REVERB_ABB -->
+    <string name="small_room">狭い部屋</string>
+    <!-- IDS_MUSIC_HEADER_LARGE_ROOM_M_REVERB_ABB -->
+    <string name="large_room">大きな部屋</string>
+    <string name="none">なし</string>
+    <!-- IDS_MUSIC_OPT_TREBLE_M_EQUALISER -->
+    <string name="treble">高音</string>
+    <!-- IDS_MUSIC_OPT_BASS_M_EQUALISER -->
+    <string name="bass">低音</string>
+    <!-- IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2 -->
+    <!-- IDS_MUSIC_BODY_INSTRUMENT -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_TIMBRE_OF_A_TUBE_AMP_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_EFFECT_OF_VIRTUAL_71_CHANNEL_SURROUND_SOUND_ABB -->
+    <!-- IDS_MUSIC_TPOP_AUTO_MODE_DISABLED -->
+    <!-- IDS_MUSIC_SBODY_NO_EFFECTS -->
+    <string name="no_effects">エフェクトを適用しません。</string>
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_SMALL_SPACE_EG_A_STUDIO_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_LARGE_ROOM_EG_A_THEATRE_ABB -->
+    <!-- IDS_MUSIC_BODY_SIMULATES_THE_REVERB_OF_A_CONCERT_HALL_ABB -->
+    <!-- IDS_MUSIC_TPOP_EQUALISER_SETTINGS_WILL_BE_APPLIED_WHEN_MUSIC_PLAYED -->
+    <!-- IDS_MUSIC_BUTTON_3D_CHN -->
+    <!-- IDS_MUSIC_BODY_BASS_M_EQUALISER -->
+    <!-- IDS_MUSIC_BODY_CLARITY_M_SOUNDEFFECT -->
+    <string name="new_soundalive_clarity">Clarity</string>
+    <!-- IDS_MUSIC_MBODY_SMART_VOLUME -->
+    <string name="smart_volume">スマートボリューム</string>
+    <!-- IDS_MUSIC_HEADER_SMART_VOLUME_IS_ENABLED -->
+    <string name="smart_volume_on">スマートボリュームをON</string>
+    <!-- IDS_MUSIC_TPOP_VOLUME_OF_ALL_TRACKS_WILL_BE_ADJUSTED_TO_CURRENT_LEVEL_HPD -->
+    <!-- IDS_MUSIC_TPOP_VOLUME_OF_ALL_TRACKS_WILL_BE_ADJUSTED_TO_CURRENT_LEVEL_HPDP_ABB -->
+    <!-- IDS_MUSIC_BODY_AUTOMATICALLY_ADJUST_EACH_TRACKS_VOLUME_TO_AN_EQUAL_LEVEL -->
+    <!-- IDS_MUSIC_MBODY_K2HD_JPN -->
+    <!-- IDS_MUSIC_HEADER_K2HD_JPN -->
+    <!-- IDS_MUSIC_POP_REOPEN_MUSIC_TO_ENABLE_K2HD_JPN -->
+    <!-- IDS_MUSIC_SBODY_IMPROVE_AUDIO_PLAYBACK_QUALITY_JPN -->
+    <string name="improve_audio_quality">オーディオ再生時の音質を向上させます。</string>
+    <!-- IDS_ST_HEADER_SAMSUNG_LINK_M_APPLICATION -->
+    <!-- IDS_MUSIC_HEADER_REGISTER_DEVICE -->
+    <string name="register_device_header">端末を登録</string>
+    <!-- IDS_GALLERY_BODY_REGISTER_YOUR_DEVICE_WITH_SAMSUNG_LINK_REGISTERING_ALLOWS_YOU_TO_VIEW_CONTENT_ON_CONNECTED_DEVICES_DESELECT_TO_DEREGISTER_YOUR_DEVICE -->
+    <string name="nearby_devices">近くの​デバイス</string>
+    <!-- IDS_DLNA_BODY_MY_DEVICE -->
+    <string name="my_device">マイデバイス</string>
+    <string name="change_player">プレーヤーを変更</string>
+    <!-- IDS_DLNA_POP_FAILED_TO_CONNECT_NETWORK -->
+    <string name="failed_to_connect_network">ネットワーク接続に失敗しました。</string>
+    <string name="unable_to_play">再生できません。</string>
+    <!-- IDS_DLNA_POP_PLAYER_IS_NOT_AVAILABLE_CHECK_THE_NETWORK_STATUS_AND_CONNECTED_DEVICE -->
+    <string name="player_is_not_available_msg">プレーヤーを使用できません。ネットワークステータスと接続デバイスを確認してください。</string>
+    <!-- IDS_MUSIC_OPT_SEARCH_FOR_NEARBY_DEVICES_ABB -->
+    <!-- IDS_DLNA_POP_NO_DEVICES_FOUND_SCANNING_FOR_NEARBY_DEVICES_WILL_continue_s_IN_BACKGROUND -->
+    <!-- IDS_MUSIC_POP_NEARBY_DEVICES_FOUND -->
+    <string name="nearby_devices_found">近くにデバイスが見つかりました。</string>
+    <!-- IDS_MUSIC_POP_NETWORK_ERROR_OCCURRED_TRY_AGAIN -->
+    <string name="err_network_error_occurred_msg">ネットワークエラーが発生しました。再度実行してください。</string>
+    <string name="file_size">ファイルサイズ</string>
+    <string name="available_devices">接続可能デバイス</string>
+    <!-- IDS_KA_HEADER_SELECT_DEVICE -->
+    <string name="select_device">デバイスを選択</string>
+    <!-- IDS_DLNA_POP_UNABLE_TO_USE_FAST_FORWARD_AND_REWIND_WHEN_NEARBY_DEVICES_ARE_ENABLED -->
+    <!-- IDS_MUSIC_BODY_AFTER_YOU_SHARE_TRACKS_WITH_THE_CONNECTED_DEVICES_THEY_WILL_BE_SHOWN_HERE -->
+    <!-- IDS_DLNA_POP_DISCONNECTED_FROM_PS_CHECK_THE_NETWORK_STATUS_AND_THE_CONNECTED_DEVICE -->
+    <string name="disconnected_devices">%sから切断されました。ネットワークの状態と接続機器を確認してください。</string>
+    <!-- IDS_SMR_SBODY_VIA_HOME_NETWORK_M_STATUS -->
+    <string name="via_home_network">ホームネットワーク経由</string>
+    <!-- IDS_SMR_SBODY_VIA_SCREEN_MIRRORING_M_STATUS -->
+    <!-- IDS_ST_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WI_FI_IS_OFF_TAP_CHANGE_PLAYER_AGAIN_OR_ENABLE_SCREEN_MIRRORING_MSG -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WLAN_IS_OFF_MSG_CHN -->
+    <!-- IDS_VIDEO_BODY_NO_DEVICES_HAVE_BEEN_FOUND_ENABLE_THE_SHARE_CONTENT_FUNCTION_ON_YOUR_NEARBY_DEVICES_AND_THEN_TAP_THE_REFRESH_ICON_ABOVE -->
+    <!-- IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB -->
+    <string name="unable_to_scan_header">デバイスのスキャン不可</string>
+    <!-- IDS_ST_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WI_FI_IS_OFF_TO_SCAN_FOR_CONNECTED_DEVICES_MSG -->
+    <!-- IDS_HOMESYNC_BODY_SCREEN_MIRRORING_M_FEATURE_NAME -->
+    <!-- IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB -->
+    <!-- IDS_ST_POP_CHANGE_THE_TV_SOURCE_TO_HDMI_TO_DISPLAY_CONTENT_VIA_THE_ALLSHARE_CAST_DONGLE -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_PORTABLE_WLAN_HOTSPOT_IS_ENABLED_CHN -->
+    <!-- IDS_SMR_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WI_FI_DIRECT_IS_ENABLED -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WLAN_DIRECT_IS_ENABLED_CHN -->
+    <!-- IDS_SMR_TPOP_PLAYER_CHANGED_DISCONNECT_CURRENT_CONNECTION -->
+    <!-- IDS_NFC_POP_UNABLE_TO_SCAN_FOR_DEVICES_THAT_ARE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_SIDESYNC_IS_RUNNING -->
+    <!-- IDS_NFC_POP_UNABLE_TO_SCAN_FOR_DEVICES_THAT_ARE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_POWER_SAVING_MODE_IS_ENABLED -->
+    <!-- IDS_SMR_POP_UNABLE_TO_OPEN_THIS_FILE_VIA_SCREEN_MIRRORING -->
+    <!-- IDS_SMR_POP_UNABLE_TO_CHANGE_PLAYER_WHILE_GROUP_PLAY_IS_RUNNING -->
+    <!-- IDS_SMR_BODY_UNABLE_TO_CHANGE_PLAYER_WHILE_ALLTOGETHER_IS_OPEN_ALLTOGETHER_WILL_BE_CLOSED -->
+    <!-- IDS_MUSIC_HEADER_DEVICES -->
+    <string name="devices">デバイス</string>
+    <!-- IDS_MUSIC_HEADER_REGISTERED_DEVICES_ABB -->
+    <string name="registered_devices">登録デバイス</string>
+    <!-- IDS_MUSIC_OPT_SEARCH_FOR_REGISTERED_DEVICES_TTS -->
+    <!-- IDS_MUSIC_SBODY_NOT_CONNECTED -->
+    <string name="not_connected">未接続</string>
+    <!-- IDS_MUSIC_BODY_WI_FI -->
+    <!-- IDS_ST_BODY_WLAN_CHN -->
+    <!-- IDS_MUSIC_POP_UNABLE_TO_PLAY_THIS_FILE_WHILE_IT_IS_BEING_PLAYED_ON_ANOTHER_DEVICE -->
+    <!-- IDS_MUSIC_POP_SEARCHING_ING -->
+    <string name="search_device">検索中\u2026</string>
+    <!-- IDS_MUSIC_TAB4_MUSIC_SQUARE -->
+    <!-- IDS_MUSIC_BODY_CHANGE_HORIZONTAL_AXIS -->
+    <string name="change_horizontal_axis">水平軸を変更</string>
+    <!-- IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE -->
+    <string name="mood_passionate">Passionate</string>
+    <string name="mood_joyful">Joyful</string>
+    <!-- IDS_MUSIC_BODY_EXCITING_M_ADJECTIVE -->
+    <string name="mood_exciting">Exciting</string>
+    <!-- IDS_MUSIC_BODY_CALM_M_ADJECTIVE -->
+    <string name="calm">Calm</string>
+    <!-- IDS_MUSIC_BODY_OLD -->
+    <string name="old">OLD</string>
+    <!-- IDS_MUSIC_BODY_NEW_M_LATEST -->
+    <string name="moods">ムード</string>
+    <!-- IDS_MUSIC_BODY_MUSIC_SQUARE_ANALYSES_THE_CHARACTERISTICS_OF_MUSIC_FILES_STORED_ON_YOUR_DEVICE_MSG -->
+    <!-- IDS_MUSIC_POP_SELECTED_LIST_EMPTY -->
+    <string name="selected_list_empty">選択されたリストは空です。</string>
+    <!-- IDS_MUSIC_POP_TAP_TO_EXPAND_THE_LIST -->
+    <string name="tap_to_expand_the_list">リストを拡大するにはタップしてください。</string>
+    <!-- IDS_MUSIC_POP_TAP_TO_COLLAPSE_THE_LIST -->
+    <string name="tap_to_collapse_the_list">リストを縮小するにはタップしてください。</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="artist">アーティスト</string>
+    <!-- IDS_MUSIC_BODY_TITLE -->
+    <string name="title">タイトル</string>
+    <!-- IDS_MUSIC_BODY_ALBUM -->
+    <string name="album">アルバム</string>
+    <!-- IDS_MUSIC_BODY_TRACK_LENGTH -->
+    <string name="track_length">再生時間</string>
+    <!-- IDS_MUSIC_BODY_GENRE -->
+    <string name="genre">ジャンル</string>
+    <!-- IDS_MUSIC_BODY_DETAILS_RECORDING_DATE -->
+    <string name="recording_date">録音日</string>
+    <!-- IDS_COM_BODY_CONTENTFILEDETAIL_TRACK_NUMBER -->
+    <string name="track_number">トラック番号</string>
+    <!-- IDS_MUSIC_MBODY_FORMAT -->
+    <string name="format">ファイル形式</string>
+    <!-- IDS_MUSIC_BODY_BIT_DEPTH -->
+    <string name="bit_depth">ビット深度</string>
+    <!-- IDS_MUSIC_BODY_SAMPLING_RATE -->
+    <string name="sampling_rate">サンプリングレート</string>
+    <!-- IDS_KA_BODY_SIZE -->
+    <string name="size">サイズ</string>
+    <!-- IDS_DLNA_BODY_PATH -->
+    <string name="path">パス</string>
+    <!-- IDS_COM_BODY_MB -->
+    <!-- IDS_COM_BODY_KB -->
+    <!-- IDS_COM_BODY_B -->
+    <!-- IDS_HELP_BODY_TAGS_ABB -->
+    <string name="tags">タグ</string>
+    <!-- IDS_MUSIC_BODY_PART_OF_THE_CONTENT_PROVIDED_BY_ALL_MEDIA_GUIDE -->
+    <!-- IDS_MUSIC_HEADER_SELECT_ALBUM -->
+    <string name="select_album">アルバムを選択</string>
+    <!-- IDS_MUSIC_BODY_TRACK_LIST -->
+    <string name="track_list">トラックリスト</string>
+    <!-- IDS_MUSIC_OPT_LYRICS_ABB -->
+    <string name="lyrics">歌詞</string>
+    <!-- IDS_MUSIC_BODY_REVIEW -->
+    <string name="review">プレビュー表示</string>
+    <!-- IDS_MUSIC_BODY_BIOGRAPHY -->
+    <string name="biography">アーティスト</string>
+    <!-- IDS_MUSIC_BODY_DISCOGRAPHY -->
+    <string name="discography">アルバム</string>
+    <!-- IDS_MUSIC_BODY_CREDITS -->
+    <string name="credits">クレジット</string>
+    <!-- IDS_MUSIC_BODY_TRACK -->
+    <string name="track">トラック</string>
+    <!-- IDS_EMAIL_BODY_OTHERS -->
+    <string name="others">その他</string>
+    <!-- IDS_MUSIC_HEADER_DISC_PD -->
+    <string name="disc_n">ディスク%d</string>
+    <!-- IDS_MUSIC_HEADER_SIMILAR_ALBUMS -->
+    <string name="similar_albums">類似のアルバム</string>
+    <!-- IDS_MUSIC_HEADER_SIMILAR_ARTISTS -->
+    <string name="similar_artists">類似アーティスト</string>
+    <!-- IDS_IDLE_HEADER_LOADING_ING_ABB -->
+    <string name="loading">読み込み中\u2026</string>
+    <!-- IDS_GC_BODY_CONNECTING_ING -->
+    <string name="connecting">接続中\u2026</string>
+    <!-- IDS_ST_POP_FINDING_ING -->
+    <string name="finding">検索中\u2026</string>
+    <!-- IDS_MUSIC_POP_GET_SIGNATURE_FROM_CURRENT_AUDIO_FILE -->
+    <!-- IDS_PB_POP_SAVING_ING -->
+    <string name="saving">保存中\u2026</string>
+    <!-- IDS_BR_POP_DATA_CONNECTION_FAILED -->
+    <string name="err_data_connection_failed">データ接続に失敗しました。</string>
+    <string name="unable_to_save_file">ファイルを保存できません。</string>
+    <!-- IDS_MUSIC_TPOP_RETRIEVING_ADDITIONAL_TAG_DATA_FOR_CURRENT_TRACK_ING -->
+    <!-- IDS_SIDL_SK3_SET_default_s -->
+    <string name="set_default_s">初期設定</string>
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPE_ABB -->
+    <string name="encoding_type">エンコード形式</string>
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPES_ARE_CHARACTER_SETS_THAT_THE_TRACKS_DETAILS_ARE_DISPLAYED_IN_MSG -->
+    <!-- IDS_MUSIC_BODY_ENCODING_TYPES_ARE_CHARACTER_SETS_THAT_THE_TRACKS_DETAILS_ARE_DISPLAYED_IN_SET_THE_ENCODING_TYPE_TO_VIEW_THE_DETAILS_MSG -->
+    <!-- IDS_MUSIC_POP_MUSIC_DATA_HAS_BEEN_SAVED_IN_UNICODE_HUTF_8 -->
+    <string name="edit_meta_saved_unicode">音楽データがUnicode(UTF-8)で保存されました。</string>
+    <!-- IDS_ACCS_POP_SAVED -->
+    <string name="saved_dot">保存しました。</string>
+    <!-- IDS_COM_POP_WANT_TO_UNLOCK_IT_NOW_Q -->
+    <string name="want_unlock_q">今すぐロック解除しますか？</string>
+    <!-- IDS_MP_POP_THIS_ITEM_IS_NO_LONGER_AVAILABLE -->
+    <string name="no_longer_available">このアイテムは使用できません。</string>
+    <!-- IDS_JAVA_POP_DRM_DELETE_MSG -->
+    <string name="want_delete_q">このアイテムを削除しますか？</string>
+    <!-- IDS_MP_POP_PLAY_NOW_QUESTION -->
+    <string name="play_now_q">再生しますか？</string>
+    <!-- IDS_MUSIC_POP_FAILED_TO_ACQUIRE_LICENCE -->
+    <string name="failed_acquire_license">ライセンス取得に失敗しました。</string>
+    <!-- IDS_MUSIC_POP_UNABLE_TO_ACCESS_SERVER_WHILE_ROAMING_OR_IN_FLIGHT_MODE_KOR -->
+    <!-- IDS_VPL_POP_SERVER_EXPERIENCING_PROBLEMS_TRY_LATER -->
+    <string name="err_server_problem_msg">サーバー上の問題が発生しました。後ほどお試しください。</string>
+    <!-- IDS_MUSIC_BODY_ACQUIRING_LICENCE_ING -->
+    <string name="acquiring_license">ライセンスを取得中\u2026</string>
+    <!-- IDS_MUSIC_BODY_NO_DATA_CONNECTIVITY -->
+    <string name="no_data_connectivity">データ接続がありません。</string>
+    <!-- IDS_VPL_POP_SORRY_LICENCE_EXPIRED -->
+    <string name="error_sorry_license_expired">ライセンスの期限が切れています。</string>
+    <plurals name="drm_can_use_n_times">
+        <!--  IDS_COM_POP_RENDER_INFO_CAN_USE_1_TIME  -->
+        <item quantity="one">%sは1回使用できます。</item>
+        <!--  IDS_COM_POP_RENDER_INFO_CAN_USE_N_TIMES  -->
+        <item quantity="other">%1$sを%2$d回使用できます。</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_ON -->
+    <!-- IDS_MUSIC_BODY_MUSIC_PLAYER -->
+    <string name="tts_music_player">音楽</string>
+    <!-- IDS_MP_OPT_GOTOMUSIC -->
+    <string name="tts_go_to_music">ミュージック​に​移動</string>
+    <!-- IDS_MUSIC_BODY_REWIND_T_TTS -->
+    <string name="tts_rewind">巻き戻し</string>
+    <!-- IDS_MUSIC_BODY_FAST_FORWARD_T_TTS -->
+    <string name="tts_fast_forward">早送り</string>
+    <!-- IDS_MUSIC_BODY_PREVIOUS_M_SONG -->
+    <string name="tts_previous">前の曲</string>
+    <!-- IDS_MUSIC_BODY_NEXT_M_SONG -->
+    <!-- IDS_VOICE_HEADER_PLAY_ABB -->
+    <string name="tts_pause">一時停止</string>
+    <!-- IDS_MUSIC_OPT_VOLUME -->
+    <string name="volume">音量</string>
+    <!-- IDS_MUSIC_TBOPT_SHUFFLE -->
+    <!-- IDS_MUSIC_BODY_SHUFFLE_ON -->
+    <string name="shuffle_on">シャッフルON</string>
+    <!-- IDS_MUSIC_BODY_SHUFFLE_OFF -->
+    <string name="shuffle_off">シャッフルOFF</string>
+    <!-- IDS_MUSIC_BUTTON_REPEAT -->
+    <string name="tts_repeat">リピート</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_1 -->
+    <string name="tts_repeat_1">1曲リピート</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_ALL -->
+    <string name="tts_repeat_all">全てリピート</string>
+    <!-- IDS_MUSIC_BODY_REPEAT_OFF -->
+    <string name="tts_repeat_off">リピートOFF</string>
+    <!-- IDS_MUSIC_BODY_VOLUME_UP -->
+    <string name="volume_up">音量アップ</string>
+    <!-- IDS_MUSIC_BODY_VOLUME_DOWN -->
+    <string name="volume_down">音量ダウン</string>
+    <!-- IDS_VPL_POP_MUTE -->
+    <string name="tts_volume_mute">サイレント</string>
+    <!-- IDS_PB_BODY_PLUS -->
+    <string name="plus">プラス</string>
+    <!-- IDS_PB_BODY_MINUS -->
+    <string name="minus">マイナス</string>
+    <!-- IDS_MUSIC_MBODY_FAVOURITE -->
+    <string name="tts_favourite">お気に入り</string>
+    <!-- IDS_MUSIC_BODY_NOT_MARKED_AS_A_FAVOURITE -->
+    <string name="tts_favourite_not_marked">お気に入り未登録</string>
+    <!-- IDS_MUSIC_BODY_MARKED_AS_A_FAVOURITE -->
+    <string name="tts_favourite_marked">お気に入り登録済み</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <!-- IDS_IMGE_BODY_CONTROL_BAR_T_TTS -->
+    <string name="control_bar">コントロールバー</string>
+    <!-- IDS_VPL_BODY_SWIPE_WITH_TWO_FINGERS_TO_CONTROL_T_TTS -->
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <!-- IDS_CAM_BUTTON_LIST -->
+    <!-- IDS_MUSIC_SK3_LIST_VIEW -->
+    <string name="tts_list_view">リスト表示</string>
+    <!-- IDS_ST_OPT_HEADER_T_TTS -->
+    <string name="tts_header">ヘッダー</string>
+    <!-- IDS_PB_OPT_MORE_OPTIONS -->
+    <string name="tts_more_options">他の​オプション</string>
+    <!-- IDS_COM_BODY_SELECTED_T_TTS -->
+    <string name="tts_selected">選択</string>
+    <!-- IDS_BT_BODY_NOT_SELECTED -->
+    <string name="tts_not_selected">選択なし</string>
+    <!-- IDS_MUSIC_BODY_PS_TAB_T_TTS -->
+    <!-- IDS_MUSIC_BODY_PS_TAB_CURRENTLY_SET_T_TTS -->
+    <!-- IDS_MUSIC_OPT_CELL_TTS -->
+    <string name="cell">セル</string>
+    <!-- IDS_MUSIC_HEADER_ADD_TO_PLAYLIST -->
+    <!-- IDS_ACCS_BODY_DOUBLE_TAP_TO_EXPAND_THE_LIST_T_TTS -->
+    <string name="tts_double_tap_to_expand_the_list">リストを展開するにはダブルタップします。</string>
+    <!-- IDS_ACCS_BODY_DOUBLE_TAP_TO_COLLAPSE_THE_LIST_T_TTS -->
+    <string name="tts_double_tap_to_collapse_the_list">リストを非表示にするには、ダブルタップしてください。</string>
+    <!-- IDS_CLOCK_BODY_PD_HOURS -->
+    <string name="hours_s">%d時間</string>
+    <!-- IDS_CLOCK_BODY_PD_MINUTES -->
+    <string name="s_minutes">%d分</string>
+    <!-- IDS_CST_BODY_PD_SECONDS -->
+    <!-- IDS_MUSIC_BODY_TAB_P1SD_OF_P2SD_T_TTS -->
+    <!-- IDS_MF_BODY_MEGABYTES_T_TTS -->
+    <!-- IDS_MF_BODY_KILOBYTES_T_TTS -->
+    <string name="tts_size_kb">キロバイト</string>
+    <!-- IDS_MF_BODY_BYTES_T_TTS -->
+    <!-- IDS_GALLERY_OPT_PRIVATE_M_CONTENT -->
+    <string name="tts_private">プライベート</string>
+    <!-- IDS_MUSIC_OPT_ALBUM_COVER -->
+    <string name="albumcover">アルバム​カバー</string>
+    <!-- IDS_ST_BODY_SEEK_CONTROL -->
+    <string name="seek_control">シーク調整</string>
+    <!-- IDS_MUSIC_TBOPT_P1SS_OF_P2SS -->
+    <string name="n_of_n">%2$s中の%1$s</string>
+    <!-- IDS_COM_BODY_1_SECOND -->
+    <!-- IDS_VR_BODY_1_MINUTE_TTS -->
+    <!-- IDS_VR_BODY_1_HOUR_TTS -->
+    <!-- IDS_GCTS_OPT_P1SS_BUTTON_TTS -->
+    <string name="button_s">%1$sボタン</string>
+    <!-- IDS_MUSIC_BODY_DOUBLE_TAP_TO_CREATE_PLAYLIST_TTS -->
+    <string name="tts_double_tap_to_create_playlist">プレイリストを作成するには、ダブルタップしてください。</string>
+    <!-- IDS_MUSIC_SBODY_DISABLED_M_STATUS -->
+    <!-- MIDS_OTS_TBOPT_EDIT_BOX -->
+    <string name="tts_edit_box">入力欄</string>
+    <!-- WDS_WMGR_TBOPT_EDITING -->
+    <string name="tts_editing">編集中</string>
+    <!-- IDS_ST_TBOPT_NAVIGATE_UP -->
+    <!-- IDS_GALLERY_OPT_MOVE_TO_PRIVATE -->
+    <string name="move_to_private">プライベートに移動</string>
+    <!-- IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE -->
+    <string name="remove_from_personal_page">プライベートから削除</string>
+    <!-- IDS_COM_POP_MOVING -->
+    <string name="moving">移動中\u2026</string>
+    <!-- IDS_MP_POP_PROCESSING_ING -->
+    <string name="processing">処理中\u2026</string>
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE -->
+    <string name="s_moved_to_private">%d件のアイテムを[プライベート]に移動しました。</string>
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_P1SD_ITEMS_REMOVED_FROM_PRIVATE_AND_MOVED_TO_P2SS -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_REMOVED_FROM_PRIVATE_AND_MOVED_TO_PS -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_REMOVED_FROM_PRIVATE -->
+    <string name="s_removed_from_private">%d件のアイテムを[プライベート]から削除しました。</string>
+    <!-- IDS_GALLERY_TPOP_1_ITEM_REMOVED_FROM_PRIVATE -->
+    <!-- IDS_MUSIC_POP_THE_NEXT_TRACK_ON_THE_LIST_WILL_BE_PLAYED_IF_THE_CURRENT_PLAYING_TRACK_IS_MOVED_TO_PRIVATE -->
+    <!-- IDS_MUSIC_POP_THE_NEXT_TRACK_ON_THE_LIST_WILL_BE_PLAYED_IF_THE_CURRENT_PLAYING_TRACK_IS_REMOVED_FROM_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE_OTHER_ITEM_ALREADY_EXISTS_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEM_ALREADY_EXISTS_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_1_ITEM_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE -->
+    <!-- IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE -->
+    <string name="add_n_item_n_item_exist">%d件のアイテムを[プライベート]に移動しました。他のアイテムは既に[プライベート]に存在します。</string>
+    <!-- IDS_MF_POP_APPLY_TO_ALL_ITEMS -->
+    <string name="apply_to_all_items">全てのアイテムに適用</string>
+    <!-- IDS_MUSIC_HEADER_RENAME -->
+    <string name="rename">名前を変更</string>
+    <!-- IDS_CAM_POP_OVERWRITE -->
+    <string name="overwrite">上書き</string>
+    <!-- IDS_MF_POP_PS_CANNOT_BE_COPIED_THERE_IS_ALREADY_A_FILE_WITH_THIS_NAME_IN_THE_DESTINATION_FOLDER -->
+    <string name="error_already_exist_file_copy">%sをコピーできません。既に同じ名前のファイルがコピー先フォルダに存在します。</string>
+    <!-- IDS_GALLERY_HEADER_FILE_NAME_IN_USE_ABB -->
+    <string name="file_name_in_use">使用中のファイル名</string>
+    <!-- IDS_GALLERY_BUTTON_REPLACE_ABB -->
+    <string name="replace">置き換え</string>
+    <!-- IDS_ST_HEADER_SELECT_SIM_CARD -->
+    <string name="select_sim">SIMカードを選択</string>
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HCDMA -->
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HGSM -->
+    <!-- IDS_MUSIC_POP_CHECKING_LICENCE_ING_KOR -->
+    <string name="checking_licence">ライセンスを確認中\u2026</string>
+    <!-- IDS_MUSIC_MBODY_RESET_LICENCES_KOR -->
+    <string name="reset_licences">ライセンスのリセット</string>
+    <!-- IDS_MUSIC_POP_LICENCES_RESET_KOR -->
+    <string name="licences_reset">ライセンスをリセットしました。</string>
+    <!-- IDS_MUSIC_POP_UNABLE_TO_ACCESS_SERVER_WHILE_ROAMING_OR_IN_FLIGHT_MODE_KOR -->
+    <!-- IDS_MUSIC_OPT_MP3_RINGTONE_KOR_LGT -->
+    <string name="mp3_ringtone">MP3 ringtone</string>
+    <!-- IDS_MUSIC_BODY_DOWNLOAD_MUSIC_FROM_BIGPOND -->
+    <!-- IDS_KNOX_MBODY_KNOX -->
+    <!-- IDS_KNOX_TAB4_PERSONAL_MODE -->
+    <string name="personal_mode">パーソナルモード</string>
+    <!-- IDS_KNOX_OPT_MOVE_TO_KNOX -->
+    <!-- IDS_KNOX_OPT_MOVE_TO_PERSONAL_MODE -->
+    <string name="move_to_personal_mode">パーソナルモードに移動</string>
+    <!-- IDS_KNOX_TPOP_1_ITEM_MOVED_TO_KNOX -->
+    <!-- IDS_KNOX_TPOP_PD_ITEMS_MOVED_TO_KNOX -->
+    <!-- IDS_COM_POP_ERROR -->
+    <string name="error">エラー</string>
+    <string name="not_enough_memory_popup">メモリが不足しています。不要なファイルを削除してください。</string>
+    <!-- IDS_IDLE_TPOP_UNABLE_TO_OPEN_APPLICATION_DELETE_SOME_FILES_MSG -->
+    <!-- IDS_IDLE_TPOP_NOT_ENOUGH_SPACE_IN_DEVICE_STORAGE_MSG -->
+    <string name="not_enough_memory_toast">システムメモリ(本体)の空き容量が低下しています。不要なファイルを削除し、再度実行してください。</string>
+    <!-- IDS_DM_BUTTON_GO_TO_STORAGE_ABB -->
+    <string name="go_to_storage">ストレージに移動</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY -->
+    <string name="err_not_enough_memory">メモリが不足しています。</string>
+    <!-- IDS_SH_POP_SOME_ITEMS_CANNOT_BE_MOVED -->
+    <string name="error_move_failed">一部のアイテムは移動できません。</string>
+    <!-- IDS_KNOX_TPOP_FAILED_TO_MOVE -->
+    <string name="error_failed_to_move">移動に失敗しました。</string>
+    <!-- IDS_KNOX_TPOP_1_ITEM_MOVED_TO_PS -->
+    <!-- IDS_KNOX_TPOP_P1SD_ITEMS_MOVED_TO_P2SS -->
+    <!-- IDS_KNOX_TPOP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_MOVED_AT_ONE_TIME_HPD_HAS_BEEN_EXCEEDED_MSG -->
+    <string name="error_maximum_file_moved">一度に移動できるファイルの最大件数(%d件)に達しました。一部のファイルの選択を解除し、再度実行してください。</string>
+    <!-- IDS_MUSIC_BUTTON_FROM_THE_BEGINNING -->
+    <string name="from_beginning">最初から</string>
+    <!-- IDS_MUSIC_BUTTON_AUTO_RECOMMENDATIONS -->
+    <string name="auto_recommendation">自動ピックアップ</string>
+    <!-- IDS_PB_BODY_AUTO_RECOMMENDATIONS_CAN_EXTRACT_THE_HIGHLIGHTS_FROM_SOUND_FILES -->
+    <!-- IDS_COM_BODY_PROCESSING_ING -->
+    <!-- IDS_MUSIC_POP_AUTO_RECOMMENDATION_DOES_NOT_SUPPORT_THIS_AUDIO_FILE -->
+    <!-- IDS_BT_HEADER_UNKNOWN_ERROR -->
+    <string name="error_unknown">不明なエラーです</string>
+    <!-- IDS_MUSIC_BUTTON2_SET_AS -->
+    <string name="option_set_as">登録</string>
+    <!-- IDS_MUSIC_POP_RINGTONE_ADDED -->
+    <string name="ringtone_added">着信音に設定しました。</string>
+    <!-- IDS_MUSIC_POP_PHONE_RINGTONE -->
+    <string name="phone_ringtone">着信音</string>
+    <!-- IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE -->
+    <string name="caller_ringtone">個別着信音</string>
+    <!-- IDS_CLOCK_HEADER_ALARM_TONE_ABB -->
+    <string name="alarm_tone">アラーム音</string>
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HSLOT_1_CHN_CTC -->
+    <!-- IDS_ST_BODY_VOICE_CALL_RINGTONE_HSLOT_2_CHN_CTC -->
+    <!-- IDS_MUSIC_HEADER_UNABLE_TO_FIND_ITEM -->
+    <string name="unable_to_find_item">アイテムの検索不可</string>
+    <!-- IDS_MF_NPBODY_NO_RESULTS_FOUND -->
+    <!-- IDS_MUSIC_NPBODY_NO_TRACKS -->
+    <string name="no_tracks">曲がありません</string>
+    <!-- IDS_MUSIC_BODY_NO_ALBUMS -->
+    <string name="no_albums">アルバムがありません</string>
+    <!-- IDS_MUSIC_BODY_NO_ARTISTS -->
+    <string name="no_artists">アーティストがありません</string>
+    <!-- IDS_MUSIC_BODY_NO_COMPOSERS -->
+    <string name="no_composers">作曲者がありません</string>
+    <!-- IDS_MUSIC_BODY_NO_GENRES -->
+    <string name="no_genres">ジャンルがありません</string>
+    <!-- IDS_MUSIC_BODY_NO_PLAYLISTS -->
+    <string name="no_playlists">プレイリストなし</string>
+    <!-- IDS_MUSIC_BODY_NO_YEARS -->
+    <string name="no_years">年がありません。</string>
+    <!-- IDS_MUSIC_BODY_NO_FOLDERS -->
+    <string name="no_folders">フォルダがありません</string>
+    <!-- IDS_IDLE_BODY_NO_SONGS_PLAYING -->
+    <string name="no_songs_playing">再生中の曲はありません</string>
+    <!-- IDS_KA_BODY_NO_MUSIC_FILES -->
+    <string name="no_music_files">音楽ファイルがありません。</string>
+    <!-- IDS_VR_NPBODY_NO_RECORDINGS_M_VOICE -->
+    <string name="no_recordings">録音ファイルがありません</string>
+    <!-- IDS_MF_POP_YOU_NEED_TO_BE_CONNECTED_TO_A_WI_FI_NETWORK_TO_SCAN_FOR_NEARBY_DEVICES_CONNECT_VIA_WI_FI_AND_TRY_AGAIN -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_BE_CONNECTED_TO_A_WLAN_TO_SCAN_FOR_NEARBY_DEVICES_MSG_CHN -->
+    <!-- IDS_MUSIC_BODY_NO_DEVICES_FOUND_NENABLE_SHARE_CONTENT_ON_YOUR_NEARBY_DEVICES -->
+    <!-- IDS_COM_BUTTON_SIGN_IN -->
+    <string name="sign_in">サインイン</string>
+    <!-- IDS_MUSIC_BUTTON_REGISTER_ABB -->
+    <string name="register">登録</string>
+    <!-- IDS_MUSIC_HEADER_HOW_TO_REGISTER_ABB -->
+    <string name="how_to_register">登録方法</string>
+    <!-- IDS_MUSIC_BODY_REGISTER_YOUR_PC_OR_OTHER_DEVICES_TO_ACCESS_YOUR_EXISTING_CONTENT -->
+    <!-- IDS_MUSIC_BODY_REGISTER_THIS_DEVICE_TO_ACCESS_YOUR_CONTENT_WITH_SAMSUNG_LINK -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_SIGN_IN_TO_YOUR_SAMSUNG_ACCOUNT_TO_ACCESS_CONTENT_ON_OTHER_DEVICES -->
+    <!-- IDS_MUSIC_BODY_YOU_NEED_TO_SIGN_IN_TO_YOUR_GALAXY_ACCOUNT_TO_ACCESS_CONTENT_ON_OTHER_DEVICES_GALAXY_JPN -->
+    <string name="registration_guide">登録ガイド</string>
+    <!-- IDS_BR_BODY_LOAD_CONTENTS -->
+    <string name="s_link_load_the_content">コンテンツ取得</string>
+    <!-- IDS_MUSIC_POP_LOAD_THE_CONTENT_STORED_ON_OTHER_REGISTERED_DEVICES_Q -->
+    <!-- IDS_MUSIC_POP_CONNECTING_TO_MOBILE_NETWORKS_MAY_INCUR_ADDITIONAL_CHARGES_AND_IT_MAY_TAKE_A_FEW_MINUTES_TO_LOAD_YOUR_CONTENT -->
+    <!-- IDS_MUSIC_OPT_ADD_TO -->
+    <string name="addto">登録</string>
+    <!-- IDS_EL_MBODY_SELECT_ALL -->
+    <string name="select_all">全て選択</string>
+    <!-- IDS_MSG_OPT_DESELECT_ALL_ABB -->
+    <string name="deselect_all">全て解除</string>
+    <!-- IDS_PB_BODY_BUFFERING_ING_ABB -->
+    <string name="buffering">バッファ中\u2026</string>
+    <!-- IDS_KA_BODY_NO_ITEMS_ABB -->
+    <string name="no_items">アイテムがありません。</string>
+    <!-- IDS_MUSIC_BUTTON_DONE -->
+    <string name="done">完了</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">保存</string>
+    <string name="ok">OK</string>
+    <!-- IDS_COM_SK_SET -->
+    <string name="set">設定</string>
+    <!-- IDS_KA_BUTTON_CANCEL -->
+    <string name="cancel">キャンセル</string>
+    <!-- IDS_ACCS_BUTTON_YES -->
+    <string name="yes">はい</string>
+    <!-- IDS_ACCS_SK2_NO -->
+    <string name="no">いいえ</string>
+    <!-- IDS_MUSIC_BODY_ON -->
+    <string name="on">ON</string>
+    <!-- IDS_MUSIC_BODY_OFF -->
+    <string name="off">OFF</string>
+    <!-- IDS_MUSIC_BUTTON_RESET -->
+    <string name="reset">リセット</string>
+    <!-- IDS_DLNA_SK3_REFRESH -->
+    <string name="refresh">更新</string>
+    <!-- IDS_CLD_MBODY_TIME -->
+    <string name="time">時間</string>
+    <!-- IDS_MUSIC_OPT_SETTINGS_HELP -->
+    <string name="help">ヘルプ</string>
+    <!-- IDS_ST_BODY_INFORMATION -->
+    <string name="information">情報</string>
+    <!-- IDS_MUSIC_BODY_MY_PLAYLIST -->
+    <string name="my_playlist">マイプレイリスト</string>
+    <!-- IDS_MUSIC_POP_PS_ALREADY_IN_USE_ENTER_ANOTHER_NAME -->
+    <string name="error_n_already_in_use">%sは既に登録されています。他の名前を入力してください。</string>
+    <!-- IDS_MUSIC_SK3_CLEAR_A_B -->
+    <!-- IDS_VR_BODY_DELETING_ITEMS_ING -->
+    <string name="deleting_items">アイテムを削除中\u2026</string>
+    <string name="deleted">削除しました。</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_M_GENRE -->
+    <string name="unknown">不明</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_ALBUM -->
+    <string name="unknown_album">不明なアルバム</string>
+    <!-- IDS_MUSIC_BODY_UNKNOWN_ARTIST -->
+    <string name="unknown_artist">不明なアーティスト</string>
+    <!-- IDS_MUSIC_BODY_VARIOUS_ARTISTS -->
+    <string name="various_artists">さまざまなアーティスト</string>
+    <!-- IDS_MUSIC_HEADER_NOW_PLAYING -->
+    <string name="now_playing">再生中の曲</string>
+    <!-- IDS_MUSIC_POP_LOW_BATTERY -->
+    <string name="low_battery">バッテリー残量が不足しています。</string>
+    <!-- IDS_COM_OPT_MUSIC_PLAYER_WILL_BE_CLOSED_DUE_TO_LOW_BATTERY_VODA -->
+    <!-- IDS_CAM_HEADER_WARNING_ABB -->
+    <string name="warning">警告</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_call-->
+    <string name="unable_to_play_during_call">通話中は再生できません。</string>
+    <!-- IDS_MUSIC_POP_SORRY_THE_PLAYER_DOES_NOT_SUPPORT_THIS_TYPE_OF_AUDIO_FILE -->
+    <string name="error_playback_failed_msg">プレーヤーはこの種類のオーディオファイルに対応していません。</string>
+    <!-- IDS_VPL_TPOP_FAST_FORWARDING_NOT_SUPPORTED -->
+    <string name="not_support_ff">早送りには対応していません。</string>
+    <!-- IDS_VPL_TPOP_REWINDING_NOT_SUPPORTED -->
+    <string name="not_support_rew">巻き戻しには対応していません。</string>
+    <!-- IDS_MUSIC_POP_STOP_PLAYING_MUSIC -->
+    <string name="stop_playing_music_q">音楽再生を停止しますか？</string>
+    <!-- IDS_KA_BODY_DO_NOT_SHOW_AGAIN_ABB -->
+    <string name="error_max_char_reached_msg">最大%d文字まで入力できます。</string>
+    <!-- IDS_SSCHOL_HEADER_PD_SELECTED -->
+    <string name="n_items_selected">%d件選択</string>
+    <!-- IDS_MUSIC_HEADER_SEARCH_WITH -->
+    <string name="search_with">検索</string>
+    <!-- IDS_VIPM_POP_INVALID_CHARACTER -->
+    <string name="invalid_character">無効な文字です。</string>
+    <!-- IDS_SAS_TPOP_WHILE_USING_SIDESYNC_VIDEO_SOUND_AND_MUSIC_MAY_OVERLAP -->
+    <!-- IDS_MUSIC_BODY_PD_BIT -->
+    <string name="n_bit">%dビット</string>
+    <!-- IDS_MUSIC_BODY_PD_KHZ -->
+    <string name="n_khz">%dkHz</string>
+    <!-- IDS_COM_BODY_SEARCH -->
+    <string name="search">検索</string>
+    <!-- IDS_MUSIC_HEADER_SUGGESTIONS_FOR_YOU -->
+    <string name="suggestions_for_you">おすすめ</string>
+    <!-- IDS_EL_BODY_PLAY -->
+    <string name="play">再生</string>
+    <!-- IDS_GALLERY_TPOP_PD_DELETED -->
+    <string name="n_deleted">%d件削除しました。</string>
+    <string name="select_tracks">曲を選択</string>
+    <!-- IDS_LCKSCN_SBODY_CONTENT_HIDDEN_M_STATUS -->
+    <string name="content_hidden">コンテンツは非表示</string>
+    <!-- IDS_CMV_TPOP_FAILED_TO_ENABLE_QUICK_CONNECT -->
+    <!-- IDS_CMV_TPOP_SECURITY_POLICY_PREVENTS_USE_OF_QUICK_CONNECT -->
+    <plurals name="n_tracks_deleted_msg">
+        <!--  IDS_MUSIC_POP_1_TRACK_WILL_BE_DELETED  -->
+        <item quantity="one">1曲を削除します。</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_WILL_BE_DELETED  -->
+        <item quantity="other">%d曲を削除します。</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <!--  IDS_MUSIC_POP_1_PLAYLIST_WILL_BE_DELETED  -->
+        <item quantity="one">1件のプレイリストを削除します。</item>
+        <!--  IDS_MUSIC_BODY_PD_PLAYLISTS_WILL_BE_DELETED  -->
+        <item quantity="other">%d件のプレイリストを削除します。</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <!--  IDS_IV_POP_1_ALBUM_WILL_BE_DELETED  -->
+        <item quantity="one">1件のアルバムを削除します。</item>
+        <!--  IDS_MUSIC_BODY_PD_ALBUMS_WILL_BE_DELETED  -->
+        <item quantity="other">%d件のアルバムを削除します。</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTIST_WILL_BE_DELETED  -->
+        <item quantity="one">選択したアーティストの全ての曲を削除します。</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTISTS_WILL_BE_DELETED  -->
+        <item quantity="other">選択したアーティストの全ての曲を削除します。</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <!--  IDS_MUSIC_POP_THE_SELECTED_FOLDER_WILL_BE_DELETED  -->
+        <item quantity="one">選択したフォルダを削除します。</item>
+        <!--  IDS_MUSIC_POP_THE_SELECTED_FOLDERS_WILL_BE_DELETED  -->
+        <item quantity="other">選択したフォルダを削除します。</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRE_WILL_BE_DELETED  -->
+        <item quantity="one">選択したジャンルの全ての曲を削除します。</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRES_WILL_BE_DELETED  -->
+        <item quantity="other">選択したジャンルの全ての曲を削除します。</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSER_WILL_BE_DELETED  -->
+        <item quantity="one">選択した作曲者の全ての曲を削除します。</item>
+        <!--  IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSERS_WILL_BE_DELETED  -->
+        <item quantity="other">選択した作曲者の全ての曲を削除します。</item>
+    </plurals>
+    <string name="error_UNABLE_TO_ADD_MORE_MUSIC_MAX_REACHED_MSG">ミュージックファイルはこれ以上追加できません。ミュージックファイルが最大件数に達しました。</string>
+    <!-- IDS_MUSIC_BODY_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED -->
+    <string name="error_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED">プレイリストを作成できません。プレイリストが最大数に達しました。</string>
+    <!-- IDS_MUSIC_BODY_ARTISTS_ALBUMS_AND_TRACKS -->
+    <!-- IDS_PB_BODY_ABCDEFGHIJKLMNOPQRSTUVWXYZ_M_INDEXLIST -->
+    <string name="character_list">#あかさたなはまやらわAZ</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_MUSIC_PLAYER_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <!-- IDS_COM_BODY_AND_PD_MORE -->
+    <string name="and_n_more">その他%d件</string>
+    <plurals name="NNNtrack">
+        <!--  IDS_MUSIC_MBODY_PD_TRACK  -->
+        <item quantity="one">%d曲</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_ABB  -->
+        <item quantity="other">%d曲</item>
+    </plurals>
+    <plurals name="NNNplaylist">
+        <!--  MIDS_IS_MBODY_PD_PLAYLIST  -->
+        <item quantity="one">プレイリスト%d件</item>
+        <!--  IDS_MUSIC_BODY_PD_PLAYLISTS  -->
+        <item quantity="other">%d件のプレイリスト</item>
+    </plurals>
+    <plurals name="NNNalbum">
+        <!--  IDS_MUSIC_BODY_1_ALBUM  -->
+        <item quantity="one">1枚のアルバム</item>
+        <!--  IDS_MUSIC_BODY_PD_ALBUMS  -->
+        <item quantity="other">%d枚のアルバム</item>
+    </plurals>
+    <plurals name="NNNartist">
+        <!--  IDS_MUSIC_BODY_1_ARTIST  -->
+        <item quantity="one">1組のアーティスト</item>
+        <!--  IDS_MUSIC_BODY_PD_ARTISTS  -->
+        <item quantity="other">%d組のアーティスト</item>
+    </plurals>
+    <plurals name="NNNgenre">
+        <!--  IDS_MUSIC_BODY_1_GENRE  -->
+        <item quantity="one">1種類のジャンル</item>
+        <!--  IDS_MUSIC_BODY_PD_GENRES  -->
+        <item quantity="other">%d種類のジャンル</item>
+    </plurals>
+    <plurals name="NNNfolder">
+        <!--  IDS_VPL_BODY_1_FOLDER  -->
+        <item quantity="one">1件のフォルダ</item>
+        <!--  IDS_MF_BODY_DETAILFOLDERS  -->
+        <item quantity="other">%d件のフォルダ</item>
+    </plurals>
+    <plurals name="NNNcomposer">
+        <!--  IDS_MUSIC_BODY_1_COMPOSER  -->
+        <item quantity="one">1人の作曲者</item>
+        <!--  IDS_MUSIC_BODY_PD_COMPOSERS  -->
+        <item quantity="other">%d人の作曲者</item>
+    </plurals>
+    <plurals name="NNNyear">
+        <!--  IDS_MUSIC_BODY_1_YEAR  -->
+        <item quantity="one">1 年</item>
+        <!--  IDS_HEALTH_BODY_PD_YEARS  -->
+        <item quantity="other">%d 年</item>
+    </plurals>
+    <plurals name="NNNdevice">
+        <!--  IDS_MUSIC_BODY_1_DEVICE  -->
+        <item quantity="one">1台のデバイス</item>
+        <!--  IDS_MUSIC_BODY_PD_DEVICES  -->
+        <item quantity="other">%d台のデバイス</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_PLAYLIST  -->
+        <item quantity="one">プレイリストに1曲追加しました。</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_ADDED_TO_PLAYLIST  -->
+        <item quantity="other">プレイリストに%d曲追加しました。</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_DELETED  -->
+        <item quantity="one">1曲削除しました。</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_DELETED  -->
+        <item quantity="other">%d曲削除しました。</item>
+    </plurals>
+    <plurals name="NNNitemssdeleted">
+        <!--  IDS_COM_POP_1_ITEM_DELETED  -->
+        <item quantity="one">1件削除しました。</item>
+        <!--  IDS_MUSIC_POP_PD_ITEMS_DELETED  -->
+        <item quantity="other">%d件削除しました。</item>
+    </plurals>
+    <plurals name="NNNtracksremoved">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_REMOVED  -->
+        <item quantity="one">1曲を削除しました。</item>
+        <!--  IDS_MUSIC_POP_PD_TRACKS_REMOVED  -->
+        <item quantity="other">%d曲を削除しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstonowplaying">
+        <!--  IDS_MUSIC_BODY_1_TRACK_ADDED_TO_NOW_PLAYING_LIST  -->
+        <item quantity="one">再生中リストに1曲追加しました。</item>
+        <!--  IDS_MUSIC_BODY_PD_TRACKS_ADDED_TO_NOW_PLAYING_LIST  -->
+        <item quantity="other">再生中リストに%d曲追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES  -->
+        <item quantity="one">お気に入りに1曲を追加しました。</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES  -->
+        <item quantity="other">お気に入りに%d曲を追加しました。</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED  -->
+        <item quantity="one">お気に入りに1曲を追加しました。既にお気に入りに登録済みの曲は追加されませんでした。</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED  -->
+        <item quantity="other">お気に入りに%d曲を追加しました。既にお気に入りに登録済みの曲は追加されませんでした。</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <!--  IDS_MUSIC_TPOP_1_TRACK_REMOVED_FROM_FAVOURITES  -->
+        <item quantity="one">お気に入りから1曲を削除しました。</item>
+        <!--  IDS_MUSIC_TPOP_PD_TRACKS_REMOVED_FROM_FAVOURITES  -->
+        <item quantity="other">お気に入りから%d曲を削除しました。</item>
+    </plurals>
+    <plurals name="NNNrecordings">
+        <!--  IDS_MUSIC_HEADER_PD_RECORDING_M_VOICE_ABB  -->
+        <item quantity="one">%d件の録音ファイル</item>
+        <!--  IDS_MUSIC_HEADER_PD_RECORDINGS_M_VOICE_ABB  -->
+        <item quantity="other">%d件の録音ファイル</item>
+    </plurals>
+    <!-- IDS_MUSIC_BODY_NOW_PLAYING_LIST -->
+    <string name="now_playing_list">現在再生中リスト</string>
+    <!-- IDS_MTTRL_BODY_LEARN_ABOUT_PALM_TOUCH -->
+    <!-- IDS_HELP_POP_YOU_HAVE_MUTED_PAUSED_THE_MUSIC_USING_PALM_MOTION -->
+    <!-- IDS_HELP_POP_COVER_THE_SCREEN_WITH_YOUR_PALM_TO_PAUSE_THE_MUSIC -->
+    <!-- IDS_HELP_POP_TUTORIAL_COMPLETE -->
+    <string name="tutorial_complete">チュートリアルが完了しました。</string>
+    <!-- IDS_HELP_BODY_CONNECT_TO_WLAN_CHN -->
+    <!-- IDS_MUSIC_HEADER_CONNECT_VIA_MOBILE_NETWORKS_ABB -->
+    <string name="connect_via_network">モバイルネットワークで接続</string>
+    <!-- IDS_CAM_BODY_WLAN_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="error_wifi_not_available">WLANを利用できません。モバイルネットワークで接続すると、料金プランによっては、追加料金が発生する可能性があります。</string>
+    <!-- IDS_ST_POP_CONNECTING_VIA_HDMI_WILL_END_ANY_WIRELESS_CONNECTIONS_MSG -->
+    <!-- IDS_ST_HEADER_CONNECT_VIA_HDMI_ABB -->
+    <string name="app_not_available">アプリケーションは利用できません。</string>
+    <!-- IDS_SBAND_BUTTON_DEREGISTER_ABB -->
+    <string name="deregisterd_device">登録解除</string>
+    <!-- MIDS_ASP_POP_DEREGISTER_THE_SELECTED_DEVICE_FROM_SAMSUNG_LINK_Q_THE_DEVICE_CAN_BE_REGISTERED_WITH_THE_SERVICE_AGAIN_LATER -->
+    <!-- IDS_VIDEO_TPOP_DEREGISTERING_SELECTED_DEVICE_ING -->
+    <string name="deregistered_progress_message">選択した端末の登録を解除中\u2026</string>
+    <!-- IDS_ST_TPOP_TO_UNPIN_APPLICATION_PRESS_AND_HOLD_THE_RECENTS_AND_BACK_KEYS_AT_THE_SAME_TIME -->
+    <!-- IDS_ST_BODY_SEEK_CONTROL -->
+    <!-- IDS_IDLE_POP_UNABLE_TO_OPEN_PS_TAP_SETTINGS_GO_TO_APP_INFO_PERMISSIONS_THEN_ALLOW_MSG -->
+    <string name="permission_request_dialog_content">%sを起動できません。[設定]をタップし、[アプリケーション情報] &gt; [権限]に移動して、次の権限を許可してから再度実行してください。</string>
+    <!-- IDS_FM_MBODY_STORAGE -->
+    <!-- IDS_IM_BODY_CONTACTS -->
+    <!-- IDS_CAM_TPOP_UNABLE_TO_PLAY_MUSIC_WHILE_RECORDING_AUDIO_OR_VIDEO -->
+    <string name="unable_to_play_during_recording">音声の録音中または動画の録画中は、音楽を再生できません。</string>
+    <!-- IDS_CAM_BODY_CONNECTION_FAILED -->
+    <string name="connection_failed">接続に失敗しました。</string>
+</resources>

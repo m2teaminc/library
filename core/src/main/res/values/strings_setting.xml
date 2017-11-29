@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Common -->
+    <string name="apply" did="IDS_ST_SK_APPLY">Apply</string>
+    <string name="continue_s" did="IDS_ST_BUTTON_continue_s">continue_s</string>
+    <string name="default_s" did="IDS_COM_BODY_default_s">default_s</string>
+    <string name="disable" did="IDS_ST_BUTTON_DISABLE">Disable</string>
+    <string name="common_enable" did="IDS_ST_BUTTON_ENABLE">Enable</string>
+    <string name="common_music_controller" did="IDS_LCKSCN_BODY_MUSIC_CONTROLLER_ABB">Music controller</string>
+    <string name="agree" did="IDS_ST_SK_AGREE">Agree</string>
+    <string name="disagree" did="IDS_ST_BUTTON_DISAGREE">Disagree</string>
+    <string name="allow" did="IDS_MSGF_BODY_ALLOW">Allow</string>
+    <string name="change" did="IDS_ST_BUTTON_CHANGE_ABB">Change</string>
+    <string name="clear" did="IDS_ST_BUTTON_CLEAR">Clear</string>
+    <string name="create" did="IDS_ST_SK_CREATE_LITE">Create</string>
+    <string name="next_button_label" did="IDS_ST_SK_NEXT">Next</string>
+    <string name="enable_ps_title" did="IDS_ACCS_HEADER_ENABLE_PS">Enable %s</string>
+    <string name="extra_huge" did="IDS_ACCS_BODY_EXTRA_HUGE_M_FONT_SIZE">Extra huge</string>
+    <string name="extra_huge_pd" did="IDS_ACCS_SBODY_EXTRA_HUGE_PD">Extra huge %d</string>
+    <string name="extra_small" did="IDS_ST_OPT_EXTRA_SMALL_M_FONT_SIZE">Extra small</string>
+    <string name="status_disabled" did="IDS_ST_SBODY_DISABLED_M_STATUS">Disabled</string>
+    <string name="status_enabled" did="IDS_ST_SBODY_ENABLED_M_STATUS">Enabled</string>
+    <string name="left" did="IDS_ST_HEADER_LEFT">Left</string>
+    <string name="total" did="IDS_ST_SK_TOTAL">Total</string>
+    <string name="support" did="IDS_ST_HEADER_SUPPORT">Support</string>
+    <string name="turn_off" did="IDS_ST_BUTTON_TURN_OFF">Turn off</string>
+    <string name="turn_on" did="IDS_ST_BUTTON_TURN_ON">Turn on</string>
+
+    <string name="error_cant_change_setting_while_s_on" did="IDS_ST_TPOP_CANT_CHANGE_THIS_SETTING_WHILE_PS_IS_ON">Can\'t change this setting while %s is on.</string>
+    <string name="do_not_show_again" did="IDS_ST_BODY_DO_NOT_SHOW_AGAIN">Do not show again.</string>
+    <string name="guide_download_application_msg" did="IDS_WGT_POP_TO_USE_THIS_FUNCTION_DOWNLOAD_THE_FOLLOWING_APPLICATIONS_C_N_NPS">To use this function, download the following application:\n\n%s</string>
+
+    <!-- Common app name -->
+    <string name="call" did="IDS_ST_BODY_CALL">Call</string>
+    <string name="gallery" did="IDS_ST_BODY_GALLERY">Gallery</string>
+    <string name="application_name_myfiles" did="IDS_SF_MBODY_MY_FILES_M_APPLICATION_NAME">My Files</string>
+    <string name="phone" did="IDS_ST_BODY_PHONE">Phone</string>
+    <string name="homescreen" did="IDS_ST_MBODY_HOME_SCREEN">Home screen</string>
+
+    <!-- Common colors -->
+    <string name="color_black" did="IDS_WMGR_OPT_BLACK_M_COLOUR">Black</string>
+    <string name="color_blue" did="IDS_AMEMO_BODY_BLUE">Blue</string>
+    <string name="color_cyan" did="IDS_WMGR_OPT_CYAN_M_COLOUR">Cyan</string>
+    <string name="color_gray" did="DREAM_ACCS_OPT_GRAY_ABB">Gray</string>
+    <string name="color_green" did="IDS_AMEMO_BODY_GREEN">Green</string>
+    <string name="color_magenta" did="IDS_WMGR_OPT_MAGENTA_M_COLOUR">Magenta</string>
+    <string name="color_red" did="IDS_AMEMO_BODY_RED">Red</string>
+    <string name="color_white" did="IDS_WMGR_OPT_WHITE_M_COLOUR">White</string>
+    <string name="color_yellow" did="IDS_AMEMO_BODY_YELLOW">Yellow</string>
+
+    <!-- Common number -->
+
+    <!-- Navigation Bar -->
+    <string name="high" did="DREAM_ST_OPT_HIGH_M_TOUCH_SENSITIVITY">High</string>
+    <string name="low" did="DREAM_ST_OPT_LOW_M_TOUCH_SENSITIVITY">Low</string>
+    <string name="apply_current_theme" did="DREAM_ST_OPT_APPLY_CURRENT_THEME">Apply current theme</string>
+    <string name="navigationbar_title" did="DREAM_ST_HEADER_NAVIGATION_BAR">Navigation Bar</string>
+
+    <!-- Settings app etc -->
+    <string name="error_add_favorite_maximum_popup" did="IDS_ST_POP_UNABLE_TO_ADD_ITEMS_MAXIMUM_NUMBER_OF_QUICK_SETTINGS_ITEMS_HPD_REACHED">Unable to add items. Maximum number of quick settings items(%d) reached.</string>
+    <string name="navigate_up" did="IDS_COM_BODY_NAVIGATE_UP">Navigate up</string>
+    <string name="personal" did="IDS_ST_BODY_PERSONAL">Personal</string>
+    <string name="work" did="IDS_BT_BODY_WORK">Work</string>
+    <string name="extended_list" did="IDS_ST_OPT_VIEW_AS_EXTENDED_LIST_VZW">View as extended list</string>
+    <string name="no_results_found" did="IDS_ST_NPBODY_NO_RESULTS_FOUND">No results found</string>
+    <string name="n_related_items" did="MIDS_FOCUS_HEADER_PD_RELATED_ITEMS_ABB">%d related items</string>
+    <string name="recents_search" did="IDS_PB_BODY_RECENT_SEARCHES">Recent searches</string>
+
+    <!-- Connections -->
+    <string name="err_nosim_msg" did="IDS_WIFI_POP_NO_USIM_CARD_IS_INSERTED_INSERT_A_USIM_CARD_AND_TRY_AGAIN_KOR_SKT">No USIM card is inserted. Insert a USIM card and try again.</string>
+    <string name="bluetooth_device_title" did="DREAM_CMV_OPT_BLUETOOTH_DEVICE_ABB">Bluetooth device</string>
+    <string name="bluetooth_title" did="IDS_NFC_BODY_BLUETOOTH">Bluetooth</string>
+    <string name="cellular_data_title" did="IDS_ST_MBODY_MOBILE_DATA">Cellular data</string>
+    <string name="download_cancel" did="IDS_CST_POP_DOWNLOAD_CANCELLED">Download cancelled.</string>
+    <string name="version_up_to_date" did="IDS_ST_BODY_YOUR_VERSION_IS_UP_TO_DATE">Your version is up to date.</string>
+
+    <!-- Tethering -->
+
+    <!-- Smart bonding -->
+
+
+    <!-- Print -->
+    <string name="download_plugin" did="IDS_PRINT_MBODY_DOWNLOAD_PLUG_IN">Download plug-in</string>
+    <string name="unavailable" did="IDS_ST_BODY_UNAVAILABLE_M_STATUS">Unavailable</string>
+
+    <!-- Boost mode --> 
+    <string name="n_has_turn_off" did="IDS_ST_BODY_PS_HAS_BEEN_TURNED_OFF">%s has been turned off.</string>
+    <string name="turning_off" did="IDS_ST_BODY_TURNING_OFF_PS_ING">Turning off %s...</string>
+    <string name="n_has_turn_on" did="IDS_ST_BODY_PS_HAS_BEEN_TURNED_ON">%s has been turned on.</string>
+    <string name="turning_on_s" did="IDS_ST_BODY_TURNING_ON_PS_ING">Turning on %s...</string>
+    <string name="entertainment_mode_title" did="IDS_ST_HEADER_ENTERTAINMENT_MODE">Entertainment mode</string>
+    <string name="error_to_use_s_2s_must_off" did="IDS_ST_POP_TO_USE_P1SS_P2SS_NEEDS_TO_BE_TURNED_OFF">To use %1$s, %2$s needs to be turned off.</string>
+    <string name="turn_off_s_q" did="IDS_ST_HEADER_TURN_OFF_PS_Q">Turn off %s?</string>
+    <string name="game_mode" did="IDS_ST_HEADER_GAME_MODE">Game mode</string>
+    <string name="boost_mode_uhq_upscaler_summary" did="IDS_ST_SBODY_ENHANCE_THE_QUALITY_OF_SOUND">Enhance the quality of sound.</string>
+    <string name="guide_reduce_battery" did="IDS_ST_BODY_THIS_MAY_REDUCE_YOUR_BATTERY_LIFE">This may reduce your battery life.</string>
+
+    <!-- Airplane mode -->
+    <string name="airplane_mode" did="IDS_ST_POP_FLIGHT_MODE">Flight mode</string>
+
+    <!-- Data usage -->
+    <string name="data_usage" did="IDS_ST_HEADER_DATA_USAGE_ABB">Data usage</string>
+    <string name="always" did="IDS_VOICE_OPT_ALWAYS_VOICE">Always</string>
+    <string name="never" did="IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF">Never</string>
+    <string name="n_day_of_each_month" did="DREAM_ST_SBODY_PS_DAY_OF_EACH_MONTH">%s day of each month</string>
+    <string name="n_db_mobile_data" did="IDS_XTAG_MBODY_P1SS_OF_MOBILE_DATA_ABB"><xliff:g name="units" example="GB">%1$s</xliff:g> of mobile data</string>
+    <string name="cellular_data_usage" did="IDS_ST_MBODY_MOBILE_DATA_USAGE">Mobile data usage</string>
+    <string name="region" did="IDS_ST_MBODY_REGION_CHN">Region</string>
+    <string name="data_compression_title" did="IDS_ST_HEADER_DATA_COMPRESSION">Data compression</string>
+    <!-- SEC_DATAUSAGE_HELP -->
+    <string name="restricted" did="IDS_ST_BODY_RESTRICTED">Restricted</string>
+    <string name="view_app_settings" did="IDS_ST_BODY_VIEW_APP_SETTINGS_ABB">View app settings</string>
+    <string name="on_this_date_each_month" did="IDS_ST_BODY_ON_THIS_DATE_EACH_MONTH_C_ABB">On this date each month:</string>
+    <string name="background" did="IDS_ST_BODY_BACKGROUND">Background</string>
+    <string name="foreground" did="IDS_ST_BODY_FOREGROUND">Foreground</string>
+    <string name="mobile" did="IDS_ST_BODY_MOBILE">Mobile</string>
+    <string name="display_unit" did="IDS_ST_HEADER_DISPLAY_UNITS_VZW">Display units</string>
+    <string name="data_saver_title" did="IDS_ST_MBODY_DATA_SAVER">Data saver</string>
+    <string name="data_warning" did="DREAM_ST_PHEADER_DATA_WARNING">Data warning</string>
+    <string name="auto_update" did="IDS_ST_BODY_AUTO_UPDATE">Auto update</string>
+
+    <!-- Location -->
+    <string name="noti_settings" did="IDS_ST_OPT_NOTIFICATION_SETTINGS_ABB2_CHN">Notification settings</string>
+    <string name="background_location_category" did="IDS_ST_HEADER_SELECT_APPS_CHN">Apps</string>
+    <string name="alway_allow" did="IDS_ST_OPT_ALWAYS_ALLOWED_ABB_CHN">Always allowed</string>
+    <string name="never_allowed" did="IDS_ST_OPT_NEVER_ALLOWED_ABB_CHN">Never allowed</string>
+    <string name="device_only" did="IDS_ST_SBODY_DEVICE_ONLY">Device only</string>
+    <string name="tablet_only" did="DREAM_ST_SBODY_TABLET_ONLY">Tablet only</string>
+    <string name="bluetooth_scanning" did="IDS_ST_MBODY_BLUETOOTH_SCANNING">Bluetooth scanning</string>
+    <string name="wifi_scanning" did="IDS_ST_MBODY_WI_FI_SCANNING">Wi-Fi scanning</string>
+    <string name="log_text" did="IDS_ST_BUTTON_LOG">Log</string>
+
+    <!-- VPN -->
+
+    <!-- APN -->
+    <string name="name" did="IDS_COM_BODY_NAME">Name</string>
+    <string name="error_name_empty" did="IDS_ST_BODY_THE_NAME_FIELD_CANNOT_BE_EMPTY">The Name field cannot be empty.</string>
+    <string name="reset_to_default_s" did="IDS_ST_BODY_RESET_TO_default_s">Reset to default_s</string>
+    <string name="exit" did="IDS_ST_BUTTON_EXIT">Exit</string>
+    <string name="already_exists" did="IDS_COM_POP_ALREDY_EXISTS">Already exists.</string>
+
+    <string name="advanced_network_settings_title" did="IDS_SMEMO_BODY_ADVANCED_SETTINGS_T_TTS">Advanced settings</string>
+    <string name="err_msg_invalid_user_name" did="IDS_ST_POP_AN_INCORRECT_USERNAME_HAS_BEEN_ENTERED_TAP_OK_TO_TRY_AGAIN">An incorrect username has been entered. Tap OK to try again.</string>
+    <string name="err_msg_invalid_password" did="IDS_ST_POP_AN_INCORRECT_PASSWORD_HAS_BEEN_ENTERED_TAP_OK_TO_TRY_AGAIN">An incorrect password has been entered. Tap OK to try again.</string>
+    <string name="error_username_empty" did="IDS_ST_POP_THE_USERNAME_FIELD_CANNOT_BE_EMPTY">The username field cannot be empty.</string>
+    <string name="error_password_empty" did="IDS_ST_POP_THE_PASSWORD_FIELD_CANNOT_BE_EMPTY">The password field cannot be empty.</string>
+
+    <!-- Ethernet -->
+    <string name="connection_type" did="IDS_ST_POP_CONNECTION_TYPE">Connection type</string>
+    <string name="turning_on" did="IDS_ST_BODY_TURNING_ON_ING">Turning on\u2026</string>
+
+    <!-- Sound and notification -->
+    <string name="default_s_alarm_ringtone_title" did="IDS_ST_TMBODY_default_s_ALARM_TONE">default_s alarm tone</string>
+    <string name="advanced_notification_settings" did="IDS_ST_OPT_ADVANCED_NOTIFICATION_SETTINGS">Advanced notification settings</string>
+    <string name="error_app_not_found_dlg_text" did="IDS_ST_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_ACTION">Unable to find application to perform action.</string>
+    <string name="select_app_notification" did="IDS_ST_BODY_SELECT_WHICH_APPS_YOU_WANT_TO_RECEIVE_NOTIFICATIONS_FROM">Select which apps you want to receive notifications from.</string>
+    <string name="guide_app_notification_block_summary" did="IDS_ST_SBODY_RECEIVE_NOTIFICATIONS_FROM_THIS_APP_INCLUDING_NOTIFICATION_MESSAGES_SOUNDS_AND_VIBRATION">Receive notifications from this app, including notification messages, sounds, and vibration.</string>
+    <string name="allow_noti" did="IDS_ST_MBODY_ALLOW_NOTIFICATIONS">Allow notifications</string>
+    <string name="n_notifications" did="IDS_ST_HEADER_PS_NOTIFICATIONS">%s notifications</string>
+    <string name="alllow_or_block_noti" did="IDS_ST_SBODY_ALLOW_OR_BLOCK_NOTIFICATIONS_FROM_INDIVIDUAL_APPS">Allow or block notifications from individual apps.</string>
+    <string name="app_notifications_title" did="IDS_ST_MBODY_APP_NOTIFICATIONS_ABB">App notifications</string>
+    <string name="n_turned_on" did="IDS_ST_POP_PS_TURNED_ON">%s turned on.</string>
+    <string name="audio_device_type_title" did="DREAM_CMV_TMBODY_AUDIO_DEVICE">Audio device</string>
+    <string name="download_ringtones" did="IDS_COM_BODY_RINGTONES_DOWNLOAD_RINGTONES">Download ringtones</string>
+    <string name="alert" did="IDS_ST_BODY_ALERT">Alert</string>
+    <string name="silent" did="IDS_COM_BODY_SILENT">Silent</string>
+    <string name="stop_setup_q" did="DREAM_ST_PHEADER_STOP_SETUP_Q">Stop setup?</string>
+    <string name="setting_wont_applied" did="DREAM_ST_POP_ANY_SETTINGS_YOUVE_CHANGED_WONT_BE_APPLIED">Any settings you\'ve changed won\'t be applied.</string>
+    <string name="notification" did="IDS_ST_BODY_NOTIFICATION">Notification</string>
+    <string name="default_s_notification_ringtone_title" did="IDS_ST_TMBODY_default_s_NOTIFICATION_SOUND_ABB">default_s notification sound</string>
+    <string name="sound_and_vibration" did="IDS_ST_MBODY_SOUNDS_AND_VIBRATION">Sounds and vibration</string>
+    <string name="notification_sound_category_title" did="IDS_ST_MBODY_NOTIFICATION_SOUNDS">Notification sounds</string>
+
+    <!-- DND - ZEN mode -->
+    <string name="allow_exceptions" did="IDS_ST_MBODY_ALLOW_EXCEPTIONS">Allow exceptions</string>
+    <string name="everyday" did="IDS_ALM_BODY_EVERY_DAY">Every day</string>
+    <string name="every_Friday" did="IDS_ALM_BODY_EVERY_FRIDAY">Every Friday</string>
+    <string name="every_Monday" did="IDS_ALM_BODY_EVERY_MONDAY">Every Monday</string>
+    <string name="none_one_time" did="IDS_ST_SBODY_NONE_HONE_TIME_EVENT_M_STATUS_CHN">None (one-time event)</string>
+    <string name="every_Saturday" did="IDS_ALM_BODY_EVERY_SATURDAY">Every Saturday</string>
+    <string name="every_sunday" did="IDS_ALM_BODY_EVERY_SUNDAY">Every Sunday</string>
+    <string name="every_thursday" did="IDS_ALM_BODY_EVERY_THURSDAY">Every Thursday</string>
+    <string name="every_tuesday" did="IDS_ALM_BODY_EVERY_TUESDAY">Every Tuesday</string>
+    <string name="every_wednesday" did="IDS_ALM_BODY_EVERY_WEDNESDAY">Every Wednesday</string>
+    <string name="enable_now" did="IDS_ST_MBODY_ENABLE_NOW">Enable now</string>
+    <string name="schedule_set" did="IDS_ST_HEADER_SCHEDULE_SET_US">Schedule set</string>
+
+    <!-- Display -->
+    <string name="brightness_title" did="IDS_ST_MBODY_BRIGHTNESS">Brightness</string>
+    <string name="error_cannot_use_same_time" did="IDS_ST_TPOP_P1SS_AND_P2SS_CANNOT_BE_USED_AT_THE_SAME_TIME_DISABLE_P3SS_TO_USE_P4SS">%1$s and %2$s cannot be used at the same time. Disable %3$s to use %4$s.</string>
+    <string name="end_time" did="IDS_ST_MBODY_END_TIME">End time</string>
+    <string name="start_time" did="IDS_ST_MBODY_START_TIME">Start time</string>
+    <string name="guide_blue_light_filter_scheduled_toast" did="DREAM_ST_TPOP_BLUE_LIGHT_FILTER_TURNED_ON_IT_WILL_BE_AUTOMATICALLY_TURNED_OFF_AT_SCHEDULED_END_TIME">Blue light filter turned on. It will be automatically turned off at scheduled end time.</string>
+    <string name="opacity" did="IDS_ST_MBODY_OPACITY_M_BLUE_LIGHT_FILTER">Opacity</string>
+    <string name="guide_blue_light_filter_summary_off" did="IDS_ST_SBODY_REDUCE_EYE_STRAIN_BY_LIMITING_THE_AMOUNT_OF_BLUE_LIGHT_EMITTED_BY_THE_SCREEN">Reduce eye strain by limiting the amount of blue light emitted by the screen.</string>
+    <string name="blue_light_filter_title" did="IDS_ST_MBODY_BLUE_LIGHT_FILTER">Blue light filter</string>
+    <string name="custom_schedule" did="IDS_ST_OPT_CUSTOM_SCHEDULE_M_BLUE_LIGHT_FILTER">Custom schedule</string>
+    <string name="current_theme_font" did="IDS_ST_OPT_CURRENT_THEMES_default_s">Current theme\'s default_s</string>
+    <string name="screen_rotation" did="IDS_ST_MBODY_SCREEN_ROTATION">Screen rotation</string>
+    <string name="display" did="IDS_ST_HEADER_DISPLAY">Display</string>
+    <string name="display_temperature" did="IDS_ST_MBODY_COLOUR_BALANCE">Colour balance</string>
+    <string name="dynamic" did="IDS_ST_BODY_DYNAMIC_M_SCREEN_MODE">Dynamic</string>
+    <string name="screen_mode_movie" did="IDS_ST_BODY_CINEMA_M_SCREEN_MODE">Cinema</string>
+    <string name="reading_mode" did="IDS_ST_BODY_READING_MODE">Reading mode</string>
+    <string name="standard" did="IDS_ST_BODY_STANDARD_T_DISPLAY_EFFECT">Standard</string>
+
+    <!-- Font -->
+    <string name="font_preview_description" did="IDS_ACCS_BODY_MAIN_TEXT_WILL_LOOK_LIKE_THIS">Main text will look like this.</string>
+    <string name="download_font_style" did="IDS_ST_OPT_DOWNLOAD_FONTS_ABB">Download fonts</string>
+    <string name="font_size_subtitle" did="IDS_ST_HEADER_FONT_SIZE">Font size</string>
+    <string name="font_style_subtitle" did="IDS_ST_BODY_FONT_STYLE">Font style</string>
+    <string name="more_fonts" did="IDS_ST_BUTTON_MORE_FONTS">More fonts</string>
+    <string name="reset_df_font_question" did="IDS_ST_POP_RESET_TO_default_s_FONT_Q">Reset to default_s font?</string>
+    <string name="set_font_as_n" did="IDS_ST_BODY_SET_FONT_AS_PS_Q">Set font as %s?</string>
+    <string name="loading_font_list" did="IDS_ST_BODY_LOADING_FONT_LIST_ING">Loading font list...</string>
+    <string name="font_not_supported_font_title" did="IDS_ST_HEADER_FONT_NOT_SUPPORTED_ABB">Font not supported</string>
+    <string name="set_font" did="IDS_ST_BODY_SET_FONT">Set font.</string>
+    <string name="restart_now" did="IDS_ST_BUTTON_RESTART_NOW">Restart now</string>
+    <string name="restart_phone" did="IDS_ST_BODY_RESTART_PHONE">Restart phone</string>
+    <string name="monotype_select_font" did="IDS_ST_BODY_SELECT_FONT">Select font</string>
+
+    <!-- Screen saver / Daydream -->
+    <string name="preview" did="IDS_MSG_OPT_PREVIEW">Preview</string>
+    <string name="both" did="IDS_ST_OPT_BOTH_M_WHILE_DOCKED_CHARGING">Both</string>
+    <string name="while_charging" did="IDS_ST_BODY_WHILE_CHARGING">While charging</string>
+
+
+    <!-- AOD -->
+    <string name="error_cannot_enable_same_time" did="IDS_ACCS_TPOP_P1SS_AND_P2SS_CANNOT_BE_ENABLED_AT_SAME_TIME">%1$s and %2$s cannot be enabled at same time.</string>
+    <string name="show_always" did="IDS_ST_MBODY_SHOW_ALWAYS">Show always</string>
+    <string name="aod_summary_clock" did="IDS_ST_SBODY_CLOCK">Clock</string>
+    <string name="aod_summary_calendar" did="IDS_CLD_BODY_CALENDAR">Calendar</string>
+    <string name="image" did="IDS_STUDIO_BUTTON_IMAGE_ABB">Image</string>
+    <string name="all_day" did="IDS_COM_BODY_ALL_DAY">All day</string>
+
+    <!-- Advanced feature -->
+    <string name="advanced_features" did="IDS_ST_HEADER_ADVANCED_FEATURES">Advanced features</string>
+
+    <string name="pply_to" did="DREAM_ST_HEADER_APPLY_TO">Apply to</string>
+
+    <string name="active_key_title" did="IDS_AM_HEADER_ACTIVE_KEY">Active key</string>
+    <string name="accessory" did="IDS_COM_BODY_ACCESSORIES">Accessories</string>
+
+    <string name="floating_msg" did="IDS_ST_BODY_FLOATING_MESSAGES">Floating messages</string>
+
+    <string name="share_screenshot" did="DREAM_SC_BODY_SHARE_THE_SCREENSHOT_ABB">Share the screenshot.</string>
+
+    <string name="available_apps" did="IDS_VPL_HEADER_AVAILABLE_APPS_ABB">Available apps</string>
+
+    <!-- Hongbao -->
+
+
+    <!-- Device maintenance -->
+
+    <!-- USB -->
+
+    <!-- Storage -->
+    <string name="cache_label" did="IDS_ST_BODY_CACHE">Cache</string>
+    <string name="manage_space_text" did="IDS_ST_BUTTON_MANAGE_STORAGE_ABB">Manage storage</string>
+    <string name="available_space" did="IDS_ST_BODY_AVAILABLE_SPACE">Available space</string>
+    <string name="calculating_size" did="IDS_LBS_POP_CALCULATING_ING">Calculating...</string>
+    <string name="guide_memory_clear_cache_message" did="IDS_ST_BODY_THIS_WILL_CLEAR_CACHED_DATA_FOR_ALL_APPS_ABB">This will clear cached data for all apps.</string>
+    <string name="total_space" did="IDS_ST_BODY_TOTAL_SPACE">Total space</string>
+    <string name="move" did="IDS_IMGE_OPT_REDEYE_REPAIR_MOVE">Move</string>
+    <string name="cached_data" did="IDS_ST_BODY_CACHED_DATA_ABB">Cached data</string>
+    <string name="picture_videos" did="IDS_ST_BODY_PICTURES_VIDEOS">Pictures, videos</string>
+    <string name="images" did="IDS_ST_BODY_IMAGES">Images</string>
+    <string name="videos" did="IDS_ST_BODY_VIDEOS">Videos</string>
+    <string name="other_users" did="IDS_ST_BODY_OTHER_USERS_ABB">Other users</string>
+    <string name="storage" did="IDS_ST_HEADER_STORAGE">Storage</string>
+    <string name="external_storage" did="IDS_ST_SBODY_EXTERNAL_STORAGE">External storage</string>
+
+    <!-- Battery -->
+    <string name="n_day_n_hour_n_min_n_second" did="IDS_ST_BODY_P1SDD_P2SDH_P3SDM_P4SDS"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m <xliff:g id="seconds">%4$d</xliff:g>s</string>
+    <string name="n_hour_n_min_n_second" did="IDS_ST_BODY_P1SDH_P2SDM_P3SDS"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m <xliff:g id="seconds">%3$d</xliff:g>s</string>
+    <string name="n_hour_n_second" did="IDS_ST_BODY_P1SDM_P2SDS"><xliff:g id="minutes">%1$d</xliff:g>m <xliff:g id="seconds">%2$d</xliff:g>s</string>
+    <string name="n_sec" did="IDS_COM_BODY_PD_SEC">%d sec</string>
+    <string name="miscellaneous" did="IDS_COM_BODY_MISCELLANEOUS">Miscellaneous</string>
+    <string name="removed_user" did="IDS_ST_BODY_REMOVED_USER">Removed user</string>
+    <string name="report" did="MIDS_OTS_BUTTON_REPORT">Report</string>
+
+    <string name="customized" did="IDS_ST_BODY_CUSTOMISED_M_STATUS">Customized</string>
+    <string name="mid" did="IDS_ST_BUTTON_MID_M_POWER_SAVING_LEVEL_ABB">Mid</string>
+    <string name="button" did="IDS_HS_BODY_BUTTON_T_TTS">Button</string>
+    <string name="max" did="IDS_ST_BUTTON_MAX_M_POWER_SAVING_LEVEL">Max</string>
+    <string name="customize_title" did="IDS_ST_BUTTON_CUSTOMISE_M_SETTINGS">Customise</string>
+    <string name="more_info" did="IDS_ST_HEADER_MORE_INFO">More Information</string>
+
+    <!-- Easy mode -->
+
+    <!-- Applications settings -->
+
+    <string name="allow_permission" did="MIDS_SWALL_HEADER_ALLOW_PERMISSION">Allow permission</string>
+
+    <string name="uninstall_updates" did="IDS_ST_BUTTON_UNINSTALL_UPDATES">Uninstall updates</string>
+    <string name="app_download_from_n" did="IDS_XTAG_SBODY_APP_DOWNLOADED_FROM_PS_ABB">App downloaded from <xliff:g id="app_store">%s</xliff:g></string>
+    <string name="app_install_details_title" did="IDS_ST_MBODY_APP_DETAILS_IN_STORE">App details in store</string>
+
+    <string name="never_usedd" did="IDS_ST_OPT_NEVER_USED">(Never used)</string>
+    <string name="running" did="IDS_ST_HEADER_RUNNING">Running</string>
+    <string name="app_permission" did="IDS_ST_MBODY_APPLICATION_PERMISSIONS">Application permissions</string>
+    <string name="view_app_permissions" did="IDS_ST_SBODY_VIEW_OR_CHANGE_APPLICATION_PERMISSIONS">View or change application permissions.</string>
+    <string name="app_permissions" did="IDS_ST_MBODY_APP_PERMISSIONS">App permissions</string>
+    <string name="no_permissions_granted" did="IDS_ST_SBODY_NO_PERMISSIONS_ALLOWED">No permissions allowed</string>
+    <string name="no_permissions_requested" did="IDS_ST_SBODY_NO_PERMISSIONS_REQUIRED_STATUS">No permissions required</string>
+
+    <string name="application_info_label" did="IDS_ST_BODY_APPLICATION_INFO">Application info</string>
+    <string name="application" did="IDS_ST_BODY_APPLICATION">Application</string>
+    <string name="applications_manager" did="IDS_ST_BODY_APPLICATION_MANAGER">Application manager</string>
+    <string name="n_installed" did="IDS_ST_SBODY_PD_INSTALLED_M_STATUS"><xliff:g id="count" example="24">%d</xliff:g> installed</string>
+    <string name="version_s" did="IDS_ST_BODY_VERSION_PS">version <xliff:g id="version_num">%1$s</xliff:g></string>
+
+    <string name="change_storage" did="IDS_ST_HEADER_CHANGE_STORAGE_LOCATION">Change storage location</string>
+
+    <string name="clear_cache_btn_text" did="IDS_BMG_BUTTON_CLEAR_CACHE">Clear cache</string>
+    <string name="clear_data_dlg_text" did="IDS_ST_POP_ALL_OF_THIS_APPLICATIONS_DATA_WILL_BE_DELETED_PERMANENTLY_NOTI_MSG">All of this application\'s data will be deleted permanently. This includes all files, settings, accounts, databases etc.</string>
+    <string name="error_delete_data" did="IDS_ST_BODY_UNABLE_TO_DELETE_DATA_FOR_APP">Unable to delete data for app.</string>
+    <string name="deny_access" did="IDS_ST_BUTTON_DENY_ACCESS">Deny access</string>
+    <string name="clear_user_data_text" did="IDS_ST_BUTTON_CLEAR_DATA">Clear data</string>
+    <string name="computing_size" did="IDS_ST_POP_COMPUTING_ING">Computing\u2026</string>
+    <string name="data_label" did="IDS_ST_POP_DATA">Data</string>
+    <string name="usb_storage_data" did="IDS_ST_BODY_USB_STORAGE_DATA">USB storage data</string>
+
+    <string name="used_n_n_of_n" did="IDS_ST_SBODY_P1SS_P2SS_USED_SINCE_P3SS_M_STATUS">%1$s/%2$s used since %3$s</string>
+
+    <string name="set_as_default_s_app_title" did="IDS_ST_HEADER_SET_AS_default_s">Set as default_s</string>
+    <string name="browser_app_title" did="IDS_ST_MBODY_BROWSER_APP">Browser app</string>
+    <string name="default_s_app_selection" did="IDS_ST_MBODY_default_s_APP_SELECTION">default_s app selection</string>
+
+    <string name="force_stop" did="IDS_ST_BUTTON_FORCE_STOP">Force stop</string>
+    <string name="guide_force_stop_dlg_text" did="IDS_ST_BODY_IF_YOU_FORCE_STOP_AN_APP_IT_MAY_CAUSE_ERRORS">If you force stop an app, it may cause errors.</string>
+
+    <string name="n_used_template" did="IDS_ST_BODY_PS_USED_M_STATUS_ABB">%s used</string>
+
+    <string name="hide_system_apps" did="IDS_ST_OPT_HIDE_SYSTEM_APPS">Hide system apps</string>
+    <string name="menu_show_system" did="IDS_ST_OPT_SHOW_SYSTEM_APPS">Show system apps</string>
+
+    <string name="no_applications" did="IDS_ST_NPBODY_NO_APPLICATIONS">No applications</string>
+    <string name="not_active" did="IDS_DRM_BODY_LICENCE_DETAILS_NOT_ACTIVE">Not active</string>
+    <string name="not_installed" did="IDS_ST_MBODY_NOT_INSTALLED">Not installed</string>
+
+    <string name="blocked" did="IDS_SA_SBODY_BLOCKED_M_STATUS">Blocked</string>
+    <string name="allowed" did="IDS_ST_BODY_ALLOWED_M_STATUS">Allowed</string>
+
+    <string name="reset_app_preferences" did="DREAM_ST_OPT_RESET_APP_PREFERENCES_ABB">Reset app preferences</string>
+
+    <string name="running_frequency" did="IDS_HEALTH_MBODY_FREQUENCY_M_ORDER">Frequency</string>
+    <string name="cached" did="IDS_ST_BODY_CACHED_ABB_M_MUSIC_ABB">Cached</string>
+    <string name="free" did="IDS_ST_BODY_MEMORYSTATUS_FREE">Free</string>
+    <string name="used" did="IDS_ST_BODY_USED_M_MEMORY_ABB">Used</string>
+
+    <string name="sort_order_name" did="IDS_ST_SK1_SORT_BY_NAME">Sort by name</string>
+    <string name="sort_order_size" did="IDS_ST_BODY_SORT_BY_SIZE">Sort by size</string>
+
+    <string name="take_access_screenshot_title" did="DREAM_ST_TMBODY_TAKE_ACCESS_SCREENSHOTS">Take/access screenshots</string>
+
+    <!-- Lock screen -->
+    <string name="current_screen_lock" did="DREAM_LCKSCN_SBODY_CURRENT_LOCK_TYPE">Current lock type</string>
+    <string name="device_security" did="IDS_ST_HEADER_DEVICE_SECURITY_ABB">Device security</string>
+    <string name="bio_face_recognition_title" did="DREAM_ST_TMBODY_FACE_RECOGNITION_M_BRANDNAME">Face Recognition</string>
+    <string name="not_now_btn" did="DREAM_ST_BUTTON_NOT_NOW_22">Not now</string>
+    <string name="guide_biometrics_backup_locktype_summary" did="IDS_LCKSCN_POP_TO_USE_YOUR_IRISES_TO_UNLOCK_THE_DEVICE_YOU_MUST_SET_A_PATTERN_PIN_OR_PASSWORD">To use your irises to unlock the device, you must set a pattern, PIN, or password.</string>
+    <string name="guide_using_pw_by_biometric" did="DREAM_ST_BODY_YOULL_USE_THE_BACKUP_PASSWORD_TO_VERIFY_YOUR_IDENTITY_WHEN_YOU_CANT_USE_YOUR_BIOMETRICS">You\'ll use the backup password to verify your identity when you can\'t use your biometrics.</string>
+    <string name="biometrics_register_your_iris" did="DREAM_ST_BODY_REGISTER_YOUR_IRISES">Register your irises.</string>
+    <string name="select_backup_pw" did="DREAM_ST_HEADER_SELECT_BACKUP_PASSWORD">Select backup password</string>
+    <string name="guide_non_secure_biometrics_desc" did="IDS_LCKSCN_BODY_TO_USE_YOUR_FINGERPRINTS_OR_IRISES_TO_UNLOCK_YOUR_DEVICE_SELECT_A_SECURE_SCREEN_MSG">To use your fingerprints or irises to unlock your device, select a secure screen lock type, such as Pattern, PIN, or Password.</string>
+    <string name="confirm_backup_pin" did="IDS_ST_BODY_CONFIRM_BACKUP_PIN">Confirm backup PIN</string>
+    <string name="enter_current_pw" did="IDS_LCKSCN_BODY_ENTER_THE_CURRENT_PASSWORD">Enter the current password.</string>
+    <string name="enter_current_pin" did="IDS_LCKSCN_BODY_ENTER_THE_CURRENT_PIN">Enter the current PIN.</string>
+    <string name="confirm_old_password" did="IDS_ST_POP_ENTER_OLD_PASSWORD">Confirm old password</string>
+    <string name="contact_info_settings_title" did="DREAM_LCKSCN_PHEADER_CONTACT_INFORMATION">Contact information</string>
+    <string name="enable_iris_lock" did="IDS_ST_HEADER_ENABLE_IRIS_LOCK">Enable iris lock</string>
+    <string name="fingerprint_add_fingerprint" did="IDS_ST_MBODY_ADD_FINGERPRINT">Add fingerprint</string>
+    <string name="create_backup_pw" did="IDS_ST_HEADER_CREATE_BACKUP_PASSWORD_ABB">Create backup password</string>
+    <string name="device_has_restarted" did="IDS_ST_BODY_THE_DEVICE_HAS_BEEN_RESTARTED">The device has been restarted.</string>
+    <string name="backup_pw_change_password_toast" did="IDS_ST_TPOP_BACKUP_PASSWORD_CHANGED_KOR_SKT">Backup password changed.</string>
+    <string name="change_backup_password" did="IDS_ST_MBODY_CHANGE_BACKUP_PASSWORD">Change backup password</string>
+    <string name="guide_fingerprint_chooselock_help_text_1" did="DREAM_ST_BODY_TO_USE_FINGERPRINTS_SECURELY_YOU_NEED_TO_SET_A_PATTERN_PIN_OR_PASSWORD">To use fingerprints securely, you need to set a pattern, PIN, or password.</string>
+    <string name="setup_fingerprint_chooselock_title" did="IDS_ST_HEADER_SET_UP_FINGERPRINT_SECURITY_M_LC">Set up fingerprint security</string>
+    <string name="n_percent_archieved" did="IDS_HEALTH_BODY_PD_PERCENT_ACHIEVED_TTS">%d percent achieved.</string>
+    <string name="error_fingerprint_data_has_been_corrupted" did="IDS_ST_POP_THE_FINGERPRINT_DATA_HAS_BEEN_CORRUPTED_ADD_YOUR_FINGERPRINTS_AGAIN">The fingerprint data has been corrupted. Add your fingerprints again.</string>
+    <string name="fingerprint_delete" did="IDS_ST_HEADER_REMOVE_FINGERPRINT">Remove fingerprint</string>
+    <string name="fingerprint_delete_1_fingerprint_title" did="DREAM_ST_PHEADER_REMOVE_1_FINGERPRINT_Q">Remove 1 fingerprint?</string>
+    <string name="fingerprint_delete_n_fingerprints_title" did="DREAM_ST_PHEADER_REMOVE_PD_FINGERPRINTS_Q">Remove %d fingerprints?</string>
+    <string name="fingerprint_delete_q" did="DREAM_ST_PHEADER_REMOVE_FINGERPRINTS_Q">Remove fingerprints?</string>
+    <string name="fingerprint_disclaimer" did="IDS_ST_HEADER_DISCLAIMER">Disclaimer</string>
+    <string name="error_message_no_space_device_storage" did="IDS_HEALTH_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE_DELETE_SOME_ITEMS_AND_TRY_AGAIN">There is not enough space in your device storage. Delete some items and try again.</string>
+    <string name="error_fingerprint_error_message_not_responding" did="IDS_ST_POP_THE_FINGERPRINT_SENSOR_IS_NOT_RESPONDING_TRY_AGAIN_LATER">The fingerprint sensor is not responding. Try again later.</string>
+    <string name="error_fingerprint_error_message_sensor_error" did="IDS_ST_POP_AN_ERROR_HAS_OCCURRED_WITH_THE_FINGERPRINT_SENSOR_IF_THIS_MESSAGE_APPEARS_REPEATEDLY_RESTART_YOUR_DEVICE">An error has occurred with the fingerprint sensor. If this message appears repeatedly, restart your device.</string>
+    <string name="err_not_enough_storage" did="IDS_MF_HEADER_NOT_ENOUGH_STORAGE">Not enough storage</string>
+    <string name="tip" did="DREAM_ST_PHEADER_TIP">Tip</string>
+    <string name="fingerprint_list_item" did="IDS_ST_MBODY_FINGERPRINT_PD">Fingerprint %d</string>
+    <string name="fingerprint_lock" did="IDS_ST_MBODY_FINGERPRINT_LOCK">Fingerprint lock</string>
+    <string name="setup" did="IDS_SA_BUTTON_SET_UP_ABB2">Set up</string>
+    <string name="err_maximum_character_n_reached" did="IDS_KM_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED">Maximum number of characters (%d) reached.</string>
+    <string name="no_match" did="IDS_LCKSCN_NPBODY_NO_MATCH_M_FINGERPRINT_ABB">No match</string>
+    <string name="scan_fingerprint" did="DREAM_ST_HEADER_SCAN_YOUR_FINGERPRINT">Scan your fingerprint</string>
+    <string name="fingerprint_added" did="DREAM_ST_HEADER_FINGERPRINT_ADDED">Fingerprint added</string>
+    <string name="fingerprint_rename" did="DREAM_ST_PHEADER_RENAME_FINGERPRINT">Rename fingerprint</string>
+    <string name="enter_text" did="IDS_MSG_BODY_ENTER_TEXT_M_NOUN">Enter text</string>
+    <string name="fingerprint_unlock" did="IDS_STU_MBODY_FINGERPRINT_UNLOCK">Fingerprint unlock</string>
+    <string name="fingerprint_settings_fingerprint_verification" did="IDS_ST_HEADER_FINGERPRINT_VERIFICATION_ABB">Fingerprint verification</string>
+    <string name="add_ur_fingerprints" did="DREAM_ST_SBODY_ADD_YOUR_FINGERPRINTS">Add your fingerprints.</string>
+    <string name="confirm_backup_password" did="IDS_ST_BODY_CONFIRM_BACKUP_PASSWORD">Confirm backup password.</string>
+    <string name="error_incorrect_backup_passwords" did="IDS_ST_BODY_AN_INCORRECT_BACKUP_PASSWORD_HAS_BEEN_ENTERED">An incorrect backup password has been entered.</string>
+    <string name="error_validate_characters" did="IDS_MOBILEAP_BODY_ENTER_AT_LEAST_PD_CHARACTERS">Enter at least %d characters.</string>
+    <string name="fingerscanner_touch_completed" did="IDS_MSGC_BODY_SUCCESS">Success.</string>
+    <string name="try_again_later" did="IDS_PB_BUTTON_TRY_AGAIN_LATER_ABB">Try again later</string>
+    <string name="try_again" did="MIDS_SPAY_BUTTON_TRY_AGAIN_ABB2">Try again</string>
+    <string name="status_added" did="DREAM_SFOLDER_SBODY_ADDED_M_FINGERPRINT_IRIS">Added</string>
+
+    <string name="lock_auto" did="IDS_ST_BODY_LOCK_AUTOMATICALLY">Lock automatically</string>
+    <string name="last_try" did="IDS_ST_HEADER_LAST_TRY">Last try</string>
+    <string name="weather" did="IDS_LCKSCN_BODY_WEATHER">Weather</string>
+    <string name="max_n_percent" did="IDS_ST_OPT_MAXIMUM_HPS">Maximum (%s)</string>
+    <string name="set_backup_pin_header" did="IDS_KM_HEADER_ENTER_BACKUP_PIN_ABB">Set backup PIN</string>
+    <string name="set_pw" did="IDS_ST_HEADER_SET_PASSWORD_ABB">Set password</string>
+    <string name="set_pattern_header" did="IDS_LCKSCN_HEADER_SET_PATTERN">Set pattern</string>
+    <string name="set_pin_header" did="IDS_GALLERY_HEADER_SET_PIN_ABB">Set PIN</string>
+    <string name="err_lockpassword_passwords_dont_match" did="IDS_ST_HEADER_PASSWORDS_DO_NOT_MATCH_ABB">Passwords do not match</string>
+    <string name="lockpassword_confirm_your_password_header" did="IDS_ST_HEADER_CONFIRM_PASSWORD_ABB">Confirm password</string>
+    <string name="guide_lockpassword_confirm_your_password_with_fingerprint" did="IDS_LCKSCN_BODY_USE_A_FINGERPRINT_OR_ENTER_THE_CURRENT_PASSWORD">Use a fingerprint or enter the current password.</string>
+    <string name="lockpassword_confirm_your_pattern_header" did="IDS_ST_HEADER_CONFIRM_PATTERN">Confirm pattern</string>
+    <string name="guide_lockpassword_confirm_your_pattern_with_fingerprint" did="IDS_LCKSCN_BODY_USE_A_FINGERPRINT_OR_DRAW_THE_CURRENT_PATTERN">Use a fingerprint or draw the current pattern.</string>
+    <string name="lockpassword_confirm_your_pin_header" did="IDS_LCKSCN_HEADER_CONFIRM_PIN">Confirm PIN</string>
+    <string name="guide_lockpassword_confirm_your_pin_with_fingerprint" did="IDS_LCKSCN_BODY_USE_A_FINGERPRINT_OR_ENTER_THE_CURRENT_PIN">Use a fingerprint or enter the current PIN.</string>
+    <string name="error_validate_pw" did="IDS_ST_BODY_ENTER_AT_LEAST_P1SD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER_AND_1_NUMBER">Enter at least %1$d characters, including at least 1 letter and 1 number.</string>
+    <string name="err_lockpassword_illegal_character" did="IDS_ST_BODY_PASSWORD_CONTAINS_INVALID_CHARACTER_ABB">Password contains invalid character.</string>
+    <string name="enter_pw_again" did="IDS_ST_BODY_ENTER_THE_PASSWORD_AGAIN_TO_CONFIRM_IT">Enter the password again to confirm it.</string>
+    <string name="err_lockpassword_password_exists_history" did="IDS_ST_BODY_PASSWORD_USED_BEFORE_ENTER_NEW_PASSWORD">Password used before. Enter new password.</string>
+    <string name="error_password_policy_too_short" did="IDS_KNOX_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS">Your password must contain at least %d characters.</string>
+    <string name="err_lockpassword_password_repeating_chars" did="IDS_ST_BODY_PASSWORD_MUST_NOT_CONTAIN_REPEATING_CHARACTERS">Password must not contain repeating characters.</string>
+    <string name="err_lockpassword_password_requires_alpha" did="IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_ONE_LETTER_ABB">Password must contain at least one letter.</string>
+    <string name="err_lockpassword_password_requires_digit" did="IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_ONE_NUMBER_ABB">Password must contain at least one number.</string>
+    <string name="err_lockpassword_password_sequential_chars" did="IDS_ST_BODY_PASSWORD_MUST_NOT_CONTAIN_LETTERS_OR_NUMBERS_IN_ORDER">Password must not contain letters or numbers in order.</string>
+    <string name="err_lockpassword_password_too_long_n_chars" did="IDS_ST_BODY_PASSWORD_MUST_CONTAIN_NO_MORE_THAN_PD_CHARACTERS_ABB">Password must contain no more than %d characters.</string>
+    <string name="error_password_too_short" did="IDS_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_ONE_LETTER">Your password must contain at least %d characters, including at least one letter.</string>
+    <string name="err_lockpassword_pin_contains_non_digits" did="IDS_ST_BODY_PIN_MUST_ONLY_CONTAIN_NUMBERS_0_9_ABB">PIN must only contain numbers 0-9.</string>
+    <string name="err_lockpassword_pin_repeating_nums" did="IDS_ST_BODY_PIN_MUST_NOT_CONTAIN_REPEATING_NUMBERS">PIN must not contain repeating numbers.</string>
+    <string name="err_lockpassword_pin_sequential_nums" did="IDS_ST_BODY_PIN_MUST_NOT_CONTAIN_NUMBERS_IN_ORDER">PIN must not contain numbers in order.</string>
+    <string name="err_lockpassword_pin_too_long" did="IDS_ST_BODY_PIN_MUST_CONTAIN_NO_MORE_THAN_PD_DIGITS">PIN must contain no more than %d digits.</string>
+    <string name="err_lockpassword_pin_too_short" did="DREAM_LCKSCN_BODY_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS">PIN must contain at least %d digits.</string>
+    <string name="tap_continue_s_when_finished" did="IDS_ST_BODY_TAP_continue_s_WHEN_FINISHED">Tap continue_s when finished.</string>
+    <string name="err_pattern_not_match" did="IDS_LCKSCN_BODY_THE_PATTERNS_DO_NOT_MATCH">Patterns don\'t match.</string>
+    <string name="backup_pin" did="IDS_LCKSCN_BODY_BACKUP_PIN">Backup PIN</string>
+    <string name="enter_backup_pin_detail" did="IDS_LCKSCN_BODY_ENTER_YOUR_BACKUP_PIN">Enter your backup PIN.</string>
+    <string name="change_pin_label" did="IDS_ST_HEADER_CHANGE_PIN_ABB">Change PIN</string>
+    <string name="pattern_saved" did="IDS_ST_BODY_PATTERN_SAVED">Pattern saved.</string>
+    <string name="error_create_pattern" did="IDS_KNOX_BODY_YOU_NEED_TO_CONNECT_AT_LEAST_PD_DOTS_TRY_AGAIN">You need to connect at least <xliff:g id="number">%d</xliff:g> dots. Try again.</string>
+    <string name="draw_unlock_pattern" did="IDS_LCKSCN_BODY_DRAW_YOUR_UNLOCK_PATTERN">Draw your unlock pattern.</string>
+    <string name="redraw" did="IDS_ST_BODY_REDRAW">Redraw</string>
+    <string name="retry" did="IDS_ST_OPT_RETRY">Retry</string>
+    <string name="error_try_again_s_seconds" did="IDS_ST_POP_TRY_AGAIN_IN_PD_SECONDS">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+    <string name="error_try_again_1_min" did="IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_1_MIN_ABB">Try again in <xliff:g id="number">%d</xliff:g> min.</string>
+    <string name="error_try_again_s_min" did="IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_MINUTES">Try again in <xliff:g id="number">%d</xliff:g> mins.</string>
+    <string name="error_try_again_1_second" did="IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_1_SEC_ABB">Try again in <xliff:g id="number">%d</xliff:g> sec</string>
+    <string name="locks_creen" did="IDS_ST_BODY_LOCK_SCREEN">Lock screen</string>
+    <string name="next_alarm" did="DREAM_LCKSCN_TMBODY_NEXT_ALARM">Next alarm</string>
+    <string name="shortcuts" did="IDS_ST_MBODY_SHORTCUTS">Shortcuts</string>
+
+    <!-- Security -->
+
+    <string name="unable_to_perform_action" did="IDS_ST_HEADER_UABLE_TO_PERFORM_ACTION">Uable to perform action</string>
+    <string name="more_details" did="IDS_ST_BUTTON_MORE_DETAILS_ABB">More details</string>
+
+    <string name="guide_wifi_improve_location" did="IDS_FMD_SBODY_USE_WLANS_AND_MOBILE_NETWORKS_TO_PROVIDE_MORE_ACCURATE_INFORMATION_ABOUT_THE_LOCATION_OF_YOUR_DEVICE_CHN">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="improve_location_title" did="IDS_FMD_MBODY_IMPROVE_LOCATION_ACCURACY_CHN">Improve location accuracy</string>
+    <string name="phone_number" did="IDS_ST_BODY_PHONE_NUMBER">Phone number</string>
+    <string name="alert_message" did="IDS_ST_MBODY_ALERT_MESSAGE">Alert message</string>
+    <string name="messages" did="IDS_ST_BODY_MESSAGES">Messages</string>
+    <string name="no_content_to_save" did="IDS_SSCHOL_TPOP_NO_CONTENT_TO_SAVE">No content to save.</string>
+    <string name="enter_sms" did="IDS_ST_BODY_ENTER_SMS">Enter SMS.</string>
+    <string name="enter_number" did="IDS_KPD_TPOP_ENTER_NUMBER">Enter Number.</string>
+    <string name="guide_data_connection_message" did="IDS_IDLE_POP_CONNECTING_TO_MOBILE_NETWORKS_MAY_INCUR_ADDITIONAL_CHARGES">Connecting to mobile networks may incur additional charges</string>
+    <string name="err_country_code_toast" did="IDS_ST_POP_COUNTRY_CODE_NEED">Country code is needed.</string>
+    <string name="allow_one_installation" did="IDS_ST_OPT_ALLOW_THIS_INSTALLATION_ONLY">Allow this installation only</string>
+
+    <string name="applock" did="IDS_ST_MBODY_APP_LOCK_CHN">App lock</string>
+
+    <string name="collect_diagnostics_summary" did="IDS_ST_BODY_COLLECT_DIAGNOSTICS_DATA_FOR_TROUBLESHOOTING_TMO">Collect diagnostics data for troubleshooting.</string>
+    <string name="collect_diagnostics_title" did="IDS_ST_MBODY_COLLECT_DIAGNOSTICS_TMO">Collect diagnostics</string>
+   
+    <string name="storage_type" did="IDS_ST_MBODY_STORAGE_TYPE">Storage type</string>
+    <string name="software_only" did="IDS_ST_SBODY_SOFTWARE_ONLY">Software only</string>
+    <string name="current_password" did="IDS_ST_BODY_CURRENT_PASSWORD">Current password</string>
+    <string name="remove_all_content_q" did="IDS_ST_BODY_REMOVE_ALL_CONTENT_Q">Remove all content?</string>
+    <string name="incorrect_password" did="IDS_ST_POP_INCORRECT_PASSWORD">Incorrect password.</string>
+
+    <string name="encryption" did="IDS_ST_HEADER_ENCRYPTION">Encryption</string>
+    <string name="pattern" did="IDS_ST_SBODY_PATTERN">Pattern</string>
+    <string name="pin" did="DREAM_SPASS_BODY_PIN">PIN</string>
+
+    <string name="protected_phone" did="IDS_ST_HEADER_PROTECT_YOUR_PHONE_VZW">Protect your phone</string>
+
+    <string name="no_sdcard_no_title_summary" did="IDS_ST_SBODY_NO_SD_CARD_INSERTED_M_STATUS_SBODY">No SD card inserted</string>
+    <string name="sdcard_not_inserted" did="IDS_ST_BODY_NO_SD_CARD_IS_INSERTED_INSERT_AN_SD_CARD_AND_TRY_AGAIN">No SD card is inserted. Insert an SD card and try again.</string>
+
+    <string name="new_password" did="IDS_KNOX_BODY_NEW_PASSWORD">New password</string>
+
+    <string name="manage_notification_access_title" did="IDS_ST_HEADER_NOTIFICATION_ACCESS">Notification access</string>
+    <string name="app_can_read_notification" did="IDS_ST_SBODY_VIEW_WHICH_APPS_CAN_READ_YOUR_NOTIFICATIONS">View which apps can read your notifications.</string>
+
+    <string name="enable_n" did="IDS_ST_BODY_ENABLE_PS_M_VERB">Enable %s.</string>
+    <string name="open_an_app" did="IDS_ST_BODY_OPEN_AN_APP">Open an app.</string>
+
+    <!-- Privacy and safety -->
+    <string name="auto_power_on_off_title" did="IDS_ST_HEADER_AUTO_POWER_ON_OFF_CHN">Auto power on/off</string>
+    <string name="proceed" did="IDS_ST_BUTTON_PROCEED">Proceed</string>
+    <string name="homepage" did="IDS_COM_BUTTON_HOMEPAGE">Homepage</string>
+
+    <!-- Cloud and accounts -->
+    <string name="cloud_and_accounts_title" did="IDS_ST_HEADER_CLOUD_AND_ACCOUNTS">Cloud and accounts</string>
+    <string name="account_registration" did="IDS_ST_BODY_ACCOUNT_REGISTRATION_ABB">Account registration</string>
+    <string name="account_settings" did="IDS_ST_HEADER_ACCOUNTS">Accounts</string>
+    <string name="auto_sync" did="IDS_ST_BODY_AUTO_SYNC_DATA">Auto-sync data</string>
+    <string name="sync_settings_title" did="IDS_SYNCML_HEADER_SYNC_SETTINGS_TMO_US">Sync settings</string>
+    <string name="sync_n" did="IDS_COM_BODY_SYNC_PS">Sync <xliff:g id="authority" example="Calendar">%s</xliff:g></string>
+    <string name="sync_now_label" did="IDS_ST_OPT_SYNC_NOW">Sync now</string>
+    <string name="last_synced_on_s" did="IDS_ST_BODY_LAST_SYNCED_ON_PS_M_DATE">Last synced on %s</string>
+    <string name="sync_all_label" did="IDS_MEMO_BUTTON_SYNC_ALL">Sync all</string>
+    <string name="contacts" did="IDS_MT_BUTTON_CONTACTS">Contacts</string>
+    <string name="sync_disabled" did="IDS_CLOUD_SBODY_SYNC_DISABLED_M_STATUS">Sync disabled</string>
+    <string name="sync_on" did="IDS_COM_BODY_SYNC_ON">Sync on</string>
+    <string name="sync_error" did="IDS_COM_BODY_SYNC_ERROR">Sync error</string>
+    <string name="sync_in_progress" did="IDS_ST_BODY_SYNCING_ING">Syncing...</string>
+    <string name="error_sync_is_failing" did="IDS_ST_BODY_SYNC_IS_CURRENTLY_EXPERIENCING_PROBLEMS_IT_WILL_BE_BACK_SHORTLY">Sync is currently experiencing problems. It will be back shortly.</string>
+    <string name="add_account_label" did="IDS_ST_HEADER_ADD_ACCOUNT">Add account</string>
+    <string name="add_profile" did="IDS_BR_MBODY_ADD_PROFILE">Add profile</string>
+    <string name="cancel_sync_label" did="IDS_ST_BODY_CANCEL_SYNC">Cancel sync</string>
+    <string name="unable_to_sync_manual" did="IDS_COM_BODY_UNABLE_TO_SYNC_MANUALLY">Unable to sync manually</string>
+    <string name="contact_search_title" did="IDS_ST_MBODY_CONTACT_SEARCH">Contact search</string>
+    <string name="my_profile_title" did="DREAM_ST_HEADER_MY_PROFILE">My Profile</string>
+    <string name="software_update" did="IDS_ST_BODY_SOFTWARE_UPDATE">Software update</string>
+
+    <!-- Backup and reset-->
+    <string name="backup_configure_account_title" did="IDS_ST_HEADER_BACKUP_ACCOUNT">Backup account</string>
+    <string name="backup_data_title" did="IDS_ST_BODY_BACK_UP_MY_DATA">Back up my data</string>
+    <string name="backup_service_not_avail" did="IDS_ST_TMBODY_BACKUP_SERVICE_NOT_AVAILABLE">Backup service not available</string>
+    <string name="guide_set_pin_pw_to_use_with_fingerprint" did="IDS_SM_BODY_SET_A_PATTERN_PIN_OR_PASSWORD_TO_USE_TOGETHER_WITH_FINGERPRINT_RECOGNITION_TO_LOCK_OR_UNLOCK_APPS">Set a pattern, PIN, or password to use together with fingerprint recognition to lock or unlock apps.</string>
+    <string name="double_verfication" did="IDS_ST_HEADER_DOUBLE_VERIFICATION">Double verification</string>
+    <string name="backup_settings" did="IDS_ST_HEADER_BACKUP_SETTINGS">Backup settings</string>
+    <string name="downloaded_apps" did="IDS_ST_BODY_DOWNLOADED_APPS_M_NOUN">Downloaded apps</string>
+    <string name="google_account" did="IDS_ST_BODY_GOOGLE_ACCOUNT">Google account</string>
+    <string name="all_other_user_data" did="IDS_ST_BODY_ALL_OTHER_USER_DATA">All other user data</string>
+    <string name="pictures" did="IDS_ST_BODY_PICTURES">Pictures</string>
+    <string name="system_and_app_data" did="IDS_ST_BODY_SYSTEM_AND_APP_DATA">System and app data</string>
+    <string name="erase_everything" did="IDS_ST_SK2_DELETE_ALL">Erase everything</string>
+    <string name="reset_settings" did="IDS_ST_HEADER_RESET_SETTINGS">Reset settings</string>
+
+    <!-- User -->
+    <string name="guide_app_sees_restricted_accounts" did="IDS_ST_SBODY_THIS_APP_CAN_ACCESS_ACCOUNTS">This app can access accounts</string>
+    <string name="user" did="IDS_ST_BODY_MYTHEME_USER">User</string>
+    <string name="add_user_or_profile" did="IDS_ST_BUTTON_ADD_USER_OR_PROFILE">Add user or profile</string>
+    <string name="add_user_title" did="IDS_COM_MBODY_ADD_USER">Add user</string>
+    <string name="delete_guest_profile" did="IDS_ST_MBODY_DELETE_GUEST_PROFILE">Delete guest profile</string>
+    <string name="user_guest" did="IDS_EMT_BODY_GUEST">Guest</string>
+    <string name="select_pictures" did="IDS_ST_OPT_SELECT_PICTURE_FROM_GALLERY">Select picture from Gallery</string>
+    <string name="select_photos" did="IDS_PB_BODY_SELECT_PHOTO">Select photos</string>
+    <string name="take_photo" did="IDS_COM_BODY_TAKE_PHOTO">Take photo</string>
+    <string name="user_info" did="IDS_CALL_POP_USER_INFO">User info</string>
+    <string name="user_and_profile" did="IDS_ST_HEADER_USERS_AND_PROFILES_ABB">Users and profiles</string>
+    <string name="user_manual" did="IDS_MOS_ST_BODY_USER_MANUAL">User manual</string>
+    <string name="new_user" did="IDS_STU_HEADER_NEW_USER">New user</string>
+    <string name="user_nickname" did="IDS_ST_BODY_NICKNAME">Nickname</string>
+    <string name="owner" did="IDS_ST_BODY_OWNER">Owner</string>
+    <string name="delete_user_profile" did="IDS_ST_HEADER_DELETE_USER_PROFILE">Delete user profile</string>
+    <string name="delete_user" did="IDS_ST_POP_DELETE_USER">Delete user</string>
+    <string name="delete_n_from_device" did="IDS_ST_BODY_DELETE_PS_FROM_THIS_DEVICE_ABB">Delete <xliff:g id="user_name">%1$s</xliff:g> from this device</string>
+    <string name="you" did="IDS_ST_BODY_YOU_M_ME">You</string>
+
+    <!-- Accessibility -->
+    <string name="no_services_installed" did="IDS_ST_BODY_NO_SERVICES_INSTALLED">No services installed</string>
+    <string name="tap_ok_to_stop_s" did="IDS_ST_BODY_TAPPING_OK_WILL_STOP_P1SS">Tapping OK will stop %1$s.</string>
+    <string name="sync_enabled" did="IDS_ASEML_BODY_SYNC_ENABLED">Sync enabled</string>
+    <string name="accessibility_system_title" did="IDS_CST_MBODY_MORE_SETTINGS">More settings</string>
+
+    <string name="colour_adjustment" did="IDS_ST_POP_COLOUR_ADJUSTMENT">Colour adjustment</string>
+
+    <string name="background_color" did="IDS_ACCS_MBODY_BACKGROUND_COLOUR">Background colour</string>
+    <string name="background_opacity" did="IDS_ACCS_MBODY_BACKGROUND_OPACITY">Background opacity</string>
+    <string name="custom_options_title" did="IDS_ACCS_BODY_CUSTOM_OPTIONS_ABB">Custom options</string>
+    <string name="text_color" did="IDS_ACCS_MBODY_TEXT_COLOUR">Text colour</string>
+    <string name="text_opacity" did="IDS_ST_MBODY_TEXT_OPACITY">Text opacity</string>
+    <string name="captioning_preset" did="IDS_ACCS_HEADER_CAPTION_STYLE_ABB">Caption style</string>
+    <string name="basic_options" did="IDS_ACCS_HEADER_BASIC_OPTIONS_ABB">Basic options</string>
+    <string name="text_size" did="IDS_MYMAG_MBODY_TEXT_SIZE">Text size</string>
+    <string name="font_family" did="IDS_ACCS_MBODY_FONT_FAMILY">Font family</string>
+
+    <string name="save_or_discard_q" did="IDS_SMEMO_POP_SAVE_YOUR_CHANGES_OR_DISCARD_THEM_Q">Save your changes or discard them?</string>
+    <string name="sec" did="IDS_TMR_OPT_SEC_LC_ABB">sec</string>
+
+    <string name="magnifier_seekbar_minus_tts" did="IDS_CCL_BODY_MINUS_TTS">Minus</string>
+    <string name="large" did="IDS_BR_BODY_LARGE">Large</string>
+    <string name="extra_large" did="IDS_ACCS_BODY_EXTRA_LARGE_M_FONT_SIZE">Extra large</string>
+    <string name="huge" did="IDS_ACCS_BODY_HUGE_M_FONT_SIZE">Huge</string>
+    <string name="medium" did="IDS_MB_BODY_MEDIUM">Medium</string>
+    <string name="small" did="IDS_MB_BODY_SMALL">Small</string>
+
+    <string name="mute_all_sound_off" did="DREAM_ACCS_TMBODY_MUTE_ALL_SOUNDS">Mute all sounds</string>
+
+    <string name="apps_edge_title" did="IDS_ES_HEADER_APPS_EDGE">Apps edge</string>
+
+    <string name="import_export" did="IDS_ACCS_MBODY_IMPORT_EXPORT">Import/export</string>
+    <string name="import_from_sd" did="IDS_PB_BODY_IMPORT_FROM_SD_CARD">Import from SD card</string>
+    <string name="export_to_my_files" did="IDS_SBOOK_HEADER_EXPORT_TO_MY_FILES">Export to My Files</string>
+    <string name="export_to_sd" did="IDS_PB_BODY_EXPORT_TO_SD_CARD">Export to SD card</string>
+    <string name="sdcard" did="IDS_TASKMGR_MBODY_SD_CARD">SD card</string>
+    <string name="import_file" did="IDS_ST_HEADER_IMPORT_FILE">Import file</string>
+    <string name="error_export_error" did="IDS_EMAIL_BODY_FAILED_TO_EXPORT">Failed to export</string>
+    <string name="sd_memory_full" did="IDS_ST_POP_SD_CARD_IS_FULL">SD card is full</string>
+    <string name="error_export_error_toast" did="IDS_ACCS_TPOP_FAILED_TO_EXPORT_FILE">Failed to export file.</string>
+    <string name="error_import_error_toast" did="IDS_ACCS_TPOP_FAILED_TO_IMPORT_FILE">Failed to import file.</string>
+    <string name="export_notify_end_title" did="IDS_ST_MBODY_FILE_EXPORTED">File exported</string>
+    <string name="import_notify_end_title" did="IDS_ST_MBODY_FILE_IMPORTED">File imported</string>
+    <string name="export_notify_toast" did="IDS_ACCS_TPOP_FILE_EXPORTED">File exported.</string>
+    <string name="error_filesize_zero_error_msg" did="IDS_ST_HEADER_FILE_ERROR_OCCURRED">File error occurred</string>
+    <string name="error_file_open_error" did="IDS_ACCS_HEADER_UNABLE_TO_OPEN_FILE">Unable to open file</string>
+
+    <!-- General management -->
+
+    <!-- Language and input -->
+    <string name="use_system_language" did="IDS_ST_BODY_USE_SYSTEM_LANGUAGE">Use system language</string>
+    <string name="active_input_method_subtypes" did="IDS_ST_BODY_ACTIVE_INPUT_METHODS">Active input methods</string>
+    <string name="add_a_language" did="IDS_ST_MBODY_ADD_LANGUAGE_ABB">Add language</string>
+    <string name="external_keyboard" did="IDS_IME_HEADER_EXTERNAL_KEYBOARD">External keyboard</string>
+    <string name="default_s_keyboard" did="IDS_ST_HEADER_default_s_KEYBOARD_ABB">default_s keyboard</string>
+    <string name="fast" did="IDS_COM_BODY_FAST">Fast</string>
+    <string name="slow" did="IDS_COM_BODY_SLOW">Slow</string>
+    <string name="enable_vibration" did="IDS_ST_BODY_ENABLE_VIBRATION_TIM">Enable vibration</string>
+
+    <!-- TTS -->
+
+    <!-- Date and time -->
+    <string name="date_and_time" did="IDS_ST_BODY_DATE_AND_TIME_SETTINGS">Date and time settings</string>
+    <string name="auto_date_time_auto" did="IDS_ST_HEADER_AUTOMATIC_DATE_AND_TIME">Automatic date and time</string>
+    <string name="set_date" did="IDS_ST_BODY_SET_DATE">Set date</string>
+    <string name="set_time" did="IDS_ST_BODY_SET_TIME">Set time</string>
+    <string name="select_timezone" did="IDS_ST_BODY_SELECT_TIME_ZONE">Select time zone</string>
+
+    <!-- Reset -->
+    <string name="device_management" did="IDS_SBAND_BODY_DEVICE_MANAGEMENT">Device management</string>
+    <string name="auto_restart_title" did="IDS_ST_HEADER_AUTO_RESTART_ABB">Auto restart</string>
+    <string name="auto_restore_title" did="IDS_ST_MBODY_AUTOMATIC_RESTORE">Automatic restore</string>
+   
+    <!-- Developer options -->
+    <string name="n_dp" did="IDS_ST_SBODY_PD_DP"><xliff:g name="count" example="320">%d</xliff:g> dp</string>
+
+    <!-- About device -->
+    <string name="about_settings" did="IDS_ST_BODY_ABOUT_DEVICE">About device</string>
+    <string name="android_n" did="IDS_ST_SBODY_ANDROID_PS">Android <xliff:g id="version" example="6.0">%s</xliff:g></string>
+    <string name="brand_title" did="IDS_EMAIL_BODY_BRAND">Brand</string>
+    <string name="build_number" did="IDS_ST_BODY_BUILD_NUMBER">Build number</string>
+    <string name="contact_us_title" did="IDS_ST_OPT_CONTACT_US">Contact Us</string>
+    <string name="not_available" did="IDS_RCS_BODY_NOT_AVAILABLE">Not available</string>
+    <string name="device_name" did="IDS_ST_HEADER_DEVICE_NAME">Device name</string>
+
+    <!-- Icon glossary-->
+
+    <string name="learn_more" did="IDS_ST_HEADER_LEARN_MORE_ABB">Learn more</string>
+    <string name="legal_information" did="IDS_ST_HEADER_LEGAL_INFORMATION">Legal information</string>
+    <string name="connected" did="IDS_COM_BODY_CONNECTED_M_STATUS">Connected</string>
+    <string name="disconnected" did="IDS_ST_BODY_DISCONNECTED_M_STATUS">Disconnected</string>
+    <string name="suspended" did="IDS_WGT_BODY_SUSPENDED">Suspended</string>
+    <string name="software_version" did="IDS_COM_POP_SOFTWARE_VERSION">Software version</string>
+    <string name="status_not_registered" did="IDS_ST_SBODY_NOT_REGISTERED_M_STATUS">Not registered</string>
+    <string name="registered" did="IDS_ST_SBODY_REGISTERED_M_STATUS">Registered</string>
+    <string name="status_serial_number" did="IDS_JAVA_BODY_JSR177CERTIFICATE_SERIAL_NUMBER">Serial number</string>
+    <string name="official" did="IDS_ST_BODY_OFFICIAL_M_DEVICE_STATUS">Official</string>
+    <string name="copyright_title" did="IDS_LBS_BODY_COPYRIGHT">Copyright</string>
+    <string name="license_title" did="IDS_ST_BODY_LICENSE">Licence</string>
+    <string name="end_user_license_agreement" did="IDS_ST_HEADER_END_USER_LICENCE_AGREEMENT">End user license agreement</string>
+
+    <!-- Help -->
+
+</resources>
