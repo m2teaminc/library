@@ -173,123 +173,123 @@ android {
     }*/
 }
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //Android support libraries
-    compile "com.android.support:support-v4:$supportLibraryVersion"
-    compile "com.android.support:appcompat-v7:$supportLibraryVersion"
-    compile "com.android.support:recyclerview-v7:$supportLibraryVersion"
-    compile "com.android.support:cardview-v7:$supportLibraryVersion"
-    compile "com.android.support:design:$supportLibraryVersion"
-    compile "com.android.support:support-vector-drawable:$supportLibraryVersion"
-    compile "com.android.support:animated-vector-drawable:$supportLibraryVersion"
-    //compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation "com.android.support:support-v4:$supportLibraryVersion"
+    implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$supportLibraryVersion"
+    implementation "com.android.support:design:$supportLibraryVersion"
+    implementation "com.android.support:support-vector-drawable:$supportLibraryVersion"
+    implementation "com.android.support:animated-vector-drawable:$supportLibraryVersion"
+    //implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     //Nine old android
-    //compile 'com.nineoldandroids:library:2.4.0'
+    //implementation 'com.nineoldandroids:library:2.4.0'
 
     //Kotlin
-    //compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
     //ButterKnife
-    /*compile "com.jakewharton:butterknife:$butterKnifeVersion"
+    /*implementation "com.jakewharton:butterknife:$butterKnifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"*/
 
     //Json parser
-    compile "com.google.code.gson:gson:$gsonVersion"
+    implementation "com.google.code.gson:gson:$gsonVersion"
 
     //Image loader
-    compile "com.github.bumptech.glide:glide:$glideVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
 
     //Font
-    compile "uk.co.chrisjenx:calligraphy:$calligraphyVersion"
+    implementation "uk.co.chrisjenx:calligraphy:$calligraphyVersion"
 
     //Logger
-    compile "com.jakewharton.timber:timber:$timberVersion"
-    compile "com.orhanobut:logger:$loggerVersion"
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+    implementation "com.orhanobut:logger:$loggerVersion"
 
     //Custom toast
-    compile "com.sdsmdg.tastytoast:tastytoast:$tastyToastVersion"
-    //compile 'com.github.GrenderG:Toasty:1.2.5'
+    implementation "com.sdsmdg.tastytoast:tastytoast:$tastyToastVersion"
+    //implementation 'com.github.GrenderG:Toasty:1.2.5'
 
     //Jsoup
-    compile "org.jsoup:jsoup:$jsoupVersion"
+    implementation "org.jsoup:jsoup:$jsoupVersion"
 
     //Secure prefs
-    compile 'com.scottyab:secure-preferences-lib:0.1.4'
+    implementation 'com.scottyab:secure-preferences-lib:0.1.4'
 
     //SpongeCastle (adds Security algorithms)
-    compile('com.madgag.spongycastle:core:1.54.0.0')
-    compile('com.madgag.spongycastle:prov:1.54.0.0')
+    implementation('com.madgag.spongycastle:core:1.54.0.0')
+    implementation('com.madgag.spongycastle:prov:1.54.0.0')
 
     //Joda time
-    compile "joda-time:joda-time:$jodaTimeVersion"
-    compile 'com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0'
+    implementation "joda-time:joda-time:$jodaTimeVersion"
+    implementation 'com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0'
 
     //Eventbus
-    compile "org.greenrobot:eventbus:$evenBusVersion"
+    implementation "org.greenrobot:eventbus:$evenBusVersion"
 
     //Admob Adapter
-    //compile 'com.github.clockbyte:admobadapter:1.4.1'
+    //implementation 'com.github.clockbyte:admobadapter:1.4.1'
 
     //Mosby (MVP)
-    /*compile "com.hannesdorfmann.mosby3:mvp:$mosbyMvpVersion" // Plain MVP
-    compile "com.hannesdorfmann.mosby3:mvp-lce:$mosbyMvpVersion" // MVP + ViewState + LCE Views*/
+    /*implementation "com.hannesdorfmann.mosby3:mvp:$mosbyMvpVersion" // Plain MVP
+    implementation "com.hannesdorfmann.mosby3:mvp-lce:$mosbyMvpVersion" // MVP + ViewState + LCE Views*/
 
     //Thirty inch (MVP Lib)
-    /*compile "net.grandcentrix.thirtyinch:thirtyinch:$thirtyinchVersion"
-    compile "net.grandcentrix.thirtyinch:thirtyinch-rx:$thirtyinchVersion"*/
+    /*implementation "net.grandcentrix.thirtyinch:thirtyinch:$thirtyinchVersion"
+    implementation "net.grandcentrix.thirtyinch:thirtyinch-rx:$thirtyinchVersion"*/
 
     //Fabric
-    /*compile('com.crashlytics.sdk.android:crashlytics:2.6.8') {
+    /*implementation('com.crashlytics.sdk.android:crashlytics:2.6.8') {
             transitive = true;
     }*/
 
     //Fresco
-    //compile "com.facebook.fresco:fresco:$frescoVersion"
+    //implementation "com.facebook.fresco:fresco:$frescoVersion"
 
     //Firebase
-    /*compile "com.google.firebase:firebase-messaging:$googleServicesVersion"
-    compile "com.google.firebase:firebase-core:$googleServicesVersion"
-    compile "com.google.firebase:firebase-config:$googleServicesVersion"
-    compile "com.google.firebase:firebase-ads:$googleServicesVersion"
-    compile "com.google.firebase:firebase-storage:$googleServicesVersion"*/
+    /*implementation "com.google.firebase:firebase-messaging:$googleServicesVersion"
+    implementation "com.google.firebase:firebase-core:$googleServicesVersion"
+    implementation "com.google.firebase:firebase-config:$googleServicesVersion"
+    implementation "com.google.firebase:firebase-ads:$googleServicesVersion"
+    implementation "com.google.firebase:firebase-storage:$googleServicesVersion"*/
 
     // Google
-    /*compile "com.google.maps.android:android-maps-utils:$googleMapUtilsVersion"
-    compile "com.google.android.gms:play-services-ads:$googleServicesVersion"
-    compile "com.google.android.gms:play-services-analytics:$googleServicesVersion"
-    compile "com.google.android.gms:play-services-maps:$googleServicesVersion"
-    compile "com.google.android.gms:play-services-location:$googleServicesVersion"
-    compile "com.google.android.gms:play-services-places:$googleServicesVersion"
+    /*implementation "com.google.maps.android:android-maps-utils:$googleMapUtilsVersion"
+    implementation "com.google.android.gms:play-services-ads:$googleServicesVersion"
+    implementation "com.google.android.gms:play-services-analytics:$googleServicesVersion"
+    implementation "com.google.android.gms:play-services-maps:$googleServicesVersion"
+    implementation "com.google.android.gms:play-services-location:$googleServicesVersion"
+    implementation "com.google.android.gms:play-services-places:$googleServicesVersion"
     */
 
     //Multidex
-    //compile "com.android.support:multidex:$multidexVersion"
+    //implementation "com.android.support:multidex:$multidexVersion"
 
     //Retrofit
-    /*compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'*/
+    /*implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'*/
 
     //Facebook Stetho for intercept network
-    /*compile "com.facebook.stetho:stetho:$facebookStethoVersion"
-    compile "com.facebook.stetho:stetho-okhttp3:$facebookStethoVersion"*/
+    /*implementation "com.facebook.stetho:stetho:$facebookStethoVersion"
+    implementation "com.facebook.stetho:stetho-okhttp3:$facebookStethoVersion"*/
 
     //RX Android
-    /*compile "io.reactivex.rxjava2:rxjava:$rxjava2Version"
-    compile "io.reactivex.rxjava2:rxandroid:$rxandroidVersion"*/
+    /*implementation "io.reactivex.rxjava2:rxjava:$rxjava2Version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroidVersion"*/
 
     //Dependency injection
-    /*compile "com.google.dagger:dagger:$dagger2Version"
+    /*implementation "com.google.dagger:dagger:$dagger2Version"
     annotationProcessor "com.google.dagger:dagger-compiler:$dagger2Version"
     provided 'javax.annotation:jsr250-api:1.0'*/
 
     //Room ORM DB
-    /*compile "android.arch.persistence.room:runtime:$roomDbVersion"
+    /*implementation "android.arch.persistence.room:runtime:$roomDbVersion"
     annotationProcessor "android.arch.persistence.room:compiler:$roomDbVersion"
-    compile "android.arch.persistence.room:rxjava2:$roomDbVersion"*/
+    implementation "android.arch.persistence.room:rxjava2:$roomDbVersion"*/
 
     //Leak canary
     /*debugCompile "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
@@ -297,56 +297,56 @@ dependencies {
     testCompile "com.squareup.leakcanary:leakcanary-android-no-op:$leakCanaryVersion"*/
 
     //Ice pick - saving and restoring BundleSaveInstance
-    //compile "frankiesardo:icepick:$icePickVersion"
+    //implementation "frankiesardo:icepick:$icePickVersion"
     //provided "frankiesardo:icepick-processor:$icePickVersion"
 
     //Parcelable - maybe conflict with Icepick, Auto-Parcel is alternative lib
-    //compile "org.parceler:parceler-api:$parcelableVersion"
+    //implementation "org.parceler:parceler-api:$parcelableVersion"
     //annotationProcessor "org.parceler:parceler:$parcelableVersion"
 
     //Auto Parcel
     //apt 'frankiesardo:auto-parcel:1.0.3'
 
     //Gesture detector
-    //compile 'com.github.nisrulz:sensey:1.7.0'
+    //implementation 'com.github.nisrulz:sensey:1.7.0'
 
     //Swipe view
-    //compile "com.mindorks:placeholderview:$placeholderviewVersion"
+    //implementation "com.mindorks:placeholderview:$placeholderviewVersion"
 
     //Round, circle image view
-    //compile 'com.makeramen:roundedimageview:2.3.0'
+    //implementation 'com.makeramen:roundedimageview:2.3.0'
 
     //Material UI Kit
-    //compile 'com.github.rey5137:material:1.2.2'
+    //implementation 'com.github.rey5137:material:1.2.2'
 
     //Bootstrap UI Kit
-    //compile 'com.beardedhen:androidbootstrap:2.3.1'
+    //implementation 'com.beardedhen:androidbootstrap:2.3.1'
 
     //Material EditText
-    //compile "com.rengwuxian.materialedittext:library:$materialEditTextVersion"
+    //implementation "com.rengwuxian.materialedittext:library:$materialEditTextVersion"
 
     //Flower material drawer
-    //compile 'com.mxn.soul:flowingdrawer-core:2.0.0'
+    //implementation 'com.mxn.soul:flowingdrawer-core:2.0.0'
 
     //Material navigation tab bar
-    //compile 'devlight.io:navigationtabbar:1.2.5'
+    //implementation 'devlight.io:navigationtabbar:1.2.5'
 
     //Date time picker
-    //compile 'com.wdullaer:materialdatetimepicker:3.3.0'
+    //implementation 'com.wdullaer:materialdatetimepicker:3.3.0'
 
     //Tag Group
-    //compile 'me.gujun.android.taggroup:library:1.4@aar'
+    //implementation 'me.gujun.android.taggroup:library:1.4@aar'
 
     //Icon
-    /*compile "com.joanzapata.iconify:android-iconify-fontawesome:$iconifyVersion" // (v4.5)
-    compile "com.joanzapata.iconify:android-iconify-entypo:$iconifyVersion" // (v3,2015)
-    compile "com.joanzapata.iconify:android-iconify-typicons:$iconifyVersion" // (v2.0.7)
-    compile "com.joanzapata.iconify:android-iconify-material:$iconifyVersion" // (v2.0.0)
-    compile "com.joanzapata.iconify:android-iconify-material-community:$iconifyVersion" // (v1.4.57)
-    compile "com.joanzapata.iconify:android-iconify-meteocons:$iconifyVersion" // (latest)
-    compile "com.joanzapata.iconify:android-iconify-weathericons:$iconifyVersion" // (v2.0)
-    compile "com.joanzapata.iconify:android-iconify-simplelineicons:$iconifyVersion" // (v1.0.0)
-    compile "com.joanzapata.iconify:android-iconify-ionicons:$iconifyVersion" // (v2.0.1)*/
+    /*implementation "com.joanzapata.iconify:android-iconify-fontawesome:$iconifyVersion" // (v4.5)
+    implementation "com.joanzapata.iconify:android-iconify-entypo:$iconifyVersion" // (v3,2015)
+    implementation "com.joanzapata.iconify:android-iconify-typicons:$iconifyVersion" // (v2.0.7)
+    implementation "com.joanzapata.iconify:android-iconify-material:$iconifyVersion" // (v2.0.0)
+    implementation "com.joanzapata.iconify:android-iconify-material-community:$iconifyVersion" // (v1.4.57)
+    implementation "com.joanzapata.iconify:android-iconify-meteocons:$iconifyVersion" // (latest)
+    implementation "com.joanzapata.iconify:android-iconify-weathericons:$iconifyVersion" // (v2.0)
+    implementation "com.joanzapata.iconify:android-iconify-simplelineicons:$iconifyVersion" // (v1.0.0)
+    implementation "com.joanzapata.iconify:android-iconify-ionicons:$iconifyVersion" // (v2.0.1)*/
 
     //Dependencies for local unit tests
     /*testCompile "junit:junit:$ext.junitVersion"
