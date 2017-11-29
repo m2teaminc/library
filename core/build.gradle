@@ -2,19 +2,20 @@ apply plugin: 'com.android.library'
 //apply plugin: 'kotlin-android'
 
 ext {
-    bintrayRepo = 'library'
-    bintrayName = 'library'
+    bintrayRepo = 'library' //repository name
+    bintrayName = 'core' //package library name
 
-    publishedGroupId = 'm2team'
-    artifact = 'library'
-    libraryName = 'library'
+    //groupId:artifactId:version
+    publishedGroupId = 'com.m2team.library'
+    artifact = 'core'
+    libraryName = 'core'
     libraryVersion = '1.0'
     libraryDescription = 'common lib java'
 
-    siteUrl = 'https://bitbucket.org/hoangminh1190/m2team-lib/'
-    gitUrl = 'https://hoangminh1190@bitbucket.org/hoangminh1190/m2team-lib.git'
+    siteUrl = 'https://github.com/m2teaminc/library'
+    gitUrl = 'https://github.com/m2teaminc/library.git'
 
-    developerId = 'm2team'
+    developerId = 'm2teaminc'
     developerName = 'M2 Team'
     developerEmail = 'm2team.inc@email.com'
 
