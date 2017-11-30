@@ -1,5 +1,5 @@
 [ ![Download](https://api.bintray.com/packages/m2team/library/core/images/download.svg) ](https://bintray.com/m2team/library/core/_latestVersion)
-https://build.appcenter.ms/v0.1/apps/3bc04e34-b312-491f-9b18-40165b07e1c2/branches/master/badge
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/m2teaminc/library/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
