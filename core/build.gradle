@@ -77,13 +77,13 @@ android {
     buildToolsVersion buildToolsVersion
 
     defaultConfig {
-        minSdkVersion minSdk
-        targetSdkVersion targetSdk
-        versionCode 1
-        versionName "1.0"
+       minSdkVersion minSdk
+        //targetSdkVersion targetSdk
+        versionCode 2
+        versionName "1.0.1"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        compileOptions.encoding = 'windows-1252'
+        compileOptions.encoding = 'utf-8'
         //multiDexEnabled true
         /*javaCompileOptions {
             annotationProcessorOptions {
@@ -106,7 +106,7 @@ android {
             minifyEnabled false
         }
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro', 'proguard-rules-icepick.pro'
             proguardFiles fileTree(dir: "proguard", include: ["*.pro"]).asList().toArray()
             //signingConfig signingConfigs.release

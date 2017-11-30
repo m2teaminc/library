@@ -61,8 +61,7 @@ public class ValidationUtils {
 	private final static Pattern username_pattern = Pattern.compile("^[A-Za-z0-9_]{1}[A-Za-z0-9_.-]{3,31}"); 
 	
 	//???????
-	private final static Pattern realnem_pattern = Pattern.compile("[\u4E00-\u9FA5]{2,5}(?:·[\u4E00-\u9FA5]{2,5})*"); 
-	
+
 	//??HTML??,?????????????HTML???????
 	private final static Pattern html_patter = Pattern.compile("<\\\\/?\\\\w+((\\\\s+\\\\w+(\\\\s*=\\\\s*(?:\".*?\"|'.*?'|[\\\\^'\">\\\\s]+))?)+\\\\s*|\\\\s*)\\\\/?>");
 
@@ -149,20 +148,10 @@ public class ValidationUtils {
 		return chinese_pattern.matcher(str).matches();
 	}
 	
-	
-	public static boolean isRealName(String str){
-		return realnem_pattern.matcher(str).matches();
-	}
-	
-	
 	public static boolean isOneCode(String oneCode) {
 		return onecode_pattern.matcher(oneCode).matches();
 	}
-	
-	
 
-
-	
 	public static boolean isEmail(String email) {
 		return email_pattern.matcher(email).matches();
 	}
