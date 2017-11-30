@@ -4,12 +4,12 @@ apply plugin: 'com.jfrog.bintray'
 def artifact = new Properties()
 artifact.load(project.file('deploy.properties').newDataInputStream())
 
-version=artifact.version
-group=artifact.groupId
+version = artifact.version
+group = artifact.groupId
 
 install {
     repositories.mavenInstaller {
-    pom.project {
+        pom.project {
             packaging 'aar'
             groupId artifact.groupId
             artifactId artifact.id
@@ -25,16 +25,18 @@ install {
                 }
             }
             scm {
-                    connection artifact.gitUrl
-                    developerConnection artifact.gitUrl
-                    url artifact.siteUrl
+                connection artifact.gitUrl
+                developerConnection artifact.gitUrl
+                url artifact.siteUrl
             }
         }
     }
 }
-
 Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
+File fname = project.rootProject.file('local.properties')
+if (fname.exists()) {
+    properties.load(fname.newDataInputStream())
+}
 
 bintray {
     user = System.getenv("BINTRAY_USER") ?: properties.getProperty("bintray.user")
