@@ -48,10 +48,10 @@
     <string name="back">Назад</string>
     <string name="ringtone">Мелодия звонка</string>
 
-    <string name="uploading">Отправка...</string>
+    <string name="uploading">Отправка…</string>
     <string name="uploaded">Отправлено</string>
     <string name="upload_failed">Сбой отправки</string>
-    <string name="downloading">Загрузка...</string>
+    <string name="downloading">Загрузка…</string>
     <string name="downloaded">Загружено</string>
     <string name="download_failure">Сбой загрузки</string>
 

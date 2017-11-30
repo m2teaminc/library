@@ -20,7 +20,7 @@ ext {
     targetSdk = 27
     compileSdk = 27
     buildTools = '27.0.0'
-    supportLibraryVersion = '27.0.0'
+    supportLibraryVersion = '27.0.1'
     // App dependencies
     butterKnifeVersion = '8.6.0'
     calligraphyVersion = '2.2.0'
@@ -53,7 +53,7 @@ ext {
     rxandroidVersion = '2.0.1'
 
     tastyToastVersion = '0.1.1'
-    timberVersion = '4.5.1'
+    timberVersion = '4.6.0'
     thirtyinchVersion = '0.8.0'
 
     junitVersion = '4.12'
@@ -156,8 +156,8 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
     implementation "com.android.support:cardview-v7:$supportLibraryVersion"
     implementation "com.android.support:design:$supportLibraryVersion"
-    implementation "com.android.support:support-vector-drawable:$supportLibraryVersion"
-    implementation "com.android.support:animated-vector-drawable:$supportLibraryVersion"
+//    implementation "com.android.support:support-vector-drawable:$supportLibraryVersion"
+//    implementation "com.android.support:animated-vector-drawable:$supportLibraryVersion"
     //implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     //Nine old android
@@ -171,38 +171,38 @@ dependencies {
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"*/
 
     //Json parser
-    implementation "com.google.code.gson:gson:$gsonVersion"
+//    implementation "com.google.code.gson:gson:$gsonVersion"
 
     //Image loader
-    implementation "com.github.bumptech.glide:glide:$glideVersion"
+//    implementation "com.github.bumptech.glide:glide:$glideVersion"
 
     //Font
-    implementation "uk.co.chrisjenx:calligraphy:$calligraphyVersion"
+//    implementation "uk.co.chrisjenx:calligraphy:$calligraphyVersion"
 
     //Logger
     implementation "com.jakewharton.timber:timber:$timberVersion"
-    implementation "com.orhanobut:logger:$loggerVersion"
+//    implementation "com.orhanobut:logger:$loggerVersion"
 
     //Custom toast
     implementation "com.sdsmdg.tastytoast:tastytoast:$tastyToastVersion"
     //implementation 'com.github.GrenderG:Toasty:1.2.5'
 
     //Jsoup
-    implementation "org.jsoup:jsoup:$jsoupVersion"
+//    implementation "org.jsoup:jsoup:$jsoupVersion"
 
     //Secure prefs
-    implementation 'com.scottyab:secure-preferences-lib:0.1.4'
+//    implementation 'com.scottyab:secure-preferences-lib:0.1.4'
 
     //SpongeCastle (adds Security algorithms)
-    implementation('com.madgag.spongycastle:core:1.54.0.0')
-    implementation('com.madgag.spongycastle:prov:1.54.0.0')
+//    implementation('com.madgag.spongycastle:core:1.54.0.0')
+//    implementation('com.madgag.spongycastle:prov:1.54.0.0')
 
     //Joda time
-    implementation "joda-time:joda-time:$jodaTimeVersion"
-    implementation 'com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0'
+//    implementation "joda-time:joda-time:$jodaTimeVersion"
+//    implementation 'com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0'
 
     //Eventbus
-    implementation "org.greenrobot:eventbus:$evenBusVersion"
+    // implementation "org.greenrobot:eventbus:$evenBusVersion"
 
     //Admob Adapter
     //implementation 'com.github.clockbyte:admobadapter:1.4.1'

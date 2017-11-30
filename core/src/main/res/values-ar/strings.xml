@@ -48,10 +48,10 @@
     <string name="back">رجوع</string>
     <string name="ringtone">نغمة الرنين</string>
 
-    <string name="uploading">جارٍ التحميل...</string>
+    <string name="uploading">جارٍ التحميل…</string>
     <string name="uploaded">تم التحميل</string>
     <string name="upload_failed">فشل التحميل</string>
-    <string name="downloading">جار التنزيل...</string>
+    <string name="downloading">جار التنزيل…</string>
     <string name="downloaded">تم التنزيل</string>
     <string name="download_failure">فشل التنزيل</string>
 

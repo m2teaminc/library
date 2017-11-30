@@ -17,7 +17,7 @@
 **
 ** Created with STMS Automation System
 */ -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- IDS_MUSIC_HEADER_MUSIC_M_APPLICATION_NAME -->
     <!-- IDS_MP_BODY_SOUND_PLAYER -->
     <string name="sound_player">Leitor de som</string>

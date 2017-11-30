@@ -2,34 +2,34 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- /////////////////////NMP STRING BEGIN //////////////////////////////////////////// -->
-    <string name="sound_player" did="IDS_MP_BODY_SOUND_PLAYER">Sound player</string>
+    <string name="sound_player">Sound player</string>
 
     <!-- DRM -->
-    <string name="count" did="IDS_MF_HEADER_COUNT">Count</string>
-    <string name="interval" did="IDS_COM_POP_INTERVAL">Interval</string>
-    <string name="unlimited" did="IDS_MB_POP_UNLIMITED">Unlimited</string>
-    <string name="right_status" did="IDS_MUSIC_BODY_MUSIC_RIGHT_STATUS">Right status</string>
-    <string name="impossible" did="IDS_CALL_POP_IMPOSSIBLE">Impossible</string>
-    <string name="forwarding" did="IDS_DRM_BODY_RIGHTSTATUS_FORWARDING">Forwarding</string>
-    <string name="until" did="IDS_CLD_OPT_UNTIL_ABB">Until</string>
+    <string name="count">Count</string>
+    <string name="interval">Interval</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="right_status">Right status</string>
+    <string name="impossible">Impossible</string>
+    <string name="forwarding">Forwarding</string>
+    <string name="until">Until</string>
 
     <!-- ##### 1. Menus (Options & Context) ##### -->
-    <string name="listen_via_bluetooth" did="IDS_ST_MBODY_LISTEN_VIA_BLUETOOTH">Listen via Bluetooth</string>
-    <string name="add_to_nowplaying" did="IDS_DLNA_BODY_ADD_TO_NOW_PLAYING_LIST">Add to now playing list</string>
-    <string name="listen_via_device" did="IDS_VPL_OPT_LISTEN_VIA_DEVICE">Listen via device</string>
-    <string name="save_as_playlist" did="IDS_MUSIC_OPT_SAVE_AS_PLAYLIST">Save as playlist</string>
-    <string name="add_to_playlist" did="IDS_MUSIC_BUTTON_ADD_TO_PLAYLIST">Add to playlist</string>
-    <string name="add_to_favourites" did="IDS_MUSIC_OPT_ADD_TO_FAVOURITES">Add to Favourites</string>
-    <string name="remove_from_favourites" did="IDS_MUSIC_OPT_REMOVE_FROM_FAVOURITES_ABB">Remove from Favourites</string>
-    <string name="edit_title" did="IDS_MUSIC_HEADER_EDIT_TITLE">Edit title</string>
-    <string name="create_playlist" did="IDS_MUSIC_OPT_CREATE_PLAYLIST">Create playlist</string>
-    <string name="view_as" did="IDS_VIDEO_OPT_VIEW_AS_ABB">View as</string>
+    <string name="listen_via_bluetooth">Listen via Bluetooth</string>
+    <string name="add_to_nowplaying">Add to now playing list</string>
+    <string name="listen_via_device">Listen via device</string>
+    <string name="save_as_playlist">Save as playlist</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="remove_from_favourites">Remove from Favourites</string>
+    <string name="edit_title">Edit title</string>
+    <string name="create_playlist">Create playlist</string>
+    <string name="view_as">View as</string>
     <string name="list">List</string>
-    <string name="thumbnail" did="IDS_BR_OPT_THUMBNAIL">Thumbnail</string>
-    <string name="shuffle" did="IDS_MUSIC_BUTTON_SHUFFLE">Shuffle</string>
-    <string name="end" did="IDS_VOLTE_BUTTON_END">End</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="end">End</string>
     <string name="change_order">Change order</string>
-    <string name="share_with_other_devices" did="IDS_VPL_OPT_SEND_TO_ANOTHER_DEVICE">Send to another device</string>
+    <string name="share_with_other_devices">Send to another device</string>
     <!-- IDS_MUSIC_OPT_SAMSUNG_MUSIC -->
 
     <!-- ##### 2. Player ##### -->
@@ -37,517 +37,517 @@
 
     <!-- ##### 3. Settings ##### -->
     <!-- (i) Settings activity -->
-    <string name="settings" did="IDS_MUSIC_OPT_SETTINGS">Settings</string>
-    <string name="music_auto_off" did="IDS_MUSIC_BODY_MUSIC_AUTO_OFF">Music auto off</string>
-    <string name="play_speed" did="IDS_MP_OPT2_PLAY_SPEED">Play speed</string>
-    <string name="voice_control" did="IDS_CLOCK_OPT1_VOICE_CONTROL">Voice control</string>
-    <string name="tabs" did="IDS_BR_SK_TABS">Tabs</string>
+    <string name="settings">Settings</string>
+    <string name="music_auto_off">Music auto off</string>
+    <string name="play_speed">Play speed</string>
+    <string name="voice_control">Voice control</string>
+    <string name="tabs">Tabs</string>
 
     <!-- (i) Music Menu (list) -->
-    <string name="tracks" did="IDS_MUSIC_BODY_TRACKS">Tracks</string>
-    <string name="playlists" did="IDS_MUSIC_BODY_PLAYLISTS">Playlists</string>
-    <string name="albums" did="IDS_MUSIC_BODY_ALBUMS">Albums</string>
-    <string name="artists" did="IDS_MUSIC_TAB4_ARTISTS">Artists</string>
-    <string name="composers" did="IDS_MUSIC_TAB_COMPOSERS">Composers</string>
-    <string name="years" did="IDS_MUSIC_TAB_YEARS">Years</string>
-    <string name="folders" did="IDS_VIDEO_OPT_FOLDERS_ABB">Folders</string>
-    <string name="recordings" did="IDS_VR_OPT_RECORDINGS_ABB">Recordings</string>
-    <string name="favourite_tracks" did="IDS_MUSIC_MBODY_FAVOURITE_TRACKS">Favourite tracks</string>
-    <string name="most_played" did="IDS_VOICE_BODY_MOST_PLAYED">Most played</string>
-    <string name="recently_played" did="IDS_VOICE_BODY_RECENTLY_PLAYED">Recently played</string>
-    <string name="recently_added" did="IDS_MUSIC_MBODY_RECENTLY_ADDED">Recently added</string>
+    <string name="tracks">Tracks</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="composers">Composers</string>
+    <string name="years">Years</string>
+    <string name="folders">Folders</string>
+    <string name="recordings">Recordings</string>
+    <string name="favourite_tracks">Favourite tracks</string>
+    <string name="most_played">Most played</string>
+    <string name="recently_played">Recently played</string>
+    <string name="recently_added">Recently added</string>
     <string name="default_s_playlists">default_s playlists</string>
-    <string name="my_playlists" did="IDS_MUSIC_HEADER_MY_PLAYLISTS_ABB">My playlists</string>
+    <string name="my_playlists">My playlists</string>
     <!-- need translation -->
-    <string name="download_all" did="IDS_MUSIC_BUTTON_DOWNLOAD_ALL">Download all</string>
+    <string name="download_all">Download all</string>
 
     <plurals name="NNNtracksinsquare">
         <!-- IDS_MUSIC_SHEADER_1_TRACK_SELECTED -->
-        <item quantity="one" did="IDS_MUSIC_SHEADER_1_TRACK_SELECTED">1 TRACK SELECTED</item>
+        <item quantity="one">1 TRACK SELECTED</item>
         <!-- IDS_MUSIC_SHEADER_PD_TRACKS_SELECTED -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_TRACKS_SELECTED_IN_SQUARE">%d tracks selected in square.</item>
+        <item quantity="other">%d tracks selected in square.</item>
     </plurals>
 
     <!-- end of need translation -->
     <!-- (iii) My Sound -->
 
     <!-- (iv) Music auto off -->
-    <string name="after_15_min" did="IDS_FM_BODY_AFTER_15_MINS_ABB">After 15 mins</string>
-    <string name="after_30_min" did="IDS_MP_BODY_ST_AFTER_30_MIN">After 30 mins</string>
-    <string name="after_1_hour" did="IDS_MUSIC_OPT_AFTER_1_HR_ABB">After 1 hr</string>
-    <string name="after_1_hour_30_min" did="IDS_MUSIC_OPT_AFTER_1_HR_30_MIN_ABB">After 1 hr 30 mins</string>
-    <string name="after_2_hour" did="IDS_MUSIC_OPT_AFTER_2_HR_ABB">After 2 hrs</string>
-    <string name="after_1_min" did="IDS_MUSIC_BODY_AFTER_1_MIN">After 1 min</string>
-    <string name="after_n_mins" did="IDS_MUSIC_BODY_AFTER_PD_MINS">After <xliff:g>%d</xliff:g> mins</string>
-    <string name="after_1_hr_1_min" did="IDS_MUSIC_BODY_AFTER_1_HR_1_MIN">After 1 hr 1 min</string>
-    <string name="after_1_hr_n_mins" did="IDS_MUSIC_BODY_AFTER_1_HR_PD_MINS">After 1 hr <xliff:g>%d</xliff:g> mins</string>
-    <string name="after_n_hrs" did="IDS_MUSIC_BODY_AFTER_PD_HRS">After <xliff:g>%d</xliff:g> hrs</string>
-    <string name="after_n_hrs_1_min" did="IDS_MUSIC_BODY_AFTER_PD_HRS_1_MIN">After <xliff:g>%d</xliff:g> hrs 1 min</string>
-    <string name="after_n_hrs_n_mins" did="IDS_MUSIC_OPT_AFTER_P1SD_HRS_P2SD_MINS">After <xliff:g>%d</xliff:g> hrs <xliff:g>%d</xliff:g> mins</string>
+    <string name="after_15_min">After 15 mins</string>
+    <string name="after_30_min">After 30 mins</string>
+    <string name="after_1_hour">After 1 hr</string>
+    <string name="after_1_hour_30_min">After 1 hr 30 mins</string>
+    <string name="after_2_hour">After 2 hrs</string>
+    <string name="after_1_min">After 1 min</string>
+    <string name="after_n_mins">After <xliff:g>%d</xliff:g> mins</string>
+    <string name="after_1_hr_1_min">After 1 hr 1 min</string>
+    <string name="after_1_hr_n_mins">After 1 hr <xliff:g>%d</xliff:g> mins</string>
+    <string name="after_n_hrs">After <xliff:g>%d</xliff:g> hrs</string>
+    <string name="after_n_hrs_1_min">After <xliff:g>%d</xliff:g> hrs 1 min</string>
+    <string name="after_n_hrs_n_mins">After <xliff:g>%d</xliff:g> hrs <xliff:g>%d</xliff:g> mins</string>
 
     <!-- (v) SoundAlive -->
-    <string name="auto" did="IDS_MUSIC_BODY_AUTO_M_SOUNDEFFECT">Auto</string>
-    <string name="pop" did="IDS_MUSIC_BODY_POP">Pop</string>
-    <string name="rock" did="IDS_MUSIC_BODY_ROCK">Rock</string>
-    <string name="dance" did="IDS_MUSIC_BODY_DANCE">Dance</string>
-    <string name="classic" did="IDS_MP_BODY_SOUNDEFFECT_CLASSIC">Classic</string>
-    <string name="normal" did="IDS_MUSIC_BODY_NORMAL_M_SOUNDEFFECT">Normal</string>
-    <string name="vocal" did="IDS_MUSIC_BODY_VOCAL_M_GENRE_ABB2">Vocal</string>
-    <string name="bass_boost" did="IDS_MUSIC_MBODY_BASS_BOOST">Bass boost</string>
-    <string name="cafe" did="IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT">Cafe</string>
-    <string name="concert_hall" did="IDS_MUSIC_BODY_CONCERT_HALL_M_SOUNDEFFECT">Concert hall</string>
-    <string name="custom" did="IDS_MUSIC_BODY_CUSTOM">Custom</string>
+    <string name="auto">Auto</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="dance">Dance</string>
+    <string name="classic">Classic</string>
+    <string name="normal">Normal</string>
+    <string name="vocal">Vocal</string>
+    <string name="bass_boost">Bass boost</string>
+    <string name="cafe">Cafe</string>
+    <string name="concert_hall">Concert hall</string>
+    <string name="custom">Custom</string>
 
     <!-- (vi) New SoundAlive -->
-    <string name="basic" did="IDS_MEDIABR_TAB_BASIC">Basic</string>
-    <string name="advanced" did="IDS_DLNA_HEADER_ADVANCED">Advanced</string>
-    <string name="effect" did="IDS_MUSIC_BUTTON_EFFECT">Effect</string>
-    <string name="small_room" did="IDS_MUSIC_HEADER_SMALL_ROOM_M_REVERB_ABB">Small room</string>
-    <string name="large_room" did="IDS_MUSIC_HEADER_LARGE_ROOM_M_REVERB_ABB">Large room</string>
+    <string name="basic">Basic</string>
+    <string name="advanced">Advanced</string>
+    <string name="effect">Effect</string>
+    <string name="small_room">Small room</string>
+    <string name="large_room">Large room</string>
     <string name="none">None</string>
-    <string name="treble" did="IDS_MUSIC_OPT_TREBLE_M_EQUALISER">Treble</string>
-    <string name="bass" did="IDS_MUSIC_OPT_BASS_M_EQUALISER">Bass</string>
-    <string name="no_effects" did="IDS_MUSIC_SBODY_NO_EFFECTS">No effects.</string>
+    <string name="treble">Treble</string>
+    <string name="bass">Bass</string>
+    <string name="no_effects">No effects.</string>
     <!-- IDS_MUSIC_BUTTON_3D_CHN -->
     <!-- IDS_MUSIC_BUTTON_BASS_CHN -->
     <!-- IDS_MUSIC_BUTTON_CLARITY_CHN -->
-    <string name="new_soundalive_clarity" did="IDS_MUSIC_BODY_CLARITY_M_SOUNDEFFECT">Clarity</string>
+    <string name="new_soundalive_clarity">Clarity</string>
 
     <!-- (vii) Smart Volume -->
-    <string name="smart_volume" did="IDS_MUSIC_MBODY_SMART_VOLUME">Smart volume</string>
-    <string name="smart_volume_on" did="IDS_MUSIC_HEADER_SMART_VOLUME_IS_ENABLED">Smart volume is enabled</string>
+    <string name="smart_volume">Smart volume</string>
+    <string name="smart_volume_on">Smart volume is enabled</string>
 
     <!-- (viii) K2HD -->
-    <string name="improve_audio_quality" did="IDS_MUSIC_SBODY_IMPROVE_AUDIO_PLAYBACK_QUALITY_JPN">Improve audio playback quality.</string>
+    <string name="improve_audio_quality">Improve audio playback quality.</string>
 
     <!-- (viv) Samsung Link -->
-    <string name="register_device_header" did="IDS_MUSIC_HEADER_REGISTER_DEVICE">Register device</string>
+    <string name="register_device_header">Register device</string>
 
     <!-- ##### 4. DLNA ##### -->
     <!-- (i) common for DLNA -->
     <string name="nearby_devices">Nearby devices</string>
     <!-- "PRODUCT_CHARACTERISTICS" attributes are different(vzw, verizon) even though the same Verizon model. -->
-    <string name="my_device" did="IDS_DLNA_BODY_MY_DEVICE">My device</string>
+    <string name="my_device">My device</string>
     <string name="change_player">Change player</string>
-    <string name="failed_to_connect_network" did="IDS_DLNA_POP_FAILED_TO_CONNECT_NETWORK">Failed to connect network.</string>
+    <string name="failed_to_connect_network">Failed to connect network.</string>
     <string name="unable_to_play">Unable to play</string>
-    <string name="player_is_not_available_msg" did="IDS_DLNA_POP_PLAYER_IS_NOT_AVAILABLE_CHECK_THE_NETWORK_STATUS_AND_CONNECTED_DEVICE">Player is not available. Check the network status and connected device</string>
-    <string name="nearby_devices_found" did="IDS_MUSIC_POP_NEARBY_DEVICES_FOUND">Nearby devices found</string>
-    <string name="err_network_error_occurred_msg" did="IDS_MUSIC_POP_NETWORK_ERROR_OCCURRED_TRY_AGAIN">Network error occurred. Try again.</string>
+    <string name="player_is_not_available_msg">Player is not available. Check the network status and connected device</string>
+    <string name="nearby_devices_found">Nearby devices found</string>
+    <string name="err_network_error_occurred_msg">Network error occurred. Try again.</string>
     <string name="file_size">File size</string>
     <string name="available_devices">Available devices</string>
-    <string name="select_device" did="IDS_KA_HEADER_SELECT_DEVICE">Select device</string>
+    <string name="select_device">Select device</string>
     <!-- IDS_MH_BODY_DISCONNECTED_FROM_PS_CHECK_THE_NETWORK_STATUS_AND_THE_CONNECTED_DEVICE -->
-    <string name="disconnected_devices" did="IDS_DLNA_POP_DISCONNECTED_FROM_PS_CHECK_THE_NETWORK_STATUS_AND_THE_CONNECTED_DEVICE">Disconnected from <xliff:g>%s</xliff:g>. Check the network status and the connected device.</string>
-    <string name="via_home_network" did="IDS_SMR_SBODY_VIA_HOME_NETWORK_M_STATUS">Via home network</string>
+    <string name="disconnected_devices">Disconnected from <xliff:g>%s</xliff:g>. Check the network status and the connected device.</string>
+    <string name="via_home_network">Via home network</string>
     <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_CONNECTED_DEVICES_WHILE_WLAN_IS_OFF_MSG_CHN -->
     <!-- IDS_VIDEO_BODY_NO_DEVICES_HAVE_BEEN_FOUND_ENABLE_THE_SHARE_CONTENT_FUNCTION_ON_YOUR_NEARBY_DEVICES_AND_THEN_TAP_THE_REFRESH_ICON_ABOVE -->
-    <string name="unable_to_scan_header" did="IDS_ST_HEADER_UNABLE_TO_SCAN_FOR_DEVICES_ABB">Unable to scan for devices</string>
+    <string name="unable_to_scan_header">Unable to scan for devices</string>
 
     <!-- (ii) Allshare Cast -->
     <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_PORTABLE_WLAN_HOTSPOT_IS_ENABLED_CHN -->
     <!-- IDS_MUSIC_POP_UNABLE_TO_SCAN_FOR_THE_DEVICE_CURRENTLY_CONNECTED_VIA_SCREEN_MIRRORING_WHILE_WLAN_DIRECT_IS_ENABLED_CHN -->
 
     <!-- (iii) S Link -->
-    <string name="devices" did="IDS_MUSIC_HEADER_DEVICES">Devices</string>
-    <string name="registered_devices" did="IDS_MUSIC_HEADER_REGISTERED_DEVICES_ABB">registereddevices</string>
-    <string name="not_connected" did="IDS_MUSIC_SBODY_NOT_CONNECTED">Not connected</string>
+    <string name="devices">Devices</string>
+    <string name="registered_devices">registereddevices</string>
+    <string name="not_connected">Not connected</string>
     <!-- IDS_ST_BODY_WLAN_CHN -->
     <!-- IDS_ASP_POP_UNABLE_TO_PLAY_THIS_FILE_WHILE_IT_IS_BEING_PLAYED_ON_ANOTHER_DEVICE -->
-    <string name="search_device" did="IDS_MUSIC_POP_SEARCHING_ING">Searching...</string>
+    <string name="search_device">Searching…</string>
 
     <!-- ##### 5. Music square ##### -->
-    <string name="change_horizontal_axis" did="IDS_MUSIC_BODY_CHANGE_HORIZONTAL_AXIS">Change horizontal axis</string>
-    <string name="mood_passionate" did="IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE">Passionate</string>
+    <string name="change_horizontal_axis">Change horizontal axis</string>
+    <string name="mood_passionate">Passionate</string>
     <string name="mood_joyful">Joyful</string>
-    <string name="mood_exciting" did="IDS_MUSIC_BODY_EXCITING_M_ADJECTIVE">Exciting</string>
-    <string name="calm" did="IDS_MUSIC_BODY_CALM_M_ADJECTIVE">Calm</string>
-    <string name="old" did="IDS_MUSIC_BODY_OLD">Old</string>
+    <string name="mood_exciting">Exciting</string>
+    <string name="calm">Calm</string>
+    <string name="old">Old</string>
     <string name="moods">Moods</string>
-    <string name="selected_list_empty" did="IDS_MUSIC_POP_SELECTED_LIST_EMPTY">Selected list empty.</string>
-    <string name="tap_to_expand_the_list" did="IDS_MUSIC_POP_TAP_TO_EXPAND_THE_LIST">Tap to expand the list.</string>
-    <string name="tap_to_collapse_the_list" did="IDS_MUSIC_POP_TAP_TO_COLLAPSE_THE_LIST">Tap to collapse the list.</string>
+    <string name="selected_list_empty">Selected list empty.</string>
+    <string name="tap_to_expand_the_list">Tap to expand the list.</string>
+    <string name="tap_to_collapse_the_list">Tap to collapse the list.</string>
 
     <!-- ##### 6. Media Info & Rich Info ##### -->
     <!-- (i) Media Info -->
-    <string name="artist" did="IDS_KA_BODY_ARTIST">Artist</string>
-    <string name="title" did="IDS_MUSIC_BODY_TITLE">Title</string>
-    <string name="album" did="IDS_MUSIC_BODY_ALBUM">Album</string>
-    <string name="track_length" did="IDS_MUSIC_BODY_TRACK_LENGTH">Track length</string>
-    <string name="genre" did="IDS_MUSIC_BODY_GENRE">Genre</string>
-    <string name="recording_date" did="IDS_MUSIC_BODY_DETAILS_RECORDING_DATE">Recording date</string>
-    <string name="track_number" did="IDS_COM_BODY_CONTENTFILEDETAIL_TRACK_NUMBER">Track number</string>
-    <string name="format" did="IDS_MUSIC_MBODY_FORMAT">Format</string>
-    <string name="bit_depth" did="IDS_MUSIC_BODY_BIT_DEPTH">Bit depth</string>
-    <string name="sampling_rate" did="IDS_MUSIC_BODY_SAMPLING_RATE">Sampling rate</string>
-    <string name="size" did="IDS_KA_BODY_SIZE">Size</string>
-    <string name="path" did="IDS_DLNA_BODY_PATH">Path</string>
+    <string name="artist">Artist</string>
+    <string name="title">Title</string>
+    <string name="album">Album</string>
+    <string name="track_length">Track length</string>
+    <string name="genre">Genre</string>
+    <string name="recording_date">Recording date</string>
+    <string name="track_number">Track number</string>
+    <string name="format">Format</string>
+    <string name="bit_depth">Bit depth</string>
+    <string name="sampling_rate">Sampling rate</string>
+    <string name="size">Size</string>
+    <string name="path">Path</string>
 
     <!-- (ii) Find tag -->
-    <string name="tags" did="IDS_HELP_BODY_TAGS_ABB">Tags</string>
-    <string name="select_album" did="IDS_MUSIC_HEADER_SELECT_ALBUM">Select album</string>
-    <string name="track_list" did="IDS_MUSIC_BODY_TRACK_LIST">Track list</string>
-    <string name="lyrics" did="IDS_MUSIC_OPT_LYRICS_ABB">Lyrics</string>
-    <string name="review" did="IDS_MUSIC_BODY_REVIEW">Review</string>
-    <string name="biography" did="IDS_MUSIC_BODY_BIOGRAPHY">Biography</string>
-    <string name="discography" did="IDS_MUSIC_BODY_DISCOGRAPHY">Discography</string>
-    <string name="credits" did="IDS_MUSIC_BODY_CREDITS">Credits</string>
-    <string name="track" did="IDS_MUSIC_BODY_TRACK">Track</string>
-    <string name="others" did="IDS_EMAIL_BODY_OTHERS">Others</string>
-    <string name="disc_n" did="IDS_MUSIC_HEADER_DISC_PD">Disc "<xliff:g id="disc_number">%d</xliff:g>"</string>
-    <string name="similar_albums" did="IDS_MUSIC_HEADER_SIMILAR_ALBUMS">Similar albums</string>
-    <string name="similar_artists" did="IDS_MUSIC_HEADER_SIMILAR_ARTISTS">Similar artists</string>
-    <string name="loading" did="IDS_IDLE_HEADER_LOADING_ING_ABB">Loading\u2026</string>
-    <string name="connecting" did="IDS_GC_BODY_CONNECTING_ING">Connecting\u2026</string>
-    <string name="finding" did="IDS_ST_POP_FINDING_ING">Finding\u2026</string>
-    <string name="saving" did="IDS_PB_POP_SAVING_ING">Saving\u2026</string>
-    <string name="err_data_connection_failed" did="IDS_BR_POP_DATA_CONNECTION_FAILED">Data connection failed.</string>
+    <string name="tags">Tags</string>
+    <string name="select_album">Select album</string>
+    <string name="track_list">Track list</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="review">Review</string>
+    <string name="biography">Biography</string>
+    <string name="discography">Discography</string>
+    <string name="credits">Credits</string>
+    <string name="track">Track</string>
+    <string name="others">Others</string>
+    <string name="disc_n">Disk %d</string>
+    <string name="similar_albums">Similar albums</string>
+    <string name="similar_artists">Similar artists</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="connecting">Connecting\u2026</string>
+    <string name="finding">Finding\u2026</string>
+    <string name="saving">Saving\u2026</string>
+    <string name="err_data_connection_failed">Data connection failed.</string>
     <string name="unable_to_save_file">Unable to save file.</string>
 
     <!-- (iii) Edit Metadata -->
-    <string name="set_default_s" did="IDS_SIDL_SK3_SET_default_s">Set default_s</string>
-    <string name="encoding_type" did="IDS_MUSIC_BODY_ENCODING_TYPE_ABB">Encoding type</string>
-    <string name="edit_meta_saved_unicode" did="IDS_MUSIC_POP_MUSIC_DATA_HAS_BEEN_SAVED_IN_UNICODE_HUTF_8">Music data has been saved in unicode (UTF-8)</string>
-    <string name="saved_dot" did="IDS_ACCS_POP_SAVED">Saved.</string>
+    <string name="set_default_s">Set default_s</string>
+    <string name="encoding_type">Encoding type</string>
+    <string name="edit_meta_saved_unicode">Music data has been saved in unicode (UTF-8)</string>
+    <string name="saved_dot">Saved.</string>
 
     <!-- ##### 7. Related to DRM ##### -->
-    <string name="want_unlock_q" did="IDS_COM_POP_WANT_TO_UNLOCK_IT_NOW_Q">Do you want to unlock it now?</string>
-    <string name="no_longer_available" did="IDS_MP_POP_THIS_ITEM_IS_NO_LONGER_AVAILABLE">This item is no longer available.</string>
-    <string name="want_delete_q" did="IDS_JAVA_POP_DRM_DELETE_MSG">Do you want to delete this item?</string>
-    <string name="play_now_q" did="IDS_MP_POP_PLAY_NOW_QUESTION">Play now?</string>
-    <string name="failed_acquire_license" did="IDS_MUSIC_POP_FAILED_TO_ACQUIRE_LICENCE">Failed to acquire licence.</string>
-    <string name="err_server_problem_msg" did="IDS_VPL_POP_SERVER_EXPERIENCING_PROBLEMS_TRY_LATER">Server experiencing problems. Try later.</string>
-    <string name="acquiring_license" did="IDS_MUSIC_BODY_ACQUIRING_LICENCE_ING">Acquiring licence\u2026</string>
-    <string name="no_data_connectivity" did="IDS_MUSIC_BODY_NO_DATA_CONNECTIVITY">No Data Connectivity</string>
-    <string name="error_sorry_license_expired" did="IDS_VPL_POP_SORRY_LICENCE_EXPIRED">Sorry, licence expired.</string>
+    <string name="want_unlock_q">Do you want to unlock it now?</string>
+    <string name="no_longer_available">This item is no longer available.</string>
+    <string name="want_delete_q">Do you want to delete this item?</string>
+    <string name="play_now_q">Play now?</string>
+    <string name="failed_acquire_license">Failed to acquire licence.</string>
+    <string name="err_server_problem_msg">Server experiencing problems. Try later.</string>
+    <string name="acquiring_license">Acquiring licence\u2026</string>
+    <string name="no_data_connectivity">No Data Connectivity</string>
+    <string name="error_sorry_license_expired">Sorry, licence expired.</string>
 
     <plurals name="drm_can_use_n_times">
 
         <!-- IDS_COM_POP_RENDER_INFO_CAN_USE_1_TIME -->
-        <item quantity="one" did="IDS_COM_POP_RENDER_INFO_CAN_USE_1_TIME">You can use <xliff:g>%s</xliff:g><xliff:g>1</xliff:g> time.</item>
+        <item quantity="one">You can use <xliff:g>%s</xliff:g><xliff:g>1</xliff:g> time.</item>
         <!-- IDS_COM_POP_RENDER_INFO_CAN_USE_N_TIMES -->
-        <item quantity="other" did="IDS_COM_POP_RENDER_INFO_CAN_USE_N_TIMES">You can use <xliff:g>%s</xliff:g><xliff:g>%d</xliff:g> times.</item>
+        <item quantity="other">You can use <xliff:g>%s</xliff:g><xliff:g>%d</xliff:g> times.</item>
     </plurals>
 
     <!-- ##### 8. TTS text ##### -->
     <!-- Same with "off" string, so you don't need to NTR. -->
-    <string name="tts_music_player" did="IDS_MUSIC_BODY_MUSIC_PLAYER">Music Player</string>
-    <string name="tts_go_to_music" did="IDS_MP_OPT_GOTOMUSIC">Go to Music</string>
-    <string name="tts_rewind" did="IDS_MUSIC_BODY_REWIND_T_TTS">Rewind</string>
-    <string name="tts_fast_forward" did="IDS_MUSIC_BODY_FAST_FORWARD_T_TTS">Fast forward</string>
-    <string name="tts_previous" did="IDS_MUSIC_BODY_PREVIOUS_M_SONG">Previous</string>
+    <string name="tts_music_player">Music Player</string>
+    <string name="tts_go_to_music">Go to Music</string>
+    <string name="tts_rewind">Rewind</string>
+    <string name="tts_fast_forward">Fast forward</string>
+    <string name="tts_previous">Previous</string>
     <string name="tts_pause">Pause</string>
-    <string name="volume" did="IDS_MUSIC_OPT_VOLUME">Volume</string>
-    <string name="shuffle_on" did="IDS_MUSIC_BODY_SHUFFLE_ON">Shuffle on</string>
-    <string name="shuffle_off" did="IDS_MUSIC_BODY_SHUFFLE_OFF">Shuffle off</string>
-    <string name="tts_repeat" did="IDS_MUSIC_BUTTON_REPEAT">Repeat</string>
-    <string name="tts_repeat_1" did="IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_1">Repeat 1</string>
-    <string name="tts_repeat_all" did="IDS_MUSIC_BODY_PLAYINGREPEAT_REPEAT_ALL">Repeat all</string>
-    <string name="tts_repeat_off" did="IDS_MUSIC_BODY_REPEAT_OFF">Repeat off</string>
-    <string name="volume_up" did="IDS_MUSIC_BODY_VOLUME_UP">Volume up</string>
-    <string name="volume_down" did="IDS_MUSIC_BODY_VOLUME_DOWN">Volume down</string>
-    <string name="tts_volume_mute" did="IDS_VPL_POP_MUTE">Mute</string>
-    <string name="plus" did="IDS_PB_BODY_PLUS">Plus</string>
-    <string name="minus" did="IDS_PB_BODY_MINUS">Minus</string>
-    <string name="tts_favourite" did="IDS_MUSIC_MBODY_FAVOURITE">Favourite</string>
-    <string name="tts_favourite_not_marked" did="IDS_MUSIC_BODY_NOT_MARKED_AS_A_FAVOURITE">Not marked as a favourite.</string>
-    <string name="tts_favourite_marked" did="IDS_MUSIC_BODY_MARKED_AS_A_FAVOURITE">Marked as a favourite.</string>
-    <string name="control_bar" did="IDS_IMGE_BODY_CONTROL_BAR_T_TTS">Control bar</string>
-    <string name="tts_list_view" did="IDS_MUSIC_SK3_LIST_VIEW">List view</string>
-    <string name="tts_header" did="IDS_ST_OPT_HEADER_T_TTS">Header</string>
-    <string name="tts_more_options" did="IDS_PB_OPT_MORE_OPTIONS">More options</string>
-    <string name="tts_selected" did="IDS_COM_BODY_SELECTED_T_TTS">Selected</string>
-    <string name="tts_not_selected" did="IDS_BT_BODY_NOT_SELECTED">Not selected</string>
-    <string name="cell" did="IDS_MUSIC_OPT_CELL_TTS">Cell</string>
-    <string name="tts_double_tap_to_expand_the_list" did="IDS_ACCS_BODY_DOUBLE_TAP_TO_EXPAND_THE_LIST_T_TTS">Double tap to expand the list.</string>
-    <string name="tts_double_tap_to_collapse_the_list" did="IDS_ACCS_BODY_DOUBLE_TAP_TO_COLLAPSE_THE_LIST_T_TTS">Double tap to collapse the list.</string>
-    <string name="hours_s" did="IDS_CLOCK_BODY_PD_HOURS">%d hours</string>
-    <string name="s_minutes" did="IDS_CLOCK_BODY_PD_MINUTES">%d minutes</string>
-    <string name="n_seconds" did="IDS_CST_BODY_PD_SECONDS">%d seconds</string>
-    <string name="tts_size_kb" did="IDS_MF_BODY_KILOBYTES_T_TTS">Kilobytes</string>
-    <string name="tts_private" did="IDS_GALLERY_OPT_PRIVATE_M_CONTENT">Private</string>
-    <string name="albumcover" did="IDS_MUSIC_OPT_ALBUM_COVER">Album cover</string>
-    <string name="seek_control" did="IDS_ST_BODY_SEEK_CONTROL">Seek control</string>
-    <string name="n_of_n" did="IDS_MUSIC_TBOPT_P1SS_OF_P2SS">%1$s of %2$s</string>
-    <string name="button_s" did="IDS_GCTS_OPT_P1SS_BUTTON_TTS">%1$s button</string>
-    <string name="tts_double_tap_to_create_playlist" did="IDS_MUSIC_BODY_DOUBLE_TAP_TO_CREATE_PLAYLIST_TTS">Double tap to create playlist.</string>
-    <string name="tts_edit_box" did="MIDS_OTS_TBOPT_EDIT_BOX">Edit box</string>
-    <string name="tts_editing" did="WDS_WMGR_TBOPT_EDITING">Editing</string>
+    <string name="volume">Volume</string>
+    <string name="shuffle_on">Shuffle on</string>
+    <string name="shuffle_off">Shuffle off</string>
+    <string name="tts_repeat">Repeat</string>
+    <string name="tts_repeat_1">Repeat 1</string>
+    <string name="tts_repeat_all">Repeat all</string>
+    <string name="tts_repeat_off">Repeat off</string>
+    <string name="volume_up">Volume up</string>
+    <string name="volume_down">Volume down</string>
+    <string name="tts_volume_mute">Mute</string>
+    <string name="plus">Plus</string>
+    <string name="minus">Minus</string>
+    <string name="tts_favourite">Favourite</string>
+    <string name="tts_favourite_not_marked">Not marked as a favourite.</string>
+    <string name="tts_favourite_marked">Marked as a favourite.</string>
+    <string name="control_bar">Control bar</string>
+    <string name="tts_list_view">List view</string>
+    <string name="tts_header">Header</string>
+    <string name="tts_more_options">More options</string>
+    <string name="tts_selected">Selected</string>
+    <string name="tts_not_selected">Not selected</string>
+    <string name="cell">Cell</string>
+    <string name="tts_double_tap_to_expand_the_list">Double tap to expand the list.</string>
+    <string name="tts_double_tap_to_collapse_the_list">Double tap to collapse the list.</string>
+    <string name="hours_s">%d hours</string>
+    <string name="s_minutes">%d minutes</string>
+    <string name="n_seconds">%d seconds</string>
+    <string name="tts_size_kb">Kilobytes</string>
+    <string name="tts_private">Private</string>
+    <string name="albumcover">Album cover</string>
+    <string name="seek_control">Seek control</string>
+    <string name="n_of_n">%1$s of %2$s</string>
+    <string name="button_s">%1$s button</string>
+    <string name="tts_double_tap_to_create_playlist">Double tap to create playlist.</string>
+    <string name="tts_edit_box">Edit box</string>
+    <string name="tts_editing">Editing</string>
 
     <!-- ##### 9. For other features ##### -->
     <!-- (i) Personal Page -->
-    <string name="move_to_private" did="IDS_GALLERY_OPT_MOVE_TO_PRIVATE">Move to Private</string>
-    <string name="remove_from_personal_page" did="IDS_GALLERY_OPT_REMOVE_FROM_PRIVATE">Remove from Private</string>
+    <string name="move_to_private">Move to Private</string>
+    <string name="remove_from_personal_page">Remove from Private</string>
     <!-- IDS_COM_POP_MOVING -->
-    <string name="moving" did="IDS_COM_POP_MOVING">Moving...</string>
-    <string name="processing" did="IDS_MP_POP_PROCESSING_ING">Processing\u2026</string>
-    <string name="s_moved_to_private" did="IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE">%d items moved to Private.</string>
-    <string name="s_removed_from_private" did="IDS_GALLERY_TPOP_PD_ITEMS_REMOVED_FROM_PRIVATE">%d items removed from Private.</string>
-    <string name="add_n_item_n_item_exist" did="IDS_GALLERY_TPOP_PD_ITEMS_MOVED_TO_PRIVATE_OTHER_ITEMS_ALREADY_EXIST_IN_PRIVATE">%d items moved to Private. Other items already exist in Private.</string>
-    <string name="apply_to_all_items" did="IDS_MF_POP_APPLY_TO_ALL_ITEMS">Apply to all items</string>    
-    <string name="rename" did="IDS_MUSIC_HEADER_RENAME">Rename</string>
-    <string name="overwrite" did="IDS_CAM_POP_OVERWRITE">Overwrite</string>    
-    <string name="error_already_exist_file_copy" did="IDS_MF_POP_PS_CANNOT_BE_COPIED_THERE_IS_ALREADY_A_FILE_WITH_THIS_NAME_IN_THE_DESTINATION_FOLDER">%s cannot be copied. There is already a file with this name in the destination folder.</string>
-    <string name="file_name_in_use" did="IDS_GALLERY_HEADER_FILE_NAME_IN_USE_ABB">File name in use</string>    
-    <string name="replace" did="IDS_GALLERY_BUTTON_REPLACE_ABB">Replace</string>
+    <string name="moving">Moving…</string>
+    <string name="processing">Processing\u2026</string>
+    <string name="s_moved_to_private">%d items moved to Private.</string>
+    <string name="s_removed_from_private">%d items removed from Private.</string>
+    <string name="add_n_item_n_item_exist">%d items moved to Private. Other items already exist in Private.</string>
+    <string name="apply_to_all_items">Apply to all items</string>    
+    <string name="rename">Rename</string>
+    <string name="overwrite">Overwrite</string>    
+    <string name="error_already_exist_file_copy">%s cannot be copied. There is already a file with this name in the destination folder.</string>
+    <string name="file_name_in_use">File name in use</string>    
+    <string name="replace">Replace</string>
 
     <!-- (ii) Dual ringtone -->
-    <string name="select_sim" did="IDS_ST_HEADER_SELECT_SIM_CARD">Select SIM card</string>
+    <string name="select_sim">Select SIM card</string>
 
     <!-- (iii) LGT -->
-    <string name="checking_licence" did="IDS_MUSIC_POP_CHECKING_LICENCE_ING_KOR">Checking licence\u2026</string>
-    <string name="reset_licences" did="IDS_MUSIC_MBODY_RESET_LICENCES_KOR">Reset licences</string>
-    <string name="licences_reset" did="IDS_MUSIC_POP_LICENCES_RESET_KOR">Licences reset</string>
-    <string name="mp3_ringtone" did="IDS_MUSIC_OPT_MP3_RINGTONE_KOR_LGT">MP3 ringtone</string>
+    <string name="checking_licence">Checking licence\u2026</string>
+    <string name="reset_licences">Reset licences</string>
+    <string name="licences_reset">Licences reset</string>
+    <string name="mp3_ringtone">MP3 ringtone</string>
 
     <!-- (iv) Smart BT -->
 
     <!-- (v) BigPond Top 10 -->
 
     <!-- (vi) KNOX Personal mode -->
-    <string name="personal_mode" did="IDS_KNOX_TAB4_PERSONAL_MODE">Personal mode</string>
-    <string name="move_to_personal_mode" did="IDS_KNOX_OPT_MOVE_TO_PERSONAL_MODE">Move to Personal mode</string>
-    <string name="error" did="IDS_COM_POP_ERROR">Error</string>
+    <string name="personal_mode">Personal mode</string>
+    <string name="move_to_personal_mode">Move to Personal mode</string>
+    <string name="error">Error</string>
     <string name="not_enough_memory_popup">Not enough memory. Delete some files.</string>
     <!-- IDS_IDLE_TPOP_UNABLE_TO_OPEN_APPLICATION_DELETE_SOME_FILES_MSG -->
     <!-- IDS_IDLE_TPOP_NOT_ENOUGH_SPACE_IN_DEVICE_STORAGE_MSG -->
-    <string name="not_enough_memory_toast" did="IDS_IDLE_TPOP_NOT_ENOUGH_SPACE_IN_DEVICE_STORAGE_MSG">Not enough space in device storage. Delete some files and try again.</string>
-    <string name="go_to_storage" did="IDS_DM_BUTTON_GO_TO_STORAGE_ABB">Go to Storage</string>
-    <string name="err_not_enough_memory" did="IDS_COM_POP_NOT_ENOUGH_MEMORY">Not enough memory.</string>
-    <string name="error_move_failed" did="IDS_SH_POP_SOME_ITEMS_CANNOT_BE_MOVED">Some items cannot be moved.</string>
-    <string name="error_failed_to_move" did="IDS_KNOX_TPOP_FAILED_TO_MOVE">Failed to move.</string>
+    <string name="not_enough_memory_toast">Not enough space in device storage. Delete some files and try again.</string>
+    <string name="go_to_storage">Go to Storage</string>
+    <string name="err_not_enough_memory">Not enough memory.</string>
+    <string name="error_move_failed">Some items cannot be moved.</string>
+    <string name="error_failed_to_move">Failed to move.</string>
     <!-- IDS_KNOX_TPOP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_MOVED_AT_ONE_TIME_HPD_HAS_BEEN_EXCEEDED_MSG -->
-    <string name="error_maximum_file_moved" did="IDS_KNOX_TPOP_THE_MAXIMUM_NUMBER_OF_FILES_THAT_CAN_BE_MOVED_AT_ONE_TIME_HPD_HAS_BEEN_EXCEEDED_MSG">The maximum number of files that can be moved at one time (%d) has been exceeded. Deselect some files and try again.</string>
+    <string name="error_maximum_file_moved">The maximum number of files that can be moved at one time (%d) has been exceeded. Deselect some files and try again.</string>
 
     <!-- (vii) Store -->
     <!--   Store string is deprecated.. -->
 
     <!-- (viii) Auto Recommendation -->
-    <string name="from_beginning" did="IDS_MUSIC_BUTTON_FROM_THE_BEGINNING">From the beginning</string>
-    <string name="auto_recommendation" did="IDS_MUSIC_BUTTON_AUTO_RECOMMENDATIONS">Auto recommendations</string>
+    <string name="from_beginning">From the beginning</string>
+    <string name="auto_recommendation">Auto recommendations</string>
     <!-- IDS_MUSIC_POP_AUTO_RECOMMENDATION_DOES_NOT_SUPPORT_THIS_AUDIO_FILE -->
-    <string name="error_unknown" did="IDS_BT_HEADER_UNKNOWN_ERROR">Unknown error</string>
-    <string name="option_set_as" did="IDS_MUSIC_BUTTON2_SET_AS">Set as</string>
-    <string name="ringtone_added" did="IDS_MUSIC_POP_RINGTONE_ADDED">Ringtone added.</string>
-    <string name="phone_ringtone" did="IDS_MUSIC_POP_PHONE_RINGTONE">Phone ringtone</string>
-    <string name="caller_ringtone" did="IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE">Caller ringtone</string>
-    <string name="alarm_tone" did="IDS_CLOCK_HEADER_ALARM_TONE_ABB">Alarm tone</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="option_set_as">Set as</string>
+    <string name="ringtone_added">Ringtone added.</string>
+    <string name="phone_ringtone">Phone ringtone</string>
+    <string name="caller_ringtone">Caller ringtone</string>
+    <string name="alarm_tone">Alarm tone</string>
     <!-- Dual sim ringtone -->
-    <string name="unable_to_find_item" did="IDS_MUSIC_HEADER_UNABLE_TO_FIND_ITEM">Unable to find item</string>
+    <string name="unable_to_find_item">Unable to find item</string>
 
     <!-- ##### 10. No item ##### -->
     <!-- IDS_MF_NPBODY_NO_RESULTS_FOUND -->
-    <string name="no_tracks" did="IDS_MUSIC_NPBODY_NO_TRACKS">No tracks</string>
-    <string name="no_albums" did="IDS_MUSIC_BODY_NO_ALBUMS">No albums</string>
-    <string name="no_artists" did="IDS_MUSIC_BODY_NO_ARTISTS">No artists</string>
-    <string name="no_composers" did="IDS_MUSIC_BODY_NO_COMPOSERS">No composers</string>
-    <string name="no_genres" did="IDS_MUSIC_BODY_NO_GENRES">No genres</string>
-    <string name="no_playlists" did="IDS_MUSIC_BODY_NO_PLAYLISTS">No playlists</string>
-    <string name="no_years" did="IDS_MUSIC_BODY_NO_YEARS">No years</string>
-    <string name="no_folders" did="IDS_MUSIC_BODY_NO_FOLDERS">No folders</string>
-    <string name="no_songs_playing" did="IDS_IDLE_BODY_NO_SONGS_PLAYING">No songs playing</string>
-    <string name="no_music_files" did="IDS_KA_BODY_NO_MUSIC_FILES">No music files</string>
-    <string name="no_recordings" did="IDS_VR_NPBODY_NO_RECORDINGS_M_VOICE">No recordings</string>
+    <string name="no_tracks">No tracks</string>
+    <string name="no_albums">No albums</string>
+    <string name="no_artists">No artists</string>
+    <string name="no_composers">No composers</string>
+    <string name="no_genres">No genres</string>
+    <string name="no_playlists">No playlists</string>
+    <string name="no_years">No years</string>
+    <string name="no_folders">No folders</string>
+    <string name="no_songs_playing">No songs playing</string>
+    <string name="no_music_files">No music files</string>
+    <string name="no_recordings">No recordings</string>
     <!-- IDS_MUSIC_BODY_YOU_NEED_TO_BE_CONNECTED_TO_A_WLAN_TO_SCAN_FOR_NEARBY_DEVICES_MSG_CHN -->
-    <string name="sign_in" did="IDS_COM_BUTTON_SIGN_IN">Sign in</string>
-    <string name="register" did="IDS_MUSIC_BUTTON_REGISTER_ABB">Register</string>
-    <string name="how_to_register" did="IDS_MUSIC_HEADER_HOW_TO_REGISTER_ABB">How to register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="how_to_register">How to register</string>
     <string name="registration_guide">Registration guide</string>
-    <string name="s_link_load_the_content" did="IDS_BR_BODY_LOAD_CONTENTS">Load contents</string>
+    <string name="s_link_load_the_content">Load contents</string>
 
     <!-- ##### 11. Other strings ##### -->
-    <string name="addto" did="IDS_MUSIC_OPT_ADD_TO">Add to</string>
-    <string name="select_all" did="IDS_EL_MBODY_SELECT_ALL">Select all</string>
-    <string name="deselect_all" did="IDS_MSG_OPT_DESELECT_ALL_ABB">Deselect all</string>
-    <string name="buffering" did="IDS_PB_BODY_BUFFERING_ING_ABB">Buffering\u2026</string>
-    <string name="no_items" did="IDS_KA_BODY_NO_ITEMS_ABB">No items</string>
-    <string name="done" did="IDS_MUSIC_BUTTON_DONE">Done</string>
-    <string name="save" did="IDS_MT_BUTTON_SAVE">Save</string>
+    <string name="addto">Add to</string>
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="buffering">Buffering\u2026</string>
+    <string name="no_items">No items</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
     <string name="ok">OK</string>
-    <string name="set" did="IDS_COM_SK_SET">Set</string>
-    <string name="cancel" did="IDS_KA_BUTTON_CANCEL">Cancel</string>
-    <string name="yes" did="IDS_ACCS_BUTTON_YES">Yes</string>
-    <string name="no" did="IDS_ACCS_SK2_NO">No</string>
-    <string name="on" did="IDS_MUSIC_BODY_ON">On</string>
-    <string name="off" did="IDS_MUSIC_BODY_OFF">Off</string>
-    <string name="reset" did="IDS_MUSIC_BUTTON_RESET">Reset</string>
-    <string name="refresh" did="IDS_DLNA_SK3_REFRESH">Refresh</string>
-    <string name="time" did="IDS_CLD_MBODY_TIME">Time</string>
-    <string name="help" did="IDS_MUSIC_OPT_SETTINGS_HELP">Help</string>
-    <string name="information" did="IDS_ST_BODY_INFORMATION">Information</string>
-    <string name="my_playlist" did="IDS_MUSIC_BODY_MY_PLAYLIST">My playlist</string>
-    <string name="error_n_already_in_use" did="IDS_MUSIC_POP_PS_ALREADY_IN_USE_ENTER_ANOTHER_NAME">%s already in use. Enter another name.</string>
-    <string name="deleting_items" did="IDS_VR_BODY_DELETING_ITEMS_ING">Deleting items\u2026</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="reset">Reset</string>
+    <string name="refresh">Refresh</string>
+    <string name="time">Time</string>
+    <string name="help">Help</string>
+    <string name="information">Information</string>
+    <string name="my_playlist">My playlist</string>
+    <string name="error_n_already_in_use">%s already in use. Enter another name.</string>
+    <string name="deleting_items">Deleting items\u2026</string>
     <string name="deleted">Deleted</string>
-    <string name="unknown" did="IDS_MUSIC_BODY_UNKNOWN_M_GENRE">Unknown</string>
-    <string name="unknown_album" did="IDS_MUSIC_BODY_UNKNOWN_ALBUM">Unknown album</string>
-    <string name="unknown_artist" did="IDS_MUSIC_BODY_UNKNOWN_ARTIST">Unknown artist</string>
-    <string name="various_artists" did="IDS_MUSIC_BODY_VARIOUS_ARTISTS">Various Artists</string>
-    <string name="now_playing" did="IDS_MUSIC_HEADER_NOW_PLAYING">Now playing</string>
-    <string name="low_battery" did="IDS_MUSIC_POP_LOW_BATTERY">Low battery.</string>
-    <string name="warning" did="IDS_CAM_HEADER_WARNING_ABB">Warning</string>
-    <string name="unable_to_play_during_call" did="IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL">Unable to play during call.</string>
-    <string name="error_playback_failed_msg" did="IDS_MUSIC_POP_SORRY_THE_PLAYER_DOES_NOT_SUPPORT_THIS_TYPE_OF_AUDIO_FILE">Sorry, the player does not support this type of audio file.</string>
-    <string name="not_support_ff" did="IDS_VPL_TPOP_FAST_FORWARDING_NOT_SUPPORTED">Fast forwarding not supported.</string>
-    <string name="not_support_rew" did="IDS_VPL_TPOP_REWINDING_NOT_SUPPORTED">Rewinding not supported.</string>
-    <string name="stop_playing_music_q" did="IDS_MUSIC_POP_STOP_PLAYING_MUSIC">Stop playing music?</string>
+    <string name="unknown">Unknown</string>
+    <string name="unknown_album">Unknown album</string>
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="various_artists">Various Artists</string>
+    <string name="now_playing">Now playing</string>
+    <string name="low_battery">Low battery.</string>
+    <string name="warning">Warning</string>
+    <string name="unable_to_play_during_call">Unable to play during call.</string>
+    <string name="error_playback_failed_msg">Sorry, the player does not support this type of audio file.</string>
+    <string name="not_support_ff">Fast forwarding not supported.</string>
+    <string name="not_support_rew">Rewinding not supported.</string>
+    <string name="stop_playing_music_q">Stop playing music?</string>
     <string name="error_max_char_reached_msg">Up to <xliff:g>%d</xliff:g> characters available.</string>
-    <string name="n_items_selected" did="IDS_SSCHOL_HEADER_PD_SELECTED">%1$d selected</string>
-    <string name="search_with" did="IDS_MUSIC_HEADER_SEARCH_WITH">Search with</string>
-    <string name="invalid_character" did="IDS_VIPM_POP_INVALID_CHARACTER">Invalid character</string>
-    <string name="n_bit" did="IDS_MUSIC_BODY_PD_BIT"><xliff:g>%d</xliff:g> bit</string>
-    <string name="n_khz" did="IDS_MUSIC_BODY_PD_KHZ"><xliff:g>%d</xliff:g> kHz</string>
-    <string name="search" did="IDS_COM_BODY_SEARCH">Search</string>
-    <string name="suggestions_for_you" did="IDS_MUSIC_HEADER_SUGGESTIONS_FOR_YOU">Suggestions for you</string>
-    <string name="play" did="IDS_EL_BODY_PLAY">Play</string>
-    <string name="n_deleted" did="IDS_GALLERY_TPOP_PD_DELETED"><xliff:g>%d</xliff:g> deleted.</string>
+    <string name="n_items_selected">%1$d selected</string>
+    <string name="search_with">Search with</string>
+    <string name="invalid_character">Invalid character</string>
+    <string name="n_bit"><xliff:g>%d</xliff:g> bit</string>
+    <string name="n_khz"><xliff:g>%d</xliff:g> kHz</string>
+    <string name="search">Search</string>
+    <string name="suggestions_for_you">Suggestions for you</string>
+    <string name="play">Play</string>
+    <string name="n_deleted"><xliff:g>%d</xliff:g> deleted.</string>
     <string name="select_tracks">SELECT TRACKS</string>
-    <string name="content_hidden" did="IDS_LCKSCN_SBODY_CONTENT_HIDDEN_M_STATUS">Content hidden</string>
+    <string name="content_hidden">Content hidden</string>
     <!-- Delete popup -->
     <plurals name="n_tracks_deleted_msg">
-        <item quantity="one" did="IDS_MUSIC_POP_1_TRACK_WILL_BE_DELETED">1 track will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_POP_PD_TRACKS_WILL_BE_DELETED">%d tracks will be deleted.</item>
+        <item quantity="one">1 track will be deleted.</item>
+        <item quantity="other">%d tracks will be deleted.</item>
     </plurals>
     <plurals name="n_playlists_deleted_msg">
-        <item quantity="one" did="IDS_MUSIC_POP_1_PLAYLIST_WILL_BE_DELETED">1 playlist will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_PLAYLISTS_WILL_BE_DELETED">%d playlists will be deleted.</item>
+        <item quantity="one">1 playlist will be deleted.</item>
+        <item quantity="other">%d playlists will be deleted.</item>
     </plurals>
     <plurals name="n_albums_deleted_msg">
-        <item quantity="one" did="IDS_IV_POP_1_ALBUM_WILL_BE_DELETED">1 album will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_ALBUMS_WILL_BE_DELETED">%d albums will be deleted.</item>
+        <item quantity="one">1 album will be deleted.</item>
+        <item quantity="other">%d albums will be deleted.</item>
     </plurals>
     <plurals name="n_artists_deleted_msg">
-        <item quantity="one" did="IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTIST_WILL_BE_DELETED">All tracks by the selected artist will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_ARTISTS_WILL_BE_DELETED">All tracks by the selected artists will be deleted.</item>
+        <item quantity="one">All tracks by the selected artist will be deleted.</item>
+        <item quantity="other">All tracks by the selected artists will be deleted.</item>
     </plurals>
     <plurals name="n_folders_deleted_msg">
-        <item quantity="one" did="IDS_MUSIC_POP_THE_SELECTED_FOLDER_WILL_BE_DELETED">The selected folder will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_POP_THE_SELECTED_FOLDERS_WILL_BE_DELETED">The selected folders will be deleted.</item>
+        <item quantity="one">The selected folder will be deleted.</item>
+        <item quantity="other">The selected folders will be deleted.</item>
     </plurals>
     <plurals name="n_genres_deleted_msg">
-        <item quantity="one" did="IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRE_WILL_BE_DELETED">All tracks in the selected genre will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_POP_ALL_TRACKS_IN_THE_SELECTED_GENRES_WILL_BE_DELETED">All tracks in the selected genres will be deleted.</item>
+        <item quantity="one">All tracks in the selected genre will be deleted.</item>
+        <item quantity="other">All tracks in the selected genres will be deleted.</item>
     </plurals>
     <plurals name="n_composers_deleted_msg">
-        <item quantity="one" did="IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSER_WILL_BE_DELETED">All tracks by the selected composer will be deleted.</item>
-        <item quantity="other" did="IDS_MUSIC_POP_ALL_TRACKS_BY_THE_SELECTED_COMPOSERS_WILL_BE_DELETED">All tracks by the selected composers will be deleted.</item>
+        <item quantity="one">All tracks by the selected composer will be deleted.</item>
+        <item quantity="other">All tracks by the selected composers will be deleted.</item>
     </plurals>
 
     <!-- Playlist Boundary -->
     <string name="error_UNABLE_TO_ADD_MORE_MUSIC_MAX_REACHED_MSG">Unable to add any more music files. Maximum number of music files reached.</string>
-    <string name="error_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED" did="IDS_MUSIC_BODY_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED">Unable to create playlist. Maximum number of playlists reached.</string>
+    <string name="error_UNABLE_TO_CREATE_PLAYLIST_MAXIMUM_NUMBER_OF_PLAYLISTS_REACHED">Unable to create playlist. Maximum number of playlists reached.</string>
 
     <!-- Related to search -->
 
     <!-- Alphabet -->
-    <string name="character_list" did="IDS_PB_BODY_ABCDEFGHIJKLMNOPQRSTUVWXYZ_M_INDEXLIST">#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="character_list">#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
     <!-- Barge-in notification -->
 
     <!-- Hover -->
-    <string name="and_n_more" did="IDS_COM_BODY_AND_PD_MORE">and <xliff:g>%d</xliff:g> more</string>
+    <string name="and_n_more">and <xliff:g>%d</xliff:g> more</string>
 
     <!-- List number of tracks.. -->
     <plurals name="NNNtrack">
 
         <!-- message shown when one track was added -->
-        <item quantity="one" did="IDS_MUSIC_MBODY_PD_TRACK">%1$d track</item>
+        <item quantity="one">%1$d track</item>
         <!-- message shown when zero or more than one track was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_TRACKS_ABB">%d tracks</item>
+        <item quantity="other">%d tracks</item>
     </plurals>
     <plurals name="NNNplaylist">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="MIDS_IS_MBODY_PD_PLAYLIST">%1$d playlist</item>
+        <item quantity="one">%1$d playlist</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_PLAYLISTS">%d playlists</item>
+        <item quantity="other">%d playlists</item>
     </plurals>
     <plurals name="NNNalbum">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_ALBUM">1 album</item>
+        <item quantity="one">1 album</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_ALBUMS">%d albums</item>
+        <item quantity="other">%d albums</item>
     </plurals>
     <plurals name="NNNartist">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_ARTIST">1 artist</item>
+        <item quantity="one">1 artist</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_ARTISTS">%d artists</item>
+        <item quantity="other">%d artists</item>
     </plurals>
     <plurals name="NNNgenre">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_GENRE">1 genre</item>
+        <item quantity="one">1 genre</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_GENRES">%d genres</item>
+        <item quantity="other">%d genres</item>
     </plurals>
     <plurals name="NNNfolder">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_VPL_BODY_1_FOLDER">1 folder</item>
+        <item quantity="one">1 folder</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MF_BODY_DETAILFOLDERS">%d folders</item>
+        <item quantity="other">%d folders</item>
     </plurals>
     <plurals name="NNNcomposer">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_COMPOSER">1 composer</item>
+        <item quantity="one">1 composer</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_COMPOSERS">%d composers</item>
+        <item quantity="other">%d composers</item>
     </plurals>
     <plurals name="NNNyear">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_YEAR">1 year</item>
+        <item quantity="one">1 year</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_HEALTH_BODY_PD_YEARS">%d years</item>
+        <item quantity="other">%d years</item>
     </plurals>
 
     <!-- need to trnaslate, need for DLNA -->
     <plurals name="NNNdevice">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_DEVICE">%1$d device</item>
+        <item quantity="one">%1$d device</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_DEVICES">%d devices</item>
+        <item quantity="other">%d devices</item>
     </plurals>
 
     <!-- Toasts after adding track(s) to playlists -->
     <plurals name="NNNtrackstoplaylist">
 
         <!-- message shown when one track was added -->
-        <item quantity="one" did="IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_PLAYLIST">1 track added to playlist.</item>
+        <item quantity="one">1 track added to playlist.</item>
         <!-- message shown when zero or more than one track was added -->
-        <item quantity="other" did="IDS_MUSIC_POP_PD_TRACKS_ADDED_TO_PLAYLIST">%d tracks added to playlist.</item>
+        <item quantity="other">%d tracks added to playlist.</item>
     </plurals>
 
     <!-- Toast confirming that track(s) was/were deleted. -->
     <plurals name="NNNtracksdeleted">
 
         <!-- delete confirmation message for 1 track -->
-        <item quantity="one" did="IDS_MUSIC_TPOP_1_TRACK_DELETED">1 track deleted.</item>
+        <item quantity="one">1 track deleted.</item>
         <!-- delete confirmation message for 0 or more than 1 tracks -->
-        <item quantity="other" did="IDS_MUSIC_TPOP_PD_TRACKS_DELETED">%d tracks deleted.</item>
+        <item quantity="other">%d tracks deleted.</item>
     </plurals>
 
     <!-- Toast confirming that item(s) was/were deleted. -->
     <plurals name="NNNitemssdeleted">
 
         <!-- delete confirmation message for 1 track(item) -->
-        <item quantity="one" did="IDS_COM_POP_1_ITEM_DELETED">1 item deleted</item>
+        <item quantity="one">1 item deleted</item>
         <!-- delete confirmation message for o ore more than 1 tracks(items) -->
-        <item quantity="other" did="IDS_MUSIC_POP_PD_ITEMS_DELETED">%d items deleted</item>
+        <item quantity="other">%d items deleted</item>
     </plurals>
 
     <!-- Toast confirming that track(s) was/were removed. -->
     <plurals name="NNNtracksremoved">
 
         <!-- remove confirmation message for tracks(items) -->
-        <item quantity="one" did="IDS_MUSIC_TPOP_1_TRACK_REMOVED">1 track removed.</item>
+        <item quantity="one">1 track removed.</item>
         <!-- remove confirmation message for 0 or more than 1 tracks(items) -->
-        <item quantity="other" did="IDS_MUSIC_POP_PD_TRACKS_REMOVED">%d tracks removed.</item>
+        <item quantity="other">%d tracks removed.</item>
     </plurals>
 
     <!-- Translation needed -->
@@ -555,36 +555,36 @@
     <plurals name="NNNtrackstonowplaying">
 
         <!-- message shown when one song was added -->
-        <item quantity="one" did="IDS_MUSIC_BODY_1_TRACK_ADDED_TO_NOW_PLAYING_LIST">1 track added to Now playing list.</item>
+        <item quantity="one">1 track added to Now playing list.</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other" did="IDS_MUSIC_BODY_PD_TRACKS_ADDED_TO_NOW_PLAYING_LIST">%d tracks added to Now playing list.</item>
+        <item quantity="other">%d tracks added to Now playing list.</item>
     </plurals>
 
     <!-- Toasts after adding track(s) to favourites -->
     <plurals name="NNNtrackstofavorite">
 
         <!-- message shown when one track was added -->
-        <item quantity="one" did="IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES">1 track added to favourites.</item>
+        <item quantity="one">1 track added to favourites.</item>
         <!-- message shown when zero or more than one track was added -->
-        <item quantity="other" did="IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES">%d tracks added to favourites.</item>
+        <item quantity="other">%d tracks added to favourites.</item>
     </plurals>
 
     <!-- Toasts after adding track(s) to favourites -->
     <plurals name="NNNsometrackstofavorite">
 
         <!-- message shown when one track was added -->
-        <item quantity="one" did="IDS_MUSIC_TPOP_1_TRACK_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED">1 track added to Favourites. Track already in Favourites not added.</item>
+        <item quantity="one">1 track added to Favourites. Track already in Favourites not added.</item>
         <!-- message shown when more than one track was added -->
-        <item quantity="other" did="IDS_MUSIC_TPOP_PD_TRACKS_ADDED_TO_FAVOURITES_TRACKS_ALREADY_IN_FAVOURITES_NOT_ADDED">%d tracks added to Favourites. Tracks already in Favourites not added.</item>
+        <item quantity="other">%d tracks added to Favourites. Tracks already in Favourites not added.</item>
     </plurals>
 
     <!-- Toasts after removing track(s) to favourites -->
     <plurals name="NNNtracksfromfavorite">
 
         <!-- message shown when one track was removed -->
-        <item quantity="one" did="IDS_MUSIC_TPOP_1_TRACK_REMOVED_FROM_FAVOURITES">1 track removed from Favourites.</item>
+        <item quantity="one">1 track removed from Favourites.</item>
         <!-- message shown when zero or more than one track was removed -->
-        <item quantity="other" did="IDS_MUSIC_TPOP_PD_TRACKS_REMOVED_FROM_FAVOURITES">%d tracks removed from Favourites.</item>
+        <item quantity="other">%d tracks removed from Favourites.</item>
     </plurals>
 
     <!-- Toasts after removing recordings(s) to favourites -->
@@ -592,45 +592,45 @@
 
         <!--IDS_MUSIC_HEADER_PD_RECORDING_M_VOICE_ABB -->
         <!-- message shown when one track was removed -->
-        <item quantity="one" did="IDS_MUSIC_HEADER_PD_RECORDING_M_VOICE_ABB">%d recording</item>
+        <item quantity="one">%d recording</item>
 
         <!--IDS_MUSIC_HEADER_PD_RECORDINGS_M_VOICE_ABB -->
         <!-- message shown when zero or more than one track was removed -->
-        <item quantity="other" did="IDS_MUSIC_HEADER_PD_RECORDINGS_M_VOICE_ABB">%d recordings</item>
+        <item quantity="other">%d recordings</item>
     </plurals>
 
     <!-- header button of add to Now Playing -->
-    <string name="now_playing_list" did="IDS_MUSIC_BODY_NOW_PLAYING_LIST">Now playing list</string>
+    <string name="now_playing_list">Now playing list</string>
 
     <!-- Palm touch tutorial -->
     <!-- IDS_HELP_POP_TUTORIAL_COMPLETE -->
-    <string name="tutorial_complete" did="IDS_HELP_POP_TUTORIAL_COMPLETE">Tutorial complete.</string>
+    <string name="tutorial_complete">Tutorial complete.</string>
 
     <!-- Data Check Help Dialog -->
     <!-- IDS_HELP_BODY_CONNECT_TO_WLAN_CHN -->
     <!-- IDS_PN_POP_THE_DEVICE_WILL_USE_DATA_THROUGH_THE_CURRENTLY_CONNECTED_WLAN_NETWORK_CHN -->
     <!-- IDS_MH_HEADER_CONNECT_VIA_MOBILE_NETWORKS_ABB -->
-    <string name="connect_via_network" did="IDS_MUSIC_HEADER_CONNECT_VIA_MOBILE_NETWORKS_ABB">Connect via mobile networks</string>
+    <string name="connect_via_network">Connect via mobile networks</string>
     <!-- IDS_IS_BODY_WLAN_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN_CHN -->
-    <string name="error_wifi_not_available" did="IDS_CAM_BODY_WLAN_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN">WLAN is not available. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
+    <string name="error_wifi_not_available">WLAN is not available. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
 
     <!-- IDS_PH_POP_APPLICATION_IS_NOT_AVAILABLE -->
     <string name="app_not_available">Application is not available.</string>
 
     <!-- IDS_SBAND_BUTTON_DEREGISTER_ABB -->
-    <string name="deregisterd_device" did="IDS_SBAND_BUTTON_DEREGISTER_ABB">Deregister</string>
+    <string name="deregisterd_device">Deregister</string>
     <!-- IDS_ASP_POP_DEREGISTER_THE_SELECTED_DEVICE_FROM_SAMSUNG_LINK_Q_THE_DEVICE_CAN_BE_REGISTERED_WITH_THE_SERVICE_AGAIN_LATER -->
     <!-- IDS_VIDEO_TPOP_DEREGISTERING_SELECTED_DEVICE_ING -->
-    <string name="deregistered_progress_message" did="IDS_VIDEO_TPOP_DEREGISTERING_SELECTED_DEVICE_ING">Deregistering selected device...</string>
+    <string name="deregistered_progress_message">Deregistering selected device…</string>
 
     <!-- IDS_ST_TPOP_TO_UNPIN_APPLICATION_PRESS_AND_HOLD_THE_RECENTS_AND_BACK_KEYS_AT_THE_SAME_TIME -->
 
     <!-- Runtime Permissions -->
-    <string name="permission_request_dialog_content" did="IDS_IDLE_POP_UNABLE_TO_OPEN_PS_TAP_SETTINGS_GO_TO_APP_INFO_PERMISSIONS_THEN_ALLOW_MSG">Unable to open %s. Tap SETTINGS, go to App info > Permissions, then allow the following permissions and try again:</string>
+    <string name="permission_request_dialog_content">Unable to open %s. Tap SETTINGS, go to App info > Permissions, then allow the following permissions and try again:</string>
     <!-- IDS_CAM_TPOP_UNABLE_TO_PLAY_MUSIC_WHILE_RECORDING_AUDIO_OR_VIDEO -->
-    <string name="unable_to_play_during_recording" did="IDS_CAM_TPOP_UNABLE_TO_PLAY_MUSIC_WHILE_RECORDING_AUDIO_OR_VIDEO">Unable to play music while recording audio or video.</string>
+    <string name="unable_to_play_during_recording">Unable to play music while recording audio or video.</string>
 
-    <string name="connection_failed" did="IDS_CAM_BODY_CONNECTION_FAILED">Connection failed.</string>
+    <string name="connection_failed">Connection failed.</string>
     <!-- S-Voice Command Notification -->
 
 </resources>

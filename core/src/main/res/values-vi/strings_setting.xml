@@ -2256,7 +2256,7 @@
     <!-- IDS_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_ONE_LETTER -->
     <string name="error_password_too_short">Mật mã của bạn phải chứa ít nhất %d ký tự, bao gồm ít nhất một chữ cái.</string>
     <!-- IDS_ST_BODY_PIN_MUST_ONLY_CONTAIN_NUMBERS_0_9_ABB -->
-    <string name="err_lockpassword_pin_contains_non_digits">PIN chỉ được bao gồm các số từ 0-9.</string>
+    <string name="err_lockpassword_pin_contains_non_digits">PIN chỉ được bao gồm các số từ 0–9.</string>
     <!-- IDS_ST_BODY_CONSECUTIVE_OR_REPEATING_NUMBERS_ARE_NOT_ALLOWED -->
     <!-- IDS_ST_BODY_DEVICE_ADMINISTRATOR_PROHIBITS_USING_A_RECENT_PIN -->
     <!-- IDS_ST_BODY_PIN_MUST_NOT_CONTAIN_REPEATING_NUMBERS -->

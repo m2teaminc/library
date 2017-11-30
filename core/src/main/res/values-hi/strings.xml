@@ -48,10 +48,10 @@
     <string name="back">वापस</string>
     <string name="ringtone">रिंगटोन</string>
 
-    <string name="uploading">अपलोड हो रहा है...</string>
+    <string name="uploading">अपलोड हो रहा है…</string>
     <string name="uploaded">अपलोड किया गया</string>
     <string name="upload_failed">अपलोड विफल</string>
-    <string name="downloading">डाउनलोड हो रहा है...</string>
+    <string name="downloading">डाउनलोड हो रहा है…</string>
     <string name="downloaded">डाउनलोड किया गया</string>
     <string name="download_failure">डाउनलोड विफल</string>
 

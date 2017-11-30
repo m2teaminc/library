@@ -48,10 +48,10 @@
     <string name="back">Kembali</string>
     <string name="ringtone">Nada dering</string>
 
-    <string name="uploading">Mengunggah...</string>
+    <string name="uploading">Mengunggah…</string>
     <string name="uploaded">Diunggah</string>
     <string name="upload_failed">Gagal mengunggah</string>
-    <string name="downloading">Mengunduh...</string>
+    <string name="downloading">Mengunduh…</string>
     <string name="downloaded">Diunduh</string>
     <string name="download_failure">Unduh gagal</string>
 

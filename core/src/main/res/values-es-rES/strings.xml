@@ -48,10 +48,10 @@
     <string name="back">\t Atrás</string>
     <string name="ringtone">Melodía</string>
 
-    <string name="uploading">Cargando...</string>
+    <string name="uploading">Cargando…</string>
     <string name="uploaded">Cargado</string>
     <string name="upload_failed">Error al cargar</string>
-    <string name="downloading">Descargando...</string>
+    <string name="downloading">Descargando…</string>
     <string name="downloaded">Descargado</string>
     <string name="download_failure">Error de descarga</string>
 

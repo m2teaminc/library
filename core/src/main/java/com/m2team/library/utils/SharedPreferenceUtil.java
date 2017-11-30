@@ -5,10 +5,10 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
-
-import com.orhanobut.logger.Logger;
-
 import java.util.Map;
+import java.util.logging.Logger;
+
+import timber.log.Timber;
 
 public class SharedPreferenceUtil {
     public static final String TAG = SharedPreferences.class.getSimpleName();
@@ -26,7 +26,7 @@ public class SharedPreferenceUtil {
         try {
             editor.apply();
         } catch (Exception e) {
-            Logger.e(TAG, "putLong(\t" + key + "\t,\t" + b + " \t)\tFail");
+            Timber.e(TAG, "putLong(\t" + key + "\t,\t" + b + " \t)\tFail");
             e.printStackTrace();
         }
     }
@@ -44,7 +44,7 @@ public class SharedPreferenceUtil {
         try {
             editor.apply();
         } catch (Exception e) {
-            Logger.e(TAG, "putBoolean(\t" + key + "\t,\t" + b + " \t)\tFail");
+            Timber.e(TAG, "putBoolean(\t" + key + "\t,\t" + b + " \t)\tFail");
             e.printStackTrace();
         }
     }
@@ -62,7 +62,7 @@ public class SharedPreferenceUtil {
         try {
             editor.apply();
         } catch (Exception e) {
-            Logger.e(TAG, "putString(\t" + key + "\t,\t" + string + " \t)\tFail");
+            Timber.e(TAG, "putString(\t" + key + "\t,\t" + string + " \t)\tFail");
             e.printStackTrace();
         }
     }
@@ -80,7 +80,7 @@ public class SharedPreferenceUtil {
         try {
             editor.apply();
         } catch (Exception e) {
-            Logger.e(TAG, "putInt(\t" + key + "\t,\t" + value + " \t)\tFail");
+            Timber.e(TAG, "putInt(\t" + key + "\t,\t" + value + " \t)\tFail");
             e.printStackTrace();
         }
     }

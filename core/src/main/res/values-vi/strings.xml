@@ -1,7 +1,7 @@
 <resources>
     <string name="no_app_to_handle_intent">Không có ứng dụng nào để thực hiện hành động này</string>
     <string name="enter_keyword">Nhập từ khóa</string>
-    <string name="share_using">Chia sẻ sử dụng...</string>
+    <string name="share_using">Chia sẻ sử dụng…</string>
     <string name="order">Sắp xếp</string>
     <string name="rate">Đánh giá</string>
     <string name="share">Chia sẻ</string>
@@ -48,10 +48,10 @@
     <string name="back">Quay về</string>
     <string name="ringtone">Nhạc chuông</string>
 
-    <string name="uploading">Đang tải lên...</string>
+    <string name="uploading">Đang tải lên…</string>
     <string name="uploaded">Đã tải lên</string>
     <string name="upload_failed">Tải lên thất bại</string>
-    <string name="downloading">Đang tải...</string>
+    <string name="downloading">Đang tải…</string>
     <string name="downloaded">Đã tải xuống</string>
     <string name="download_failure">Tải xuống thất bại</string>
 

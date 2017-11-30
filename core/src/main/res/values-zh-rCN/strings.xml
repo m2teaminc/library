@@ -48,10 +48,10 @@
     <string name="back">\t 返回</string>
     <string name="ringtone">铃声</string>
 
-    <string name="uploading">上传中...</string>
+    <string name="uploading">上传中…</string>
     <string name="uploaded">已上传</string>
     <string name="upload_failed">上传失败</string>
-    <string name="downloading">正在下载...</string>
+    <string name="downloading">正在下载…</string>
     <string name="downloaded">已下载</string>
     <string name="download_failure">下载失败</string>
 

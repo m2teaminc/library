@@ -48,10 +48,10 @@
     <string name="back">戻る</string>
     <string name="ringtone">着信音</string>
 
-    <string name="uploading">アップロード中...</string>
+    <string name="uploading">アップロード中…</string>
     <string name="uploaded">アップロード完了</string>
     <string name="upload_failed">アップロード失敗</string>
-    <string name="downloading">ﾀﾞｳﾝﾛｰﾄﾞ中...</string>
+    <string name="downloading">ﾀﾞｳﾝﾛｰﾄﾞ中…</string>
     <string name="downloaded">ダウンロードしました。</string>
     <string name="download_failure">ダウンロード失敗</string>
 

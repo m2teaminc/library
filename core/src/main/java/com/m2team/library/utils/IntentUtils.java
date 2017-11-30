@@ -18,12 +18,10 @@ import android.widget.Toast;
 
 import com.m2team.library.Constant;
 import com.m2team.library.R;
-import com.orhanobut.logger.Logger;
-
 import java.io.File;
 import java.util.List;
 import java.util.Locale;
-
+import java.util.logging.Logger;
 
 public class IntentUtils {
 
@@ -40,7 +38,6 @@ public class IntentUtils {
             context.startActivity(intent);
         } catch (ActivityNotFoundException e) {
             e.printStackTrace();
-            Logger.e(e, "Do not have activity to handle");
         }
     }
 
@@ -55,7 +52,6 @@ public class IntentUtils {
             context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_using)));
         } catch (ActivityNotFoundException e) {
             e.printStackTrace();
-            Logger.e(e, "Do not have app to handle");
             Toast.makeText(context, R.string.no_app_to_handle_intent, Toast.LENGTH_SHORT).show();
         }
     }
@@ -78,7 +74,6 @@ public class IntentUtils {
             context.startActivity(new Intent(Intent.ACTION_VIEW,
                     Uri.parse("http://play.google.com/store/apps/details?id=" + context.getPackageName())));
             e.printStackTrace();
-            Logger.e(e, "Do not have app to handle");
         }
     }
 

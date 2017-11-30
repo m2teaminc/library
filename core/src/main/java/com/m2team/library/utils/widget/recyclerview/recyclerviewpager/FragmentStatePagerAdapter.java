@@ -11,13 +11,11 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.m2team.library.R;
-import com.orhanobut.logger.Logger;
-
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
+import timber.log.Timber;
 
 @TargetApi(12)
 public abstract class FragmentStatePagerAdapter extends RecyclerView.Adapter<FragmentStatePagerAdapter.FragmentViewHolder> {
@@ -49,11 +47,11 @@ public abstract class FragmentStatePagerAdapter extends RecyclerView.Adapter<Fra
         if (mCurTransaction == null) {
             mCurTransaction = mFragmentManager.beginTransaction();
         }
-        Logger.v(TAG, "Removing item #");
+        Timber.v( "Removing item #");
         int tagId = genTagId(holder.getAdapterPosition());
         Fragment f = mFragmentManager.findFragmentByTag(tagId + "");
         if (f != null) {
-            Logger.v(TAG, "Removing fragment #");
+            Timber.v( "Removing fragment #");
             mStates.put(tagId, mFragmentManager.saveFragmentInstanceState(f));
             mCurTransaction.remove(f);
             mCurTransaction.commitAllowingStateLoss();
@@ -123,7 +121,7 @@ public abstract class FragmentStatePagerAdapter extends RecyclerView.Adapter<Fra
 
         @Override
         public void onViewDetachedFromWindow(View v) {
-            Logger.v(TAG, "Removing fragment #");
+            Timber.v( "Removing fragment #");
             final int tagId = genTagId(getLayoutPosition());
             Fragment frag = mFragmentManager.findFragmentByTag(tagId + "");
             if (frag == null) {

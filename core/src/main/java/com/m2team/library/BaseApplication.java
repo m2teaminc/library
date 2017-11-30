@@ -6,10 +6,6 @@ import android.content.res.Configuration;
 import android.os.Build;
 import com.m2team.library.utils.Initializer;
 import com.m2team.library.utils.Utils;
-import com.orhanobut.logger.AndroidLogAdapter;
-import com.orhanobut.logger.FormatStrategy;
-import com.orhanobut.logger.Logger;
-import com.orhanobut.logger.PrettyFormatStrategy;
 import java.util.Locale;
 import timber.log.Timber;
 
@@ -95,15 +91,18 @@ public abstract class BaseApplication extends Application {
         Utils.initialize(this);
     }
 
-    public void initTimber(String TAG) {
-        FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
+    public void initTimber() {
+        Timber.plant(new Timber.DebugTree());
+    }
+
+    public void initDebugger(String TAG) {
+        /*FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
                 .showThreadInfo(false)  // (Optional) Whether to show thread info or not. Default true
                 .methodCount(2)         // (Optional) How many method line to show. Default 2
                 //.methodOffset(5)        // (Optional) Hides internal method calls up to offset. Default 5
                 .tag(TAG)   // (Optional) Global tag for every log. Default PRETTY_LOGGER
                 .build();
-        Logger.addLogAdapter(new AndroidLogAdapter(formatStrategy));
-        Timber.plant(new Timber.DebugTree());
+        Logger.addLogAdapter(new AndroidLogAdapter(formatStrategy));*/
     }
 
     public void initMultiDex() {

@@ -48,10 +48,10 @@
     <string name="back">\t חזרה</string>
     <string name="ringtone">צלצול</string>
 
-    <string name="uploading">מעלה...</string>
+    <string name="uploading">מעלה…</string>
     <string name="uploaded">הועלה</string>
     <string name="upload_failed">ההעלאה נכשלה</string>
-    <string name="downloading">מוריד...</string>
+    <string name="downloading">מוריד…</string>
     <string name="downloaded">ההורדה הסתיימה</string>
     <string name="download_failure">ההורדה נכשלה</string>
 

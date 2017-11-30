@@ -48,10 +48,10 @@
     <string name="back">Terug</string>
     <string name="ringtone">Beltoon</string>
 
-    <string name="uploading">Uploaden...</string>
+    <string name="uploading">Uploaden…</string>
     <string name="uploaded">Geüpload</string>
     <string name="upload_failed">Uploaden mislukt</string>
-    <string name="downloading">Downloaden...</string>
+    <string name="downloading">Downloaden…</string>
     <string name="downloaded">Gedownload</string>
     <string name="download_failure">Downloaden mislukt</string>
 

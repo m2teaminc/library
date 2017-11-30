@@ -22,7 +22,7 @@
     <string name="from">De</string>
     <string name="to">Até</string>
     <string name="send">Enviar</string>
-    <string name="video">Video</string>
+    <string name="video">Vídeo</string>
     <string name="music">Música</string>
     <string name="done_m">Concluir</string>
     <string name="colon">:</string>
@@ -48,10 +48,10 @@
     <string name="back">Anterior</string>
     <string name="ringtone">Tom de toque</string>
 
-    <string name="uploading">A carregar...</string>
+    <string name="uploading">A carregar…</string>
     <string name="uploaded">Transferido</string>
     <string name="upload_failed">Falha ao carregar</string>
-    <string name="downloading">A transferir...</string>
+    <string name="downloading">A transferir…</string>
     <string name="downloaded">Transferido</string>
     <string name="download_failure">Falha de transferência</string>
 

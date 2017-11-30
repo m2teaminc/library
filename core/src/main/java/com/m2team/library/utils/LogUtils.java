@@ -1,131 +1,131 @@
 package com.m2team.library.utils;
 
-import com.orhanobut.logger.Logger;
 
+import timber.log.Timber;
 
 public class LogUtils {
     private static boolean isDebug = true;
 
     private static String mTag = "m2team";
 
-    //for error Logger
+    //for error Timber
     public static void error(String msg) {
         if (isDebug) {
-            Logger.e(mTag, msg);
+            Timber.e(mTag, msg);
         }
     }
 
-    //for warming Logger
+    //for warming Timber
     public static void warn(String msg) {
         if (isDebug) {
-            Logger.w(mTag, msg);
+            Timber.w(mTag, msg);
         }
     }
 
-    //for info Logger
+    //for info Timber
     public static void info(String msg) {
         if (isDebug) {
-            Logger.i(mTag, msg);
+            Timber.i(mTag, msg);
         }
     }
 
-    //for debug Logger
+    //for debug Timber
     public static void debug(String msg) {
         if (isDebug) {
-            Logger.d(mTag, msg);
+            Timber.d(mTag, msg);
         }
     }
 
-    //for verbose Logger
+    //for verbose Timber
     public static void verbose(String msg) {
         if (isDebug) {
-            Logger.v(mTag, msg);
+            Timber.v(mTag, msg);
         }
     }
 
-    //for error Logger
+    //for error Timber
     public static void e(String msg) {
         if (isDebug) {
-            Logger.e(mTag, msg);
+            Timber.e(mTag, msg);
         }
     }
 
-    //for warming Logger
+    //for warming Timber
     public static void w(String msg) {
         if (isDebug) {
-            Logger.w(mTag, msg);
+            Timber.w(mTag, msg);
         }
     }
 
-    //for info Logger
+    //for info Timber
     public static void i(String msg) {
         if (isDebug) {
-            Logger.i(mTag, msg);
+            Timber.i(mTag, msg);
         }
     }
 
-    //for debug Logger
+    //for debug Timber
     public static void d(String msg) {
         if (isDebug) {
-            Logger.d(mTag, msg);
+            Timber.d(mTag, msg);
         }
     }
 
-    //for verbose Logger
+    //for verbose Timber
     public static void v(String msg) {
         if (isDebug) {
-            Logger.v(mTag, msg);
+            Timber.v(mTag, msg);
         }
     }
 
 
-    //for warming Logger
+    //for warming Timber
     public static void w(String tag, String msg) {
         if (isDebug) {
             if (tag == null || "".equalsIgnoreCase(tag.trim())) {
                 tag = mTag;
             }
-            Logger.w(tag, msg);
+            Timber.w(tag, msg);
         }
     }
 
-    //for info Logger
+    //for info Timber
     public static void i(String tag, String msg) {
         if (isDebug) {
             if (tag == null || "".equalsIgnoreCase(tag.trim())) {
                 tag = mTag;
             }
-            Logger.i(tag, msg);
+            Timber.i(tag, msg);
         }
     }
 
-    //for debug Logger
+    //for debug Timber
     public static void d(String tag, String msg) {
         if (isDebug) {
             if (tag == null || "".equalsIgnoreCase(tag.trim())) {
                 tag = mTag;
             }
-            Logger.d(tag, msg);
+            Timber.d(tag, msg);
         }
     }
 
-    //for verbose Logger
+    //for verbose Timber
     public static void v(String tag, String msg) {
         if (isDebug) {
             if (tag == null || "".equalsIgnoreCase(tag.trim())) {
                 tag = mTag;
             }
-            Logger.v(tag, msg);
+            Timber.v(tag, msg);
         }
     }
 
-    //for verbose Logger
+    //for verbose Timber
     public static void e(String tag, String msg) {
         if (isDebug) {
             if (tag == null || "".equalsIgnoreCase(tag.trim())) {
                 tag = mTag;
             }
-            Logger.e(tag, msg);
+            Timber.e(tag, msg);
         }
     }
 
@@ -159,10 +159,10 @@ public class LogUtils {
                 String lineNumber = String
                         .valueOf(stackTraceElement[currentIndex].getLineNumber());
 
-                Logger.i(tag, msg + "\n  ---->at " + className + "." + methodName + "("
+                Timber.i(tag, msg + "\n  ---->at " + className + "." + methodName + "("
                         + className + ".java:" + lineNumber + ")");
             } else {
-                Logger.i(tag, msg);
+                Timber.i(tag, msg);
             }
 
         }

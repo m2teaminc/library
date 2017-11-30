@@ -48,10 +48,10 @@
     <string name="back">Zurück</string>
     <string name="ringtone">Klingelton</string>
 
-    <string name="uploading">Wird hochgeladen...</string>
+    <string name="uploading">Wird hochgeladen…</string>
     <string name="uploaded">Hochgeladen</string>
     <string name="upload_failed">Uploadfehler</string>
-    <string name="downloading">Lade...</string>
+    <string name="downloading">Lade…</string>
     <string name="downloaded">Heruntergeladen</string>
     <string name="download_failure">Download fehlgeschlagen</string>
 

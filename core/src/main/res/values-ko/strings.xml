@@ -48,10 +48,10 @@
     <string name="back">뒤로가기</string>
     <string name="ringtone">벨소리</string>
 
-    <string name="uploading">업로드 중...</string>
+    <string name="uploading">업로드 중…</string>
     <string name="uploaded">업로드 완료</string>
     <string name="upload_failed">업로드 안 됨</string>
-    <string name="downloading">다운로드 중...</string>
+    <string name="downloading">다운로드 중…</string>
     <string name="downloaded">다운로드 완료</string>
     <string name="download_failure">다운로드 안 됨</string>
 
