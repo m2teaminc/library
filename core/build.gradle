@@ -16,11 +16,11 @@ buildscript {
 
 ext {
     // Sdk and tools
-    minSdk = 17
-    targetSdk = 27
-    compileSdk = 27
-    buildTools = '27.0.0'
-    supportLibraryVersion = '27.0.1'
+    minSdk = 14
+    targetSdk = 26
+    compileSdk = 26
+    buildTools = '26.0.2'
+    supportLibraryVersion = '26.0.0'
     // App dependencies
     butterKnifeVersion = '8.6.0'
     calligraphyVersion = '2.2.0'

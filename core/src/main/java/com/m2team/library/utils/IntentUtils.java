@@ -21,7 +21,6 @@ import com.m2team.library.R;
 import java.io.File;
 import java.util.List;
 import java.util.Locale;
-import java.util.logging.Logger;
 
 public class IntentUtils {
 
@@ -71,8 +70,12 @@ public class IntentUtils {
         try {
             context.startActivity(goToMarket);
         } catch (ActivityNotFoundException e) {
-            context.startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("http://play.google.com/store/apps/details?id=" + context.getPackageName())));
+            try {
+                context.startActivity(new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("http://play.google.com/store/apps/details?id=" + context.getPackageName())));
+            } catch (ActivityNotFoundException e1) {
+                e1.printStackTrace();
+            }
             e.printStackTrace();
         }
     }
@@ -84,15 +87,20 @@ public class IntentUtils {
             context.startActivity(intent);
         } catch (ActivityNotFoundException e) {
             e.printStackTrace();
-            intent.setData(Uri.parse("https://play.google.com/store/apps/dev?id=" + Constant.DEVELOPER_ID));
-            context.startActivity(intent);
+            try {
+                intent.setData(Uri.parse("https://play.google.com/store/apps/dev?id=" + Constant.DEVELOPER_ID));
+                context.startActivity(intent);
+            } catch (ActivityNotFoundException e1) {
+                e1.printStackTrace();
+            }
         }
     }
 
     public static void restartApplication(Context context) {
-        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-
         Intent launchIntentForPackage = context.getPackageManager().getLaunchIntentForPackage(context.getPackageName());
+        if (launchIntentForPackage == null) return;
+
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         launchIntentForPackage.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 1234, launchIntentForPackage, PendingIntent.FLAG_CANCEL_CURRENT);
         alarmManager.set(AlarmManager.RTC, System.currentTimeMillis() + 1000, pendingIntent);
