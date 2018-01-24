@@ -15,7 +15,6 @@
     <string name="discard">"تجاهل "</string>
     <string name="edit">\t تعديل</string>
     <string name="remove">إزالة</string>
-    <string name="type">النوع</string>
     <string name="no_result">ما من نتائج</string>
     <string name="send_to">إرسال إلى</string>
     <string name="keyword">الكلمة الأساسية</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">فشل التنزيل</string>
 
     <string name="photo">\t صورة</string>
-    <string name="audio">\t الصوت</string>
     <string name="record">تسجيل</string>
     <string name="date">التاريخ</string>
 

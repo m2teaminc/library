@@ -15,7 +15,6 @@
     <string name="discard">放弃</string>
     <string name="edit">编辑</string>
     <string name="remove">移除</string>
-    <string name="type">类型</string>
     <string name="no_result">无结果</string>
     <string name="send_to">发到</string>
     <string name="keyword">关键字</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">下载失败</string>
 
     <string name="photo">照片</string>
-    <string name="audio">音频</string>
     <string name="record">录音</string>
     <string name="date">日期</string>
 

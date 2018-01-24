@@ -15,7 +15,6 @@
     <string name="discard">저장안함</string>
     <string name="edit">편집</string>
     <string name="remove">삭제</string>
-    <string name="type">형식</string>
     <string name="no_result">결과가 없습니다</string>
     <string name="send_to">전송</string>
     <string name="keyword">키워드</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">다운로드 안 됨</string>
 
     <string name="photo">사진</string>
-    <string name="audio">\t 오디오</string>
     <string name="record">녹음하기</string>
     <string name="date">날짜</string>
 

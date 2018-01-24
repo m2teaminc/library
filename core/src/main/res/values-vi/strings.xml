@@ -15,7 +15,6 @@
     <string name="discard">Hủy bỏ</string>
     <string name="edit">Sửa</string>
     <string name="remove">Gỡ</string>
-    <string name="type">Kiểu</string>
     <string name="no_result">Không có kết quả!</string>
     <string name="send_to">Gửi đến</string>
     <string name="keyword">Từ khóa</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">Tải xuống thất bại</string>
 
     <string name="photo">Ảnh</string>
-    <string name="audio">Âm thanh</string>
     <string name="record">Ghi âm</string>
     <string name="date">Ngày tháng</string>
 

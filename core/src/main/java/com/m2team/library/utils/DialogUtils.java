@@ -47,9 +47,29 @@ public class DialogUtils {
                 .setPositiveButton(positiveButtonResId, onClickListener)
                 .setNegativeButton(negativeButtonResId, (dialog, which) -> {
                     dialog.dismiss();
-                    onNegativeClickListener.onClick(null);
+                    if (onNegativeClickListener != null) onNegativeClickListener.onClick(null);
                 })
                 .setMessage(msg);
+
+        return builder.show();
+    }
+
+    public static AlertDialog showDialog(Context context,
+                                         @StringRes Integer titleResId,
+                                         @StringRes Integer msgResId,
+                                         @StringRes Integer positiveButtonResId,
+                                         @StringRes Integer negativeButtonResId,
+                                         DialogInterface.OnClickListener onClickListener,
+                                         View.OnClickListener onNegativeClickListener) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context)
+                .setTitle(titleResId)
+                .setCancelable(true)
+                .setPositiveButton(positiveButtonResId, onClickListener)
+                .setNegativeButton(negativeButtonResId, (dialog, which) -> {
+                    dialog.dismiss();
+                    if (onNegativeClickListener != null) onNegativeClickListener.onClick(null);
+                })
+                .setMessage(msgResId);
 
         return builder.show();
     }
@@ -96,7 +116,6 @@ public class DialogUtils {
     public static ProgressDialog showProgressDialog(Context context, String caption) {
         ProgressDialog mProgressDialog = new ProgressDialog(context);
         mProgressDialog.setIndeterminate(true);
-
         mProgressDialog.setMessage(caption);
         mProgressDialog.show();
         return mProgressDialog;

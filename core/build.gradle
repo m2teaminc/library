@@ -77,8 +77,8 @@ android {
     defaultConfig {
        minSdkVersion minSdk
         //targetSdkVersion targetSdk
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 4
+        versionName "1.0.4"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         compileOptions.encoding = 'utf-8'
@@ -190,13 +190,6 @@ dependencies {
     //Jsoup
 //    implementation "org.jsoup:jsoup:$jsoupVersion"
 
-    //Secure prefs
-//    implementation 'com.scottyab:secure-preferences-lib:0.1.4'
-
-    //SpongeCastle (adds Security algorithms)
-//    implementation('com.madgag.spongycastle:core:1.54.0.0')
-//    implementation('com.madgag.spongycastle:prov:1.54.0.0')
-
     //Joda time
 //    implementation "joda-time:joda-time:$jodaTimeVersion"
 //    implementation 'com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0'
@@ -206,14 +199,6 @@ dependencies {
 
     //Admob Adapter
     //implementation 'com.github.clockbyte:admobadapter:1.4.1'
-
-    //Mosby (MVP)
-    /*implementation "com.hannesdorfmann.mosby3:mvp:$mosbyMvpVersion" // Plain MVP
-    implementation "com.hannesdorfmann.mosby3:mvp-lce:$mosbyMvpVersion" // MVP + ViewState + LCE Views*/
-
-    //Thirty inch (MVP Lib)
-    /*implementation "net.grandcentrix.thirtyinch:thirtyinch:$thirtyinchVersion"
-    implementation "net.grandcentrix.thirtyinch:thirtyinch-rx:$thirtyinchVersion"*/
 
     //Fabric
     /*implementation('com.crashlytics.sdk.android:crashlytics:2.6.8') {
@@ -293,9 +278,6 @@ dependencies {
 
     //Material UI Kit
     //implementation 'com.github.rey5137:material:1.2.2'
-
-    //Bootstrap UI Kit
-    //implementation 'com.beardedhen:androidbootstrap:2.3.1'
 
     //Material EditText
     //implementation "com.rengwuxian.materialedittext:library:$materialEditTextVersion"

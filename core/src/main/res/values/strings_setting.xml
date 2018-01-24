@@ -2,8 +2,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Common -->
     <string name="apply">Apply</string>
-    <string name="continue_s">continue_s</string>
-    <string name="default_s">default_s</string>
+    <string name="continue_s">Continue</string>
+    <string name="default_s">Default</string>
     <string name="disable">Disable</string>
     <string name="common_enable">Enable</string>
     <string name="common_music_controller">Music controller</string>
@@ -135,7 +135,7 @@
     <!-- APN -->
     <string name="name">Name</string>
     <string name="error_name_empty">The Name field cannot be empty.</string>
-    <string name="reset_to_default_s">Reset to default_s</string>
+    <string name="reset_to_default_s">Reset to default</string>
     <string name="exit">Exit</string>
     <string name="already_exists">Already exists.</string>
 
@@ -147,10 +147,10 @@
 
     <!-- Ethernet -->
     <string name="connection_type">Connection type</string>
-    <string name="turning_on">Turning on\u2026</string>
+    <string name="turning_on">Turning on</string>
 
     <!-- Sound and notification -->
-    <string name="default_s_alarm_ringtone_title">default_s alarm tone</string>
+    <string name="default_s_alarm_ringtone_title">Default alarm tone</string>
     <string name="advanced_notification_settings">Advanced notification settings</string>
     <string name="error_app_not_found_dlg_text">Unable to find application to perform action.</string>
     <string name="select_app_notification">Select which apps you want to receive notifications from.</string>
@@ -161,13 +161,13 @@
     <string name="app_notifications_title">App notifications</string>
     <string name="n_turned_on">%s turned on.</string>
     <string name="audio_device_type_title">Audio device</string>
-    <string name="download_ringtones">Download ringtones</string>
+    <string name="download_ringtones">Download ringtone</string>
     <string name="alert">Alert</string>
     <string name="silent">Silent</string>
     <string name="stop_setup_q">Stop setup?</string>
     <string name="setting_wont_applied">Any settings you\'ve changed won\'t be applied.</string>
     <string name="notification">Notification</string>
-    <string name="default_s_notification_ringtone_title">default_s notification sound</string>
+    <string name="default_s_notification_ringtone_title">Default notification sound</string>
     <string name="sound_and_vibration">Sounds and vibration</string>
     <string name="notification_sound_category_title">Notification sounds</string>
 
@@ -195,7 +195,7 @@
     <string name="guide_blue_light_filter_summary_off">Reduce eye strain by limiting the amount of blue light emitted by the screen.</string>
     <string name="blue_light_filter_title">Blue light filter</string>
     <string name="custom_schedule">Custom schedule</string>
-    <string name="current_theme_font">Current theme\'s default_s</string>
+    <string name="current_theme_font">Current theme\'s Default</string>
     <string name="screen_rotation">Screen rotation</string>
     <string name="display">Display</string>
     <string name="display_temperature">Colour balance</string>
@@ -210,7 +210,7 @@
     <string name="font_size_subtitle">Font size</string>
     <string name="font_style_subtitle">Font style</string>
     <string name="more_fonts">More fonts</string>
-    <string name="reset_df_font_question">Reset to default_s font?</string>
+    <string name="reset_df_font_question">Reset to Default font?</string>
     <string name="set_font_as_n">Set font as %s?</string>
     <string name="loading_font_list">Loading font list…</string>
     <string name="font_not_supported_font_title">Font not supported</string>
@@ -323,9 +323,9 @@
 
     <string name="used_n_n_of_n">%1$s/%2$s used since %3$s</string>
 
-    <string name="set_as_default_s_app_title">Set as default_s</string>
+    <string name="set_as_default_s_app_title">Set as default</string>
     <string name="browser_app_title">Browser app</string>
-    <string name="default_s_app_selection">default_s app selection</string>
+    <string name="default_s_app_selection">Default app selection</string>
 
     <string name="force_stop">Force stop</string>
     <string name="guide_force_stop_dlg_text">If you force stop an app, it may cause errors.</string>
@@ -440,7 +440,7 @@
     <string name="err_lockpassword_pin_sequential_nums">PIN must not contain numbers in order.</string>
     <string name="err_lockpassword_pin_too_long">PIN must contain no more than %d digits.</string>
     <string name="err_lockpassword_pin_too_short">PIN must contain at least %d digits.</string>
-    <string name="tap_continue_s_when_finished">Tap continue_s when finished.</string>
+    <string name="tap_continue_s_when_finished">Tap Continue when finished.</string>
     <string name="err_pattern_not_match">Patterns don\'t match.</string>
     <string name="backup_pin">Backup PIN</string>
     <string name="enter_backup_pin_detail">Enter your backup PIN.</string>
@@ -623,7 +623,7 @@
     <string name="active_input_method_subtypes">Active input methods</string>
     <string name="add_a_language">Add language</string>
     <string name="external_keyboard">External keyboard</string>
-    <string name="default_s_keyboard">default_s keyboard</string>
+    <string name="default_s_keyboard">Default keyboard</string>
     <string name="fast">Fast</string>
     <string name="slow">Slow</string>
     <string name="enable_vibration">Enable vibration</string>

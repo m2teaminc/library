@@ -15,7 +15,6 @@
     <string name="discard">Удалить</string>
     <string name="edit">Изменить</string>
     <string name="remove">Удалить</string>
-    <string name="type">Тип</string>
     <string name="no_result">Нет результатов</string>
     <string name="send_to">Отправить</string>
     <string name="keyword">Ключевое слово</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">Сбой загрузки</string>
 
     <string name="photo">Фотография</string>
-    <string name="audio">Аудио</string>
     <string name="record">Записать</string>
     <string name="date">Дата</string>
 

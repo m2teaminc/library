@@ -15,7 +15,6 @@
     <string name="discard">Buang</string>
     <string name="edit">Edit</string>
     <string name="remove">Hapus</string>
-    <string name="type">Tipe</string>
     <string name="no_result">Tidak ada hasil</string>
     <string name="send_to">Kirim ke</string>
     <string name="keyword">Kata kunci</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">Unduh gagal</string>
 
     <string name="photo">Foto</string>
-    <string name="audio">Audio</string>
     <string name="record">Rekam</string>
     <string name="date">Tanggal</string>
 

@@ -56,7 +56,7 @@
     <string name="most_played">Most played</string>
     <string name="recently_played">Recently played</string>
     <string name="recently_added">Recently added</string>
-    <string name="default_s_playlists">default_s playlists</string>
+    <string name="default_s_playlists">Default playlists</string>
     <string name="my_playlists">My playlists</string>
     <!-- need translation -->
     <string name="download_all">Download all</string>
@@ -205,7 +205,7 @@
     <string name="unable_to_save_file">Unable to save file.</string>
 
     <!-- (iii) Edit Metadata -->
-    <string name="set_default_s">Set default_s</string>
+    <string name="set_default_s">Set default</string>
     <string name="encoding_type">Encoding type</string>
     <string name="edit_meta_saved_unicode">Music data has been saved in unicode (UTF-8)</string>
     <string name="saved_dot">Saved.</string>

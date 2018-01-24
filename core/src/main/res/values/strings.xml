@@ -4,6 +4,7 @@
     <string name="share_using">Share via</string>
     <string name="order">Order</string>
     <string name="rate">Rate</string>
+    <string name="more">More</string>
     <string name="share">Share</string>
     <string name="other_apps">Other Apps</string>
     <string name="bookmark">Bookmark</string>
@@ -15,13 +16,11 @@
     <string name="discard">Discard</string>
     <string name="edit">Edit</string>
     <string name="remove">Remove</string>
-    <string name="type">Type</string>
     <string name="send_to">Send to</string>
     <string name="keyword">Keyword</string>
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="send">Send</string>
-    <string name="video">Video</string>
     <string name="music">Music</string>
     <string name="done_m">Done</string>
     <string name="colon">:</string>
@@ -56,7 +55,6 @@
 
     <string name="select_s">Select %s</string>
     <string name="photo">Photo</string>
-    <string name="audio">Audio</string>
     <string name="record">Record</string>
     <string name="date">Date</string>
     <string name="day">Day</string>

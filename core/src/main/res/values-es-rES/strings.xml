@@ -15,7 +15,6 @@
     <string name="discard">Descartar</string>
     <string name="edit">Editar</string>
     <string name="remove">Eliminar</string>
-    <string name="type">Tipo</string>
     <string name="no_result">No hay resultados</string>
     <string name="send_to">Enviar a</string>
     <string name="keyword">Palabra clave</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">Error de descarga</string>
 
     <string name="photo">Foto</string>
-    <string name="audio">Audio</string>
     <string name="record">Grabar</string>
     <string name="date">Fecha</string>
 

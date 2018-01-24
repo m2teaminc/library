@@ -15,7 +15,6 @@
     <string name="discard">השלך</string>
     <string name="edit">\t ערוך</string>
     <string name="remove">\t הסר</string>
-    <string name="type">סוג</string>
     <string name="no_result">אין תוצאות</string>
     <string name="send_to">שלח אל</string>
     <string name="keyword">מילת מפתח</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">ההורדה נכשלה</string>
 
     <string name="photo">תמונה</string>
-    <string name="audio">\t שמע</string>
     <string name="record">הקלט</string>
     <string name="date">תאריך</string>
 

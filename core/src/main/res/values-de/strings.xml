@@ -15,7 +15,6 @@
     <string name="discard">Verwerf</string>
     <string name="edit">Bearbeiten</string>
     <string name="remove">Entfernen</string>
-    <string name="type">Typ</string>
     <string name="no_result">Keine Ergebnisse</string>
     <string name="send_to">Senden an</string>
     <string name="keyword">Schlüsselwort</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">Download fehlgeschlagen</string>
 
     <string name="photo">Foto</string>
-    <string name="audio">Audio</string>
     <string name="record">Aufnehmen</string>
     <string name="date">Datum</string>
 

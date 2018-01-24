@@ -15,7 +15,6 @@
     <string name="discard">\t निरस्त</string>
     <string name="edit">संपादित करें</string>
     <string name="remove">निकालें</string>
-    <string name="type">प्रकार</string>
     <string name="no_result">कोई परिणाम नहीं</string>
     <string name="send_to">को भेजें</string>
     <string name="keyword">कीवर्ड</string>
@@ -56,7 +55,6 @@
     <string name="download_failure">डाउनलोड विफल</string>
 
     <string name="photo">फोटो</string>
-    <string name="audio">ऑडियो</string>
     <string name="record">रिकॉर्ड</string>
     <string name="date">तिथि</string>
 
