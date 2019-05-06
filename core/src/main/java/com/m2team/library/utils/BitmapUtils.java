@@ -486,29 +486,6 @@ public final class BitmapUtils {
         return bitmap;
     }
 
-    public static Bitmap createWatermarkBitmap(Bitmap src, Bitmap watermark) {
-        if (src == null) {
-            return null;
-        }
-
-        int w = src.getWidth();
-        int h = src.getHeight();
-        int ww = watermark.getWidth();
-        int wh = watermark.getHeight();
-        // create the new blank bitmap
-        Bitmap newb = Bitmap.createBitmap(w, h, Config.ARGB_8888);// ???????SRC?????????
-        Canvas cv = new Canvas(newb);
-        // draw src into
-        cv.drawBitmap(src, 0, 0, null);// ? 0?0??????src
-        // draw watermark into
-        cv.drawBitmap(watermark, w - ww + 5, h - wh + 5, null);// ?src????????
-        // save all clip
-        cv.save(Canvas.ALL_SAVE_FLAG);// ??
-        // store
-        cv.restore();// ??
-        return newb;
-    }
-
     public static Bitmap codec(Bitmap src, Bitmap.CompressFormat format,
                                int quality) {
         ByteArrayOutputStream os = new ByteArrayOutputStream();

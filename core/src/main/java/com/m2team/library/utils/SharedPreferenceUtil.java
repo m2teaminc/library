@@ -5,6 +5,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
+
+import com.m2team.library.Constant;
+
 import java.util.Map;
 import java.util.logging.Logger;
 
@@ -107,6 +110,11 @@ public class SharedPreferenceUtil {
         return getBoolean(context, fileName, key, false);
     }
 
+    public static boolean getBoolean(Context context, String key) {
+        return getBoolean(context, Constant.PREF_FILE, key, false);
+    }
+
+
     public static boolean getBoolean(Context context, String fileName, String key, boolean defValue) {
         SharedPreferences prefs;
         if (TextUtils.isEmpty(fileName)) {
@@ -129,6 +137,12 @@ public class SharedPreferenceUtil {
         return prefs.getLong(key, 0);
     }
 
+
+    public static long getLong(Context context, String key) {
+        return getLong(context, Constant.PREF_FILE, key);
+    }
+
+
     public static String getString(Context context, String fileName, String key, String value) {
         SharedPreferences prefs;
         if (TextUtils.isEmpty(fileName)) {
@@ -139,6 +153,10 @@ public class SharedPreferenceUtil {
         return prefs.getString(key, value);
     }
 
+    public static String getString(Context context, String key, String value) {
+        return getString(context, Constant.PREF_FILE, key, value);
+    }
+
     public static int getInt(Context context, String fileName, String key) {
         SharedPreferences prefs;
         if (TextUtils.isEmpty(fileName)) {
@@ -147,6 +165,10 @@ public class SharedPreferenceUtil {
             prefs = context.getSharedPreferences(fileName, Context.MODE_PRIVATE);
         }
         return prefs.getInt(key, -1);
+    }
+
+    public static int getInt(Context context, String key) {
+        return getInt(context, Constant.PREF_FILE, key);
     }
 
     public static int getInt(Context context, String fileName, String key, int value) {
